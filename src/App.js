@@ -158,13 +158,6 @@ Impilo Digital Media</p>
 const pages = [
   "1.png?auto=compress&cs=tinysrgb&dpr=1&w=1000",
   "https://images.pexels.com/photos/704569/pexels-photo-704569.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1000",
-  "https://storage.googleapis.com/studio-design-asset-files/projects/BXax1BQgW7/s-1000x1300_v-fms_webp_e336f940-149e-46eb-8a4b-9fc06b3fdaaf.webp",
-  "https://storage.googleapis.com/studio-design-asset-files/projects/BXax1BQgW7/s-1000x1300_v-fms_webp_fa3f2151-85a1-443d-a15d-7914f0205713.webp",
-  "https://storage.googleapis.com/studio-design-asset-files/projects/BXax1BQgW7/s-1000x1300_v-fms_webp_bf51ae35-e11f-4c4b-b21e-531250ea44d9.webp",
-  "https://storage.googleapis.com/studio-design-asset-files/projects/BXax1BQgW7/s-1000x1300_v-fms_webp_9d99aa45-cffc-42e3-b236-f9a5c625f895.webp",
-  "https://storage.googleapis.com/studio-design-assets/projects/BXax1BQgW7/s-1000x1300_v-fms_webp_1291d6ab-762c-4aa7-9ef9-060fb62e877c.webp",
-  "https://storage.googleapis.com/studio-design-assets/projects/BXax1BQgW7/s-1000x1300_v-fms_webp_fa5dea81-842a-4900-b904-1c5311ce1545.webp",
-
   "71.png?auto=compress&cs=tinysrgb&dpr=1&w=1000",
   "12.png?auto=compress&cs=tinysrgb&dpr=1&w=1000",
   "70.png?auto=compress&cs=tinysrgb&dpr=1&w=1000",
