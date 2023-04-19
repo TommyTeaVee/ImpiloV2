@@ -6,7 +6,7 @@ import "./app.scss";
 
 const PageCover = React.forwardRef((props, ref) => {
   return (
-    <div className="page page-cover" ref={ref} data-density="hard" style={{ backgroundImage: `url("leather.jpeg")`}}>
+    <div className="page page-cover" ref={ref} data-density="hard">
       <div className="page-content">
         <h2>{props.children}</h2>
       </div>
@@ -88,7 +88,7 @@ class DemoBook extends React.Component {
               <img src={page} alt="" className="page-image" />
             </Page>
           ))}
-           <div className="page">
+          {/*  <div className="page">
               <h1>My excellent third article</h1>
               
               <video
@@ -98,32 +98,33 @@ class DemoBook extends React.Component {
               
                 width="620"
               /> 
-            {/*   <ReactPlayer
+              <ReactPlayer
           className='react-player' className='player-wrapper' 
           url='https://drive.google.com/uc?id=1pT2TSapA6L3LuBETn_Om6KhDogmXfjqH'
           muted={true}
           width='100%'
           height='100%'
           
-        /> */}
+        /> 
 
-            </div>
-            <div className="page">
+            </div> */}
+            
+            <div className="page" >
 <h1>My excellent third article</h1>
 <p>My excellent third content</p>
 <video style={{float: 'right'}}
-  controls
-  src="https://drive.google.com/uc?id=18Rx3vhwwe2NsHa6Zx-amdXr-pjtJ2umu/"
-  width="620"
+  controls autoplay loop muted playsinline uk-cover
+  src="https://drive.google.com/uc?id=1y6C9PEP0o5L5V4PR3r6JIcFUfoHY-6lX"
+  width="450"
 />
 </div>
 <div className="page">
 <h1>My excellent third article</h1>
 <p>My excellent third content</p>
 <video style={{float: 'right'}}
-  controls
+  controls autoplay loop muted playsinline uk-cover
   src="https://drive.google.com/uc?id=1y6C9PEP0o5L5V4PR3r6JIcFUfoHY-6lX"
-  width="620"
+  width="450"
 />
 </div>
 <div className="page">
@@ -143,17 +144,13 @@ Impilo Digital Media</p>
 <video style={{float: 'right'}}
   controls
   src="https://drive.google.com/uc?id=1JMo7_X2x_-Vnt0sVNgYk-jZEhiSb89ng"
-  width="620"
+  width="450"
 />
-</div>
-<div className="page">
-  <Article></Article>
 </div>
 
 <PageCover>
-  
 </PageCover>
-        </HTMLFlipBook>
+  </HTMLFlipBook >
       </div>
     
     );

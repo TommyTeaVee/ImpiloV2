@@ -75,33 +75,20 @@ export function Article()
 				</div>
 			</div>
 			<div className="uk-grid-small uk-grid-divider" data-uk-grid="">
-				<div className="uk-width-1-3@s">
+				<div className="uk-width-1-1@s">
 					{/* https://pixabay.com/images/id-3025022/ */}
-					<img
-						className="uk-align-center uk-border-rounded"
-						src="https://cdn.pixabay.com/photo/2017/12/17/21/44/coffee-3025022_960_720.jpg"
-						alt="pic"
-						data-uk-img=""
-					/>
+					<video style={{float: 'right'}}
+  autoPlay loop muted playsinline uk-cover
+  src="https://drive.google.com/uc?id=19Bevnf_6OwbL3QgNyNQBil23fsUdWxCV"
+  width="450"
+/>
 					<p>{language["whats_it"]}</p>
 					<p className="uk-text-center">
-						{/* https://tablericons.com/ */}
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							width="48"
-							height="48"
-							viewBox="0 0 24 24"
-							strokeWidth="1"
-							stroke="#9e9e9e"
-							fill="none"
-							strokeLinecap="round"
-							strokeLinejoin="round"
-						>
-							<path stroke="none" d="M0 0h24v24H0z" fill="none" />
-							<circle cx="7" cy="7" r="1" />
-							<circle cx="12" cy="12" r="1" />
-							<circle cx="17" cy="17" r="1" />
-						</svg>
+                    <video style={{float: 'right'}}
+  controls
+  src="https://drive.google.com/uc?id=18Rx3vhwwe2NsHa6Zx-amdXr-pjtJ2umu/"
+  width="450"
+/>
 					</p>
 				</div>
 				<div className="uk-width-2-3@s">
