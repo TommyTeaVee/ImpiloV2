@@ -1,6 +1,7 @@
 import React from "react";
 import HTMLFlipBook from "react-pageflip";
 import ReactPlayer from "react-player";
+import { Article } from "./Article";
 import "./app.scss";
 
 const PageCover = React.forwardRef((props, ref) => {
@@ -145,6 +146,10 @@ Impilo Digital Media</p>
   width="620"
 />
 </div>
+<div className="page">
+  <Article></Article>
+</div>
+
 <PageCover>
   
 </PageCover>
@@ -159,7 +164,7 @@ const pages = [
   "1.png?auto=compress&cs=tinysrgb&dpr=1&w=1000",
   "https://images.pexels.com/photos/704569/pexels-photo-704569.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1000",
   "71.png?auto=compress&cs=tinysrgb&dpr=1&w=1000",
-  "12.png?auto=compress&cs=tinysrgb&dpr=1&w=1000",
+  // "12.png?auto=compress&cs=tinysrgb&dpr=1&w=1000",
   "70.png?auto=compress&cs=tinysrgb&dpr=1&w=1000",
   "35.png?auto=compress&cs=tinysrgb&dpr=1&w=1000",
   "19.png?auto=compress&cs=tinysrgb&dpr=1&w=1000",
