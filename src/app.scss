@@ -69,7 +69,7 @@
   }
 
   &.page-cover {
-    background-image: url('../public/leather.jpeg');
+    background-image: url('../public/back_cover.png');
     color:  #705B0A;
     border: solid 1px#C4A011;
 
@@ -91,7 +91,14 @@
     position: relative;
     padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
   }
-  
+  .video-land{
+    width: 45px;
+    height: 200px;
+  }
+  .video-port {
+    width:40px;
+    height: 00px;
+  }
   .react-player {
     position: absolute;
     top: 0;

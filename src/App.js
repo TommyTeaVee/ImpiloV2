@@ -79,7 +79,7 @@ class DemoBook extends React.Component {
           onChangeState={this.onChangeState}
           className="demo-book"
           ref={(el) => (this.flipBook = el)}
-          style={{ backgroundImage: `url("background.jpeg")`}}>
+          style={{ backgroundImage: `url("background.jpg")`}}>
             
             
             
@@ -88,48 +88,21 @@ class DemoBook extends React.Component {
               <img src={page} alt="" className="page-image" />
             </Page>
           ))}
-          {/*  <div className="page">
-              <h1>My excellent third article</h1>
-              
-              <video
-              style={{float: 'right'}}
-                controls
-                src="https://drive.google.com/uc?id=1pT2TSapA6L3LuBETn_Om6KhDogmXfjqH"
-              
-                width="620"
-              /> 
-              <ReactPlayer
-          className='react-player' className='player-wrapper' 
-          url='https://drive.google.com/uc?id=1pT2TSapA6L3LuBETn_Om6KhDogmXfjqH'
-          muted={true}
-          width='100%'
-          height='100%'
-          
-        /> 
-
-            </div> */}
             
             <div className="page" >
-<h1>My excellent third article</h1>
-<p>My excellent third content</p>
-<video style={{float: 'right'}}
-  controls autoplay loop muted playsinline uk-cover
-  src="https://drive.google.com/uc?id=1y6C9PEP0o5L5V4PR3r6JIcFUfoHY-6lX"
-  width="450"
-/>
+<Article></Article>
 </div>
 <div className="page">
-<h1>My excellent third article</h1>
-<p>My excellent third content</p>
-<video style={{float: 'right'}}
-  controls autoplay loop muted playsinline uk-cover
+
+{/* <video
+  controls autoplay loop muted playsinline uk-cover video-port
   src="https://drive.google.com/uc?id=1y6C9PEP0o5L5V4PR3r6JIcFUfoHY-6lX"
-  width="450"
-/>
+
+/> */}
 </div>
-<div className="page">
-<h1>My excellent third article</h1>
-<p>Dear Readers,
+<div className="page" >
+<h1>Salizwa Maranqwana</h1>
+<p>My Intro
 
 I am thrilled to welcome you to our magazine, where we strive to bring you engaging, informative, and thought-provoking content on a wide range of topics.
 
@@ -143,8 +116,9 @@ Sincerely,
 Impilo Digital Media</p>
 <video style={{float: 'right'}}
   controls
-  src="https://drive.google.com/uc?id=1JMo7_X2x_-Vnt0sVNgYk-jZEhiSb89ng"
-  width="450"
+  src="https://drive.google.com/uc?id=1emqacHB3Ab9gw0g63xf2dqNWhdlpIDRX"
+ 
+  width="500"
 />
 </div>
 
@@ -158,15 +132,16 @@ Impilo Digital Media</p>
 }
 
 const pages = [
-  "1.png?auto=compress&cs=tinysrgb&dpr=1&w=1000",
-  "https://images.pexels.com/photos/704569/pexels-photo-704569.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1000",
-  "71.png?auto=compress&cs=tinysrgb&dpr=1&w=1000",
-  // "12.png?auto=compress&cs=tinysrgb&dpr=1&w=1000",
-  "70.png?auto=compress&cs=tinysrgb&dpr=1&w=1000",
-  "35.png?auto=compress&cs=tinysrgb&dpr=1&w=1000",
-  "19.png?auto=compress&cs=tinysrgb&dpr=1&w=1000",
-  "Upcoming.png?auto=compress&cs=tinysrgb&dpr=1&w=1000",
-  "9.png?auto=compress&cs=tinysrgb&dpr=1&w=1000"
+  "cover.png?auto=compress&cs=tinysrgb&dpr=1&w=1000",
+  "zintle_intro.png?auto=compress&cs=tinysrgb&dpr=1&w=1000",
+  "boutique.png?auto=compress&cs=tinysrgb&dpr=1&w=1000",
+  "catalogue.png?auto=compress&cs=tinysrgb&dpr=1&w=1000",
+ "dna.png?auto=compress&cs=tinysrgb&dpr=1&w=1000",
+  "dna_cov.png?auto=compress&cs=tinysrgb&dpr=1&w=1000",
+  "fashion.png?auto=compress&cs=tinysrgb&dpr=1&w=1000",
+  "nako.png?auto=compress&cs=tinysrgb&dpr=1&w=100",
+  "catalogue.png?auto=compress&cs=tinysrgb&dpr=1&w=1000",
+  "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA2L3M3MS1tY2tpbnNleS0xNDkxLWZvbi5qcGc.jpg?auto=compress&cs=tinysrgb&dpr=1&w=1000"
 ];
 
 export default function App() {

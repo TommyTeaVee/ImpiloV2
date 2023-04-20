@@ -75,23 +75,19 @@ export function Article()
 				</div>
 			</div>
 			<div className="uk-grid-small uk-grid-divider" data-uk-grid="">
-				<div className="uk-width-1-1@s">
+				<div className="uk-width-1-2@s">
 					{/* https://pixabay.com/images/id-3025022/ */}
-					<video style={{float: 'right'}}
-  autoPlay loop muted playsinline uk-cover
-  src="https://drive.google.com/uc?id=19Bevnf_6OwbL3QgNyNQBil23fsUdWxCV"
-  width="450"
-/>
+					
 					<p>{language["whats_it"]}</p>
 					<p className="uk-text-center">
                     <video style={{float: 'right'}}
   controls
-  src="https://drive.google.com/uc?id=18Rx3vhwwe2NsHa6Zx-amdXr-pjtJ2umu/"
-  width="450"
+  src="https://drive.google.com/uc?id=18Rx3vhwwe2NsHa6Zx-amdXr-pjtJ2umu"
+  width="400"
 />
 					</p>
 				</div>
-				<div className="uk-width-2-3@s">
+				<div className="uk-width-2-2@s">
 					<div
 						className="uk-grid-small uk-child-width-1-2@s uk-grid-divider"
 						data-uk-grid=""
