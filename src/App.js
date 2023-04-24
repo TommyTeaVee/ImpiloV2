@@ -2,7 +2,25 @@ import React from "react";
 import HTMLFlipBook from "react-pageflip";
 import ReactPlayer from "react-player";
 import { Article } from "./Article";
+import { Salizwa } from "./content/dynamic/intros/Saliswa";
+import { SalizwaBG } from "./content/dynamic/intros/SalizwaBG";
+import { Lulu } from "./content/dynamic/modelers/Lulu";
+import { Nako } from "./content/dynamic/modelers/Nako";
+import { Ano } from "./content/dynamic/modelers/Ano";
+import { Sibongile } from "./content/dynamic/modelers/Sibongile";
+import { Sihle } from "./content/dynamic/modelers/Sihle";
+import { SihleCwa } from "./content/dynamic/modelers/Sihlecwa";
+import { Siyamthanda } from "./content/dynamic/modelers/Siyamthanda";
+import { Tandile }from "./content/dynamic/modelers//Tandile";
+import { Thandiwe } from "././content/dynamic/modelers/Thandiwe";
+import { Timna } from "./content/dynamic/modelers/Timna";
+import { Yona } from "././content/dynamic/modelers/Yona"
+import { Sample } from "./content/articles/Sample";
+import { Formats } from "./content/articles/Formats"
+
+
 import "./app.scss";
+import { pages } from "./pages";
 
 const PageCover = React.forwardRef((props, ref) => {
   return (
@@ -67,9 +85,9 @@ class DemoBook extends React.Component {
           width={550}
           height={733}
           minWidth={315}
-          maxWidth={1000}
+          maxWidth={'21cm'}
           minHeight={420}
-          maxHeight={1350}
+          maxHeight={'29.7cm'}
           size="stretch"
           maxShadowOpacity={0.5}
           showCover={true}
@@ -79,17 +97,29 @@ class DemoBook extends React.Component {
           onChangeState={this.onChangeState}
           className="demo-book"
           ref={(el) => (this.flipBook = el)}
-          style={{ backgroundImage: `url("background.jpg")`}}>
+          style={{ backgroundImage: `url("background2.jpg")`}}>
             
             
             
           {pages.map((page, index) => (
-            <Page key={index} className="page" number={index}>
+            <Page key={index[5]} className="page" number={index}>
               <img src={page} alt="" className="page-image" />
+        
             </Page>
           ))}
-            
-            <div className="page" >
+  <div className="page">
+    <Sample></Sample>
+  </div>
+  <div className="page">
+    <Formats></Formats>
+  </div>
+<div className="page" >
+<Salizwa></Salizwa>
+</div>
+<div className="page">
+<SalizwaBG></SalizwaBG>
+</div>
+<div className="page" >
 <Article></Article>
 </div>
 <div className="page">
@@ -100,28 +130,34 @@ class DemoBook extends React.Component {
 
 /> */}
 </div>
-<div className="page" >
-<h1>Salizwa Maranqwana</h1>
-<p>My Intro
-
-I am thrilled to welcome you to our magazine, where we strive to bring you engaging, informative, and thought-provoking content on a wide range of topics.
-
-Our team of writers, editors, and contributors are passionate about delivering high-quality content that both informs and entertains. From current events and politics to health and wellness, technology, culture, and more, we cover it all.
-
-We believe in fostering a sense of community through our magazine and we invite you to join us in this endeavor. We welcome your feedback, ideas, and suggestions on how we can continue to improve and deliver the best possible content for you.
-
-Thank you for your continued support and for choosing to be a part of our magazine community.
-
-Sincerely,
-Impilo Digital Media</p>
-<video style={{float: 'right'}}
-  controls
-  src="https://drive.google.com/uc?id=1emqacHB3Ab9gw0g63xf2dqNWhdlpIDRX"
- 
-  width="500"
-/>
+<div
+className=" page">
+  <Lulu></Lulu>
 </div>
-
+<div className="page">
+  <Nako></Nako>
+</div>
+<div className="page">
+  <Sibongile></Sibongile>
+</div>
+<div className="page">
+  <Ano></Ano>
+</div>
+<div className="page">
+  <Nako></Nako>
+</div>
+<div className="page">
+  <Sihle></Sihle>
+</div>
+<div className="page">
+  <Siyamthanda></Siyamthanda>
+</div>
+<div className="page">
+  <Tandile></Tandile>
+</div>
+<div className="page">
+  <Yona></Yona>
+</div>
 <PageCover>
 </PageCover>
   </HTMLFlipBook >
@@ -131,18 +167,7 @@ Impilo Digital Media</p>
   }
 }
 
-const pages = [
-  "cover.png?auto=compress&cs=tinysrgb&dpr=1&w=1000",
-  "zintle_intro.png?auto=compress&cs=tinysrgb&dpr=1&w=1000",
-  "boutique.png?auto=compress&cs=tinysrgb&dpr=1&w=1000",
-  "catalogue.png?auto=compress&cs=tinysrgb&dpr=1&w=1000",
- "dna.png?auto=compress&cs=tinysrgb&dpr=1&w=1000",
-  "dna_cov.png?auto=compress&cs=tinysrgb&dpr=1&w=1000",
-  "fashion.png?auto=compress&cs=tinysrgb&dpr=1&w=1000",
-  "nako.png?auto=compress&cs=tinysrgb&dpr=1&w=100",
-  "catalogue.png?auto=compress&cs=tinysrgb&dpr=1&w=1000",
-  "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA2L3M3MS1tY2tpbnNleS0xNDkxLWZvbi5qcGc.jpg?auto=compress&cs=tinysrgb&dpr=1&w=1000"
-];
+
 
 export default function App() {
   return <DemoBook />;

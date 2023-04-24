@@ -5,10 +5,11 @@
 }
 
 .page {
-  
+
+  margin: 1cm auto;
   background-color: hsl(35, 55, 98);
-  color: #705B0A;
-  border: solid 1px hsl(35, 20, 70);
+  color: #10100e;
+  border: solid 1px hsl(0, 0%, 100%);
   overflow: hidden;
 
   .page-content {
@@ -38,12 +39,12 @@
       margin-top: 0px;
       padding-top: 0px;
       box-sizing: border-box;
-      border-top: solid 1px hsl(35, 55, 90);
+      border-top: solid 1px hsl(0, 0%, 95%);
     }
 
     .page-footer {
       height: 30px;
-      border-top: solid 1px hsl(35, 55, 90);
+      border-top: solid 1px hsl(0, 0%, 96%);
       font-size: 80%;
       color:#C4A011;
     }

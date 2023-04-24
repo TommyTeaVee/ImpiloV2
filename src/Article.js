@@ -78,13 +78,14 @@ export function Article()
 				<div className="uk-width-1-2@s">
 					{/* https://pixabay.com/images/id-3025022/ */}
 					
+					
 					<p>{language["whats_it"]}</p>
 					<p className="uk-text-center">
-                    <video style={{float: 'right'}}
-  controls
-  src="https://drive.google.com/uc?id=18Rx3vhwwe2NsHa6Zx-amdXr-pjtJ2umu"
-  width="400"
-/>
+                   
+<video src="https://drive.google.com/uc?id=18Rx3vhwwe2NsHa6Zx-amdXr-pjtJ2umu"
+ width="400" loop muted playsinline uk-video="autoplay: inview">
+	
+ </video>
 					</p>
 				</div>
 				<div className="uk-width-2-2@s">

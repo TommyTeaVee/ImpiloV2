@@ -8,6 +8,7 @@
   ],
   "main": "src/index.js",
   "dependencies": {
+    "audiocard": "^1.0.0",
     "install": "^0.13.0",
     "npm": "^9.6.4",
     "react": "17.0.2",
