@@ -102,7 +102,7 @@ class DemoBook extends React.Component {
             
             
           {pages.map((page, index) => (
-            <Page key={index[5]} className="page" number={index}>
+            <Page key={index} className="page" number={index}>
               <img src={page} alt="" className="page-image" />
         
             </Page>
