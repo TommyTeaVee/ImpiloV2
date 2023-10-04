@@ -10,7 +10,7 @@ export function Formats() {
     <div>
         <div class="uk-card uk-card-default uk-card-small">
             <div class="uk-text-center@s uk-card-body">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr. <code>.uk-text-center@s</code>
+                Welcome to Impilo Digital Magazine. <code>.uk-text-center@s</code>
             </div>
         </div>
     </div>

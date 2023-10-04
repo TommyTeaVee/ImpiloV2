@@ -119,9 +119,9 @@ class DemoBook extends React.Component {
 <div className="page">
 <SalizwaBG></SalizwaBG>
 </div>
-<div className="page" >
+{/* <div className="page" >
 <Article></Article>
-</div>
+</div> */}
 <div className="page">
 
 {/* <video

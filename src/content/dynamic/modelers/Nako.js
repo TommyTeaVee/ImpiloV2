@@ -3,7 +3,7 @@ import {React} from 'react';
 export function Nako(){
  return <>
  
- <div className="uk-grid-small uk-child-width-1-2@large uk-grid-divider">
+ <div className="uk-width-2-2@s uk-grid-small uk-child-width-1-2@large uk-grid-divider">
     <div className="uk-grid-small uk-child-width-1-@large uk-grid-divider"
 						data-uk-grid="">
 <h1>Model:- Endinako Njizan</h1>
@@ -24,7 +24,7 @@ With faith you need to have confidence so that you can achieve anything you need
          </source>
     </audio>
 </div>
-<div class="uk-flex uk-flex-wrap uk-flex-wrap-around uk-background-muted uk-height-medium">
+*/ <div class="uk-flex uk-flex-wrap uk-flex-wrap-around uk-background-muted uk-height-medium">
     <div class="uk-width-1-3 uk-card uk-card-default uk-card-body uk-card-small"> *Miss little Mthatha Queen 2020</div>
     <div class="uk-width-1-2 uk-card uk-card-default uk-card-body uk-card-small uk-margin-left">*Miss Elite KZN 2021 best role model of the year </div>
     <div class="uk-width-1-3 uk-card uk-card-default uk-card-body uk-card-small">*Miss Pre-teen Black diamond ambassador Queen 2021</div>
@@ -42,7 +42,7 @@ With faith you need to have confidence so that you can achieve anything you need
 *Miss Dream Cather's finalist 2022 
 *Miss Devine Eastern cape finalist 2022
  </div>
- </div>
+ </div> /*
  
  
  </>

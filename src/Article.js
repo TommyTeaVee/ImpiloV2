@@ -3,17 +3,17 @@ import contents from './contents'
 
 export function Article()
 {
-    var [language, setLanguage] = React.useState(contents[0]);
+    var [content,setContent] = React.useState(contents[0]);
 
 	function handleLanguage(locale) {
-		// find the language in contents variable
+		// find the content in contents variable
 		var filtered = contents.filter(function (item) {
 			return item.locale === locale;
 		});
-		// get ready to set current language
+		// get ready to set current content
 		var object = {};
 
-		// get the actual existing language
+		// get the actual existing content
 		if (filtered.length >= 1) {
 			object = filtered[0];
 		} else {
@@ -25,13 +25,13 @@ export function Article()
 		document.title = object.title;
 
 		// save the setting
-		setLanguage(object);
-		// localStorage.setItem("language", object.locale)
+		setContent(object);
+		// localStorage.setItem("content", object.locale)
 	}
 
 	// get viewer's setting once this website load
 	React.useEffect(function () {
-		handleLanguage(/*localStorage.getItem("language")*/);
+		handleLanguage(/*localStorage.getItem("content")*/);
 	}, []);
 
 	return (
@@ -40,9 +40,9 @@ export function Article()
 				<div className="uk-width-expand@s">
 					<h3
 						className="uk-margin-small"
-						style={{ fontFamily: language.fontFamily }}
+						style={{ fontFamily: content.fontFamily }}
 					>
-						{language["head_line"]}
+						{content["head_line"]}
 					</h3>
 					<p className="uk-margin-small">
 						<a
@@ -51,15 +51,15 @@ export function Article()
 							target="_blank"
 							rel="noreferrer"
 						>
-							{/* <u>{language["made_by"]}</u>
+							{/* <u>{content["made_by"]}</u>
 						{" "}
-						{language["translate_by"]} */}
+						{content["translate_by"]} */}
 					</a></p>
 				</div>
 				<div className="uk-width-auto@s">
 					<select
 						className="uk-select"
-						value={language.locale}
+						value={content.locale}
 						onChange={function (event) {
 							handleLanguage(event.currentTarget.value);
 						}}
@@ -79,10 +79,11 @@ export function Article()
 					{/* https://pixabay.com/images/id-3025022/ */}
 					
 					
-					<p>{language["whats_it"]}</p>
+					<p>{content["whats_it"]}</p>
 					<p className="uk-text-center">
                    
-<video src="https://drive.google.com/uc?id=18Rx3vhwwe2NsHa6Zx-amdXr-pjtJ2umu"
+
+<video src="http://localhost/impilo-webs/images/media/Pellesi.mp4"
  width="400" loop muted playsinline uk-video="autoplay: inview">
 	
  </video>
@@ -94,14 +95,15 @@ export function Article()
 						data-uk-grid=""
 					>
 						<div>
-							<p className="uk-dropcap">{language["other_text_1"]}</p>
+							<p className="uk-dropcap">{content["other_text_3"]}</p>
 						</div>
 						<div>
-							<p className="uk-dropcap">{language["other_text_2"]}</p>
+							<p className="uk-dropcap">{content["other_text_2"]}</p>
 						</div>
 					</div>
 					<hr />
-					<p className="uk-dropcap">{language["other_text_3"]}</p>
+					
+					<p className="uk-dropcap">{content["made_by"]}</p>
 				</div>
 			</div>
 		</>

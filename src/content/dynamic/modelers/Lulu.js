@@ -9,7 +9,7 @@ export function Lulu(){
 <h1>Model:- Lusanda Patreni</h1>
 <h2>Age:27</h2>
 <p>
-Advocate for all the woman who have been victimised,I strongly believe that we all wish to live in a society where gender equality and justice is full served to everybody. I want each and every woman to regain their dignity,I want them to voice out so that they can get their dignity and their self worth back,I don't want them to act like victims that they are.… See more
+Advocate for all the woman who have been victimised,I strongly believe that we all wish to live in a society where gender equality and justice is full served to everybody. I want each and every woman to regain their dignity,I want them to voice out so that they can get their dignity and their self worth back,I don't want them to act like victims that they are.
 
 </p>
 <div class="uk-height-large uk-background-cover uk-overflow-hidden uk-light uk-flex"

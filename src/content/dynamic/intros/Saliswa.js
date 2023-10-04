@@ -8,7 +8,9 @@ return (
 
 <>
 <div uk-grid-small uk-grid-divide uk-align-center >
+<h1 class="uk-heading-large">Large</h1>
 <div class="uk-h3">Salizwa Album</div>
+
 
 <div class="uk-position-relative uk-visible-toggle uk-light"  tabindex="-1" uk-slideshow="pause-on-hover: true animation: pull autoplay: true autoplay-interval: 6000">
 
