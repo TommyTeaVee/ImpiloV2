@@ -21,6 +21,7 @@ import { Formats } from "./content/articles/Formats"
 
 import "./app.scss";
 import { pages } from "./pages";
+import { articles } from "./pages";
 
 const PageCover = React.forwardRef((props, ref) => {
   return (
@@ -101,13 +102,14 @@ class DemoBook extends React.Component {
             
             
             
-          {pages.map((page, index) => (
+            {pages.map((page, index) => (
             <Page key={index} className="page" number={index}>
               <img src={page} alt="" className="page-image" />
         
             </Page>
           ))}
-  <div className="page">
+          
+ {/*  <div className="page">
     <Sample></Sample>
   </div>
   <div className="page">
@@ -115,26 +117,53 @@ class DemoBook extends React.Component {
   </div>
 <div className="page" >
 <Salizwa></Salizwa>
-</div>
+</div> 
 <div className="page">
 <SalizwaBG></SalizwaBG>
 </div>
 {/* <div className="page" >
 <Article></Article>
 </div> */}
+
 <div className="page">
 
-{/* <video
-  controls autoplay loop muted playsinline uk-cover video-port
-  src="https://drive.google.com/uc?id=1y6C9PEP0o5L5V4PR3r6JIcFUfoHY-6lX"
+ <video
+  controls autoplay loop  playsinline uk-cover video-port
+  src="https://drive.google.com/uc?id=1c9CLYCQ8YNLlzJ2Y-S0BJsRdqnDRx86-"
+/> 
 
-/> */}
+<div className="page">
+  <video controls autoplay loop playsinline uk-cover video-port
+  src="https://drive.google.com/uc?id=1uW0W94h8tehqVRGt8EC_MEX2ot2dv4fd"
+  />
 </div>
-<div
-className=" page">
+<div className="page">
+  <video controls autoplay loop playsinline uk-cover video-port
+  src="https://drive.google.com/uc?id=1ZM2dSF0VDA9L8Dc82dOhv7nCkjAf9EMq"
+  />
+</div>
+<div className="page">
+  <video controls autoplay loop playsinline uk-cover video-port
+  src="https://drive.google.com/uc?id=1ZM2dSF0VDA9L8Dc82dOhv7nCkjAf9EMq"
+  />
+</div>
+
+</div>
+<div className="page">
+    <Article></Article>
+  </div>
+<div className="page">
+  <video controls autoplay loop playsinline uk-cover video-port
+  src="https://drive.google.com/uc?id=1y6C9PEP0o5L5V4PR3r6JIcFUfoHY-6lX"
+  />
+</div>
+
+{/*
+<div className=" page">
+           
   <Lulu></Lulu>
 </div>
-<div className="page">
+ <div className="page">
   <Nako></Nako>
 </div>
 <div className="page">
@@ -157,9 +186,16 @@ className=" page">
 </div>
 <div className="page">
   <Yona></Yona>
+</div>  */}
+<div className="page">
+{articles.map((articles, index) => (
+            <Page key={index} className="page" number={index}>
+              <img src={articles} alt="" className="page-image" />
+        
+            </Page>
+          ))}
 </div>
-<PageCover>
-</PageCover>
+
   </HTMLFlipBook >
       </div>
     
