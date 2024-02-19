@@ -1,4 +1,5 @@
 .flip-book {
+  margin:  0 auto;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
   display: none;
   background-size: cover;
@@ -6,7 +7,11 @@
 
 .page {
 
-  margin: 1cm auto;
+
+
+  margin: 0 auto;
+  height: 100vh;
+  padding: 0;
   background-color: hsl(35, 55, 98);
   color: #10100e;
   border: solid 1px hsl(0, 0%, 100%);

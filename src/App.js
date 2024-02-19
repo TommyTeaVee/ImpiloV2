@@ -83,11 +83,11 @@ class DemoBook extends React.Component {
       <div>
         <HTMLFlipBook
           width={550}
-          height={733}
+          height={980}
           minWidth={315}
-          maxWidth={'21cm'}
-          minHeight={420}
-          maxHeight={'29.7cm'}
+          max-width={'800vh'}
+          minHeight={'100vh'}
+          maxHeight={'100vh'}
           size="stretch"
           maxShadowOpacity={0.5}
           showCover={true}
@@ -104,7 +104,17 @@ class DemoBook extends React.Component {
           {pages.map((page, index) => (
             <Page key={index} className="page" number={index}>
               <img src={page} alt="" className="page-image" />
-        
+              <div class="container">
+    <div>
+        <button type="button" className="btn-prev">Previous page</button>
+        [<span class="page-current">1</span> of <span class="page-total">-</span>]
+        <button type="button" className="btn-next">Next page</button>
+    </div>
+
+    <div>
+        State: <i class="page-state">read</i>, orientation: <i class="page-orientation">landscape</i>
+    </div>
+</div>
             </Page>
           ))}
   <div className="page">
