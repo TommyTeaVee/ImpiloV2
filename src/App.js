@@ -83,7 +83,7 @@ class DemoBook extends React.Component {
       <div>
         <HTMLFlipBook
           width={550}
-          height={980}
+          height={970}
           minWidth={315}
           max-width={'800vh'}
           minHeight={'100vh'}
