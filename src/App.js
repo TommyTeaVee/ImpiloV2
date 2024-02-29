@@ -117,57 +117,7 @@ class DemoBook extends React.Component {
 </div>
             </Page>
           ))}
-  <div className="page">
-    <Sample></Sample>
-  </div>
-  <div className="page">
-    <Formats></Formats>
-  </div>
-<div className="page" >
-<Salizwa></Salizwa>
-</div>
-<div className="page">
-<SalizwaBG></SalizwaBG>
-</div>
-<div className="page" >
-<Article></Article>
-</div>
-<div className="page">
-
-{/* <video
-  controls autoplay loop muted playsinline uk-cover video-port
-  src="https://drive.google.com/uc?id=1y6C9PEP0o5L5V4PR3r6JIcFUfoHY-6lX"
-
-/> */}
-</div>
-<div
-className=" page">
-  <Lulu></Lulu>
-</div>
-<div className="page">
-  <Nako></Nako>
-</div>
-<div className="page">
-  <Sibongile></Sibongile>
-</div>
-<div className="page">
-  <Ano></Ano>
-</div>
-<div className="page">
-  <Nako></Nako>
-</div>
-<div className="page">
-  <Sihle></Sihle>
-</div>
-<div className="page">
-  <Siyamthanda></Siyamthanda>
-</div>
-<div className="page">
-  <Tandile></Tandile>
-</div>
-<div className="page">
-  <Yona></Yona>
-</div>
+          
 <PageCover>
 </PageCover>
   </HTMLFlipBook >
