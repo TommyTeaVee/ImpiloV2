@@ -4,7 +4,7 @@ export const pages = [
     "intro.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "fashion.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "ZintleExp.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "ZintlePro.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "zintlePro.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "modelers/Siyamthanda.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
    "modelers/Ano.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
    "modelers/Nako.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
