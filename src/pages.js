@@ -21,8 +21,8 @@ export const pages = [
     "sample3.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
     "color_graph.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
     "19.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
-    "backcover.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
-   /* "taylor-grote.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+    /*"backcover.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+    "taylor-grote.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1506",
     "BackCover.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
 
    // "fashion.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
