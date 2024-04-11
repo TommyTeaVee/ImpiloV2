@@ -13,16 +13,14 @@ export const pages = [
     "modelers/gallery.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "modelers/asande.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "modelers/Avile.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "modelers/avile2.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "modelers/Khamisa.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "modelers/Lukiwe.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "modelers/lumi.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "modelers/Lusanda.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "modelers/Nako.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "modelers/Maude.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "modelers/Sibabalo.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "modelers/Sihle.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "modelers/SihleGco.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    //"modelers/Siyamthanda.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+   
     "modelers/tandile.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "modelers/thandiwe.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "modelers/timna.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
@@ -31,11 +29,15 @@ export const pages = [
    /* "modelers/Nako.png?auto=compress&cs=tinysrgb&dpr=1&w=1506", */
    /* "modelers/Tandile.png?auto=compress&cs=tinysrgb&dpr=1&w=1506", */
    /*  "modelers/Timna.png?auto=compress&cs=tinysrgb&dpr=1&w=1506", */
-   /*  "modelers/SihleGco.png?auto=compress&cs=tinysrgb&dpr=1&w=1506", */
+    "modelers/SihleGco.png?auto=compress&cs=tinysrgb&dpr=1&w=1506", 
     //"modelers/Lusanda.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
-        "modelers/Thandiwe.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+        "modelers/Sibabalo.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
     "modelers/Sihle.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+     "modelers/Siyamthanda.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "modelers/Soma.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
     "modelers/yonwabisa.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "modelers/Zihle.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+"modelers/Zimi.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
     "psycolor.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "color_psy.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "color_psy2.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
