@@ -49,8 +49,8 @@ export const pages = [
     "modelers/See.png?auto=compress&cs=tinysrgb&dpr=1&w=150",
     "modelers/Sihle.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
     "modelers/Sib.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
-    "modelers/Sibongile.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
     "modelers/Sibabalo.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+    "modelers/Sibongile.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
     "modelers/Siya.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
      "modelers/Siyamthanda.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "modelers/Soli.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
@@ -66,6 +66,7 @@ export const pages = [
     "color_psy2.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "color_psy3.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "color_graph.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "ad_impilo.png?auto=compress&cs=tinysrgb&dpr=1&w=1500", 
    //"zintlePro.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
    //"backcover.png?auto=compress&cs=tinysrgb&dpr=1&w=1500"
     /*"taylor-grote.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1506",
