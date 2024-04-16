@@ -92,8 +92,8 @@ export const pages = [
     "color_psy3.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "color_graph.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "ad_impilo.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "content_ebook/welcome.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "content_ebook/biz_model.png?auto=compress&cs=tinysrgb&dpr=1&w=1500", 
+    "content/welcome.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "content/biz_model.png?auto=compress&cs=tinysrgb&dpr=1&w=1500", 
     "Model.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
    "cut_page.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
    //"backcover.png?auto=compress&cs=tinysrgb&dpr=1&w=1500"
