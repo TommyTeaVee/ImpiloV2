@@ -118,7 +118,7 @@ class DemoBook extends React.Component {
             </Page>
           ))}
           
-<PageCover>
+<PageCover className="page-cover">
 </PageCover>
   </HTMLFlipBook >
       </div>
