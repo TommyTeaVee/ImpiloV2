@@ -50,7 +50,7 @@ export const pages = [
     "modelers/lumi_alb.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "modelers/lus.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "modelers/lusanda.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "modelers/lus_alb.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "modelers/Lus_alb.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "modelers/mau.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "modelers/maude.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "modelers/maude_alb.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
