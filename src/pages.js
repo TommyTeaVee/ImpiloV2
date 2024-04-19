@@ -14,6 +14,7 @@ export const pages = [
    //WISEK
    "fashionshow/wiseK/WiseK_cover.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
    "fashionshow/wiseK/wisek_art.png?auto=compress&cs=tinysrgb&dpr=1&w=1500", 
+   //WISEK container end
    "anon_model.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "modelers/Zintle_cover.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "modelers/Zee.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
