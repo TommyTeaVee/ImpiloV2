@@ -10,7 +10,10 @@ export const pages = [
     "color_psy.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "color_psy2.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "color_psy3.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "color_graph.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "color_graph.png?auto=compress&cs=tinysrgb&dpr=1&w=1500", 
+   //WISEK
+   "fashionshow/wiseK/WiseK_cover.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+   "fashionshow/wiseK/wisek_art.png?auto=compress&cs=tinysrgb&dpr=1&w=1500", 
    "anon_model.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "modelers/Zintle_cover.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "modelers/Zee.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
@@ -24,8 +27,8 @@ export const pages = [
     "modelers/gallery.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "modelers/dnm_gallery2.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "modelers/Ano_alb.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "modelers/Ano.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "modelers/Anothando.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "modelers/Ano.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "modelers/asa.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "modelers/asanda.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "modelers/asa_alb.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
@@ -122,8 +125,9 @@ export const pages = [
     "content/inspirations.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "content/credits.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "Model.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-   "cut_page.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-
+  
+  
+  
    //"backcover.png?auto=compress&cs=tinysrgb&dpr=1&w=1500"
     /*"taylor-grote.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1506",
     "BackCover.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
