@@ -11,10 +11,10 @@ export const pages = [
     "color_psy2.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "color_psy3.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "color_graph.png?auto=compress&cs=tinysrgb&dpr=1&w=1500", 
-   //WISEK
-   "fashionshow/wiseK/WiseK_cover.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-   "fashionshow/wiseK/wisek_art.png?auto=compress&cs=tinysrgb&dpr=1&w=1500", 
-   //WISEK container end
+
+   
+   
+
    "anon_model.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "modelers/Zintle_cover.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "modelers/Zee.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
@@ -104,6 +104,27 @@ export const pages = [
     "modelers/Zim.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
 "modelers/Zimi.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
 "modelers/Zimi_alb.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+   //WISEK
+"fashionshow/WiseK/WiseK_cover.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+"fashionshow/WiseK/WiseK_Pro.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+"fashionshow/WiseK/WiseK_art.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+   //WISEK container end
+
+   //MODELS//
+   "fashionshow/Kendall.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+   "fashionshow/Ora_art.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+   "fashionshow/Milly.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+   "fashionshow/Nonsikelelo.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+   "fashionshow/Olwethu.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+  
+   "fashionshow/refilwe.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+   "fashionshow/Shantel_art.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+   "fashionshow/Sphe.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+   "fashionshow/Thoko.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+   "fashionshow/Tshepo_Mahlangu.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+   "fashionshow/Wydith.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+   //END OF MODELS
+
     "content/cover_cont.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "content/slogan.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "content/contents.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
@@ -126,6 +147,20 @@ export const pages = [
     "content/inspirations.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "content/credits.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "Model.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "biz/bhsm.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "biz/biz_model.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "biz/welcome.png?auto=compress&cs=tinysrgb&d=1&w=1500",
+    "biz/getting.png?auto=compress&cs=tinysrgb&d=1&w=1500",
+    "biz/checklist.png?auto=compress&cs=tinysrgb&d=1&w=1500",
+    "biz/brand_identity.png?auto=compress&cs=tinysrgb&d=1&w=1500",
+    "biz/brand_insp.png?auto=compress&cs=tinysrgb&d=1&w=1500",
+    "biz/targets.png?auto=compress&cs=tinysrgb&d=1&w=1500",
+    "biz/milestones.png?auto=compress&cs=tinysrgb&d=1&w=1500",
+    "biz/planner.png?auto=compress&cs=tinysrgb&d=1&w=1500",
+    "biz/planner2.png?auto=compress&cs=tinysrgb&d=1&w=1500",
+    "biz/monthly.png?auto=compress&cs=tinysrgb&d=1&w=1500",
+    "biz/testimonials.png?auto=compress&cs=tinysrgb&d=1&w=1500",
+    "biz/vote.png?auto=compress&cs=tinysrgb&d=1&w=1500",
   
   
   
