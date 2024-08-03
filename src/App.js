@@ -97,7 +97,10 @@ class DemoBook extends React.Component {
           onChangeState={this.onChangeState}
           className="demo-book"
           ref={(el) => (this.flipBook = el)}
-          style={{ backgroundImage: `url("background.jpeg")`}}>
+          style={{ backgroundImage: `url("cover5.png")`,
+                  backgroundSize: 'cover'
+                  
+          }}>
             
             
             
