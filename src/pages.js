@@ -2,7 +2,8 @@ export const pages = [
     //"swim.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
 
     //Cover Page
-    "cover.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/mag_co.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/mag_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     //Editor's Note
 
     //Contents
