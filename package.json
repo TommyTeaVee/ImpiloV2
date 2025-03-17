@@ -8,6 +8,7 @@
   ],
   "main": "src/index.js",
   "dependencies": {
+    "@fontsource/gfs-didot": "^5.1.1",
     "audiocard": "^1.0.0",
     "install": "^0.13.0",
     "npm": "^9.6.4",

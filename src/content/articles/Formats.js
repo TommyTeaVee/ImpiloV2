@@ -89,7 +89,13 @@ export function Formats() {
     <div>
         <div class="uk-card uk-card-default uk-card-small uk-card-body">
             <h3 class="uk-card-title">Small</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <iframe 
+            width="891" 
+            height="501" 
+            src="https://www.youtube.com/embed/JFXmIh4P2dM" 
+            title="Fake Luxury Shoe Store Prank proves Luxury is just Perception - Payless" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
     </div>
     <div>

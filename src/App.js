@@ -3,7 +3,9 @@ import HTMLFlipBook from "react-pageflip";
 import ReactPlayer from "react-player";
 import { Article } from "./Article";
 import { Salizwa } from "./content/dynamic/intros/Saliswa";
-import { SalizwaBG } from "./content/dynamic/intros/SalizwaBG";
+import { Layouts} from "./content/dynamic/intros/Layouts";
+import { MainStoryArticle } from "./content/dynamic/intros/MainArticle";
+import { NewsletterLayout } from "./content/dynamic/intros/Newsletter";
 import { Lulu } from "./content/dynamic/modelers/Lulu";
 import { Nako } from "./content/dynamic/modelers/Nako";
 import { Ano } from "./content/dynamic/modelers/Ano";
@@ -16,11 +18,14 @@ import { Thandiwe } from "././content/dynamic/modelers/Thandiwe";
 import { Timna } from "./content/dynamic/modelers/Timna";
 import { Yona } from "././content/dynamic/modelers/Yona"
 import { Sample } from "./content/articles/Sample";
-import { Formats } from "./content/articles/Formats"
-
-
+import { Formats } from "./content/articles/Formats";
+import Sthe from "./content/fashionrunway/Sthe";
+import {Frame} from "./content/articles/Frame"
+import "@fontsource/gfs-didot"; // Defaults to weight 400
 import "./app.scss";
 import { pages } from "./pages";
+import Articles from "./content/articles/Articles";
+import { LandscapeHero } from "./content/dynamic/intros/LandscapeHero";
 
 const PageCover = React.forwardRef((props, ref) => {
   return (
@@ -118,16 +123,25 @@ class DemoBook extends React.Component {
             </Page>
           ))}
   <div className="page">
-    <Sample></Sample>
+<Frame></Frame>
   </div>
+  <div className="page">
+<Layouts></Layouts>
+</div>
+<div className="page">
+<MainStoryArticle></MainStoryArticle>
+</div>
   <div className="page">
     <Formats></Formats>
   </div>
+  <div className="page">
+  <NewsletterLayout></NewsletterLayout>
+  </div>
+  <div className="page">
+  <LandscapeHero></LandscapeHero>
+  </div>
 <div className="page" >
-<Salizwa></Salizwa>
-</div>
-<div className="page">
-<SalizwaBG></SalizwaBG>
+<Sthe></Sthe>
 </div>
 <div className="page" >
 <Article></Article>
