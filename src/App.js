@@ -1,26 +1,6 @@
 import React from "react";
 import HTMLFlipBook from "react-pageflip";
 import ReactPlayer from "react-player";
-import { Article } from "./Article";
-import { Salizwa } from "./content/dynamic/intros/Saliswa";
-import { Layouts} from "./content/dynamic/intros/Layouts";
-import { MainStoryArticle } from "./content/dynamic/intros/MainArticle";
-import { NewsletterLayout } from "./content/dynamic/intros/Newsletter";
-import { Lulu } from "./content/dynamic/modelers/Lulu";
-import { Nako } from "./content/dynamic/modelers/Nako";
-import { Ano } from "./content/dynamic/modelers/Ano";
-import { Sibongile } from "./content/dynamic/modelers/Sibongile";
-import { Sihle } from "./content/dynamic/modelers/Sihle";
-import { SihleCwa } from "./content/dynamic/modelers/Sihlecwa";
-import { Siyamthanda } from "./content/dynamic/modelers/Siyamthanda";
-import { Tandile }from "./content/dynamic/modelers//Tandile";
-import { Thandiwe } from "././content/dynamic/modelers/Thandiwe";
-import { Timna } from "./content/dynamic/modelers/Timna";
-import { Yona } from "././content/dynamic/modelers/Yona"
-import { Sample } from "./content/articles/Sample";
-import { Formats } from "./content/articles/Formats";
-import Sthe from "./content/fashionrunway/Sthe";
-import {Frame} from "./content/articles/Frame"
 import "@fontsource/gfs-didot"; // Defaults to weight 400
 import "./app.scss";
 import { pages } from "./pages";
