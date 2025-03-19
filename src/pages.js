@@ -16,6 +16,7 @@ export const pages = [
 "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/nk_story.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
 
 //Glenda Lee
+"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/article/Glenda.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
 "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/article/feature_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
 "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/article/glenda_pro.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
 "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/article/glenda_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
