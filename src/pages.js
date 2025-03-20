@@ -2,14 +2,26 @@ export const pages = [
     //"swim.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
 
     //Cover Page
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/mag_co.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/mag_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/wallpaper/mag_co.png?raw=true=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/wallpaper/cover_in.png?raw=true=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     //Editor's Note
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/editor.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
 
     //Contents
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/contents.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-   //Intro article
+      //Colission Course - LV
+    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/lvgucci_intro.png?raw=trueauto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/lv1.png?raw=trueauto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/gucci1.png?raw=trueauto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/lv2.png?raw=trueauto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/gucci2.png?raw=trueauto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/lv3.png?raw=trueauto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/gucci3.png?raw=trueauto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/lv_gucci.png?raw=trueauto=compress&cs=tinysrgb&dpr=1&w=1500",
+   
+
+   
+ //Intro article
 //NK Sne
 "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/Nk_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
 "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/nk_sne.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
@@ -108,15 +120,6 @@ export const pages = [
    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/article/bonolo_credits.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
 
     
-    //Colission Course - LV
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/lvgucci_intro.png?raw=trueauto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/lv1.png?raw=trueauto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/gucci1.png?raw=trueauto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/lv2.png?raw=trueauto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/gucci2.png?raw=trueauto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/lv3.png?raw=trueauto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/gucci3.png?raw=trueauto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/lv_gucci.png?raw=trueauto=compress&cs=tinysrgb&dpr=1&w=1500",
    
    //Politics
    //Trump and Economic war
