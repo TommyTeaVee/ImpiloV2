@@ -8,7 +8,7 @@ export const pages = [
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/editor.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
 
     //Contents
-
+    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/contents.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
    //Intro article
 //NK Sne
 "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/Nk_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
