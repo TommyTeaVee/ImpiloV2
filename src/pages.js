@@ -4,12 +4,13 @@ export const pages = [
     //Cover Page
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/wallpaper/mag_co.png?raw=true=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/wallpaper/cover_in.png?raw=true=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    //Editor's Note
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/editor.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-
+    
     //Contents
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/contents.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-      //Colission Course - LV
+    //Editor's Note
+    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/editor.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+  
+    //Colission Course - LV
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/lvgucci_intro.png?raw=trueauto=compress&cs=tinysrgb&dpr=1&w=1500",
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/lv1.png?raw=trueauto=compress&cs=tinysrgb&dpr=1&w=1500",
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/gucci1.png?raw=trueauto=compress&cs=tinysrgb&dpr=1&w=1500",
