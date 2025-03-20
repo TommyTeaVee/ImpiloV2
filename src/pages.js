@@ -71,7 +71,7 @@ export const pages = [
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/Melrose_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=100",
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/Kanegelo.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Melrose_Galley.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Melrose_cert.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Merose_cert.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     
     //Nwabisa
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/Nwabisa_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=100",
@@ -97,7 +97,7 @@ export const pages = [
       //Tshiamo
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/Tshiamo_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/Tshiamo.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/galler/Tshiamo_gall.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Tshiamo_gal.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Tshiamo_cert.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
 
 
