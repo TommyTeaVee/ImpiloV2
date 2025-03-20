@@ -30,31 +30,38 @@ export const pages = [
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/Abenathi.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
 
 
-     //Busi
+     //Buhle
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/Busi_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/buhle.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Buhle_gal.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    //Bontle 
+   "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Buhle_cert.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+
+   //Bontle 
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/Bontle_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/Bontle.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Bontle_gal.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Bontle_cert.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     
     //Katlego
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/Katlego_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/Katleho.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Katlego_gal.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Katli_cert.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     //Learnmore
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/Learnmore_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/Learnmore.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/learnmore_gall.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Learnmore_cert.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     //Lebohang
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/Lebohang_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/Lebohang.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Lebo_gall.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+   "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Lebo_cert.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     //Lerato
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/Lerato_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/Lerato.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Lerato_gallery.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Lerato_cert.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
    
     // Matete
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/Matete_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
@@ -64,11 +71,13 @@ export const pages = [
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/Melrose_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=100",
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/Kanegelo.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Melrose_Galley.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Melrose_cert.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     
     //Nwabisa
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/Nwabisa_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=100",
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/Nwabisa.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500", 
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Nwabisa_gallery.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Nwabisa_cert.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     
     //Oratile
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/Oratile_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
@@ -83,11 +92,13 @@ export const pages = [
      "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/Sthe_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
      "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/Sthe.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
      "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Sthe_gallery.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Sthe_cert.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
 
       //Tshiamo
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/Tshiamo_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/Tshiamo.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/galler/Tshiamo_gall.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Tshiamo_cert.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
 
 
    //Bonolo Coverage
