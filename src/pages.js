@@ -28,6 +28,7 @@ export const pages = [
 "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/nk_sne.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
 "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/sne_pro.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
 "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/nk_story.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/wallpaper/vision.png?raw=true=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
 
 //Glenda Lee
 "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/article/feature_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
@@ -125,7 +126,7 @@ export const pages = [
    //Politics
    //Trump and Economic war
    // "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/Phillip_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
-    
+   "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/wallpaper/section.png?raw=true=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     //True Crime Drama
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/Acrimony_intro.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/Acrimony_art.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
