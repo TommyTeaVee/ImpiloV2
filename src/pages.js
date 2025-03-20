@@ -36,13 +36,21 @@ export const pages = [
 "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/article/glenda_pro.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
 "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/article/glenda_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
 "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/article/glenda_details.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
-//Glenda
-"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/Glenda_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-   
+//Gallery
+"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Glenda_runway.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/glenda_deco.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/glenda_fashion.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/glenda_gallery.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/glenda_close.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
 
+//Ads
+"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/ads/Del_fono.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+   
+//Contents
+//"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/contents.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     //Abenathi
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/Abenathi_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/Abenathi.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/Abenathi_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/Abenathi.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
 
 
      //Buhle
