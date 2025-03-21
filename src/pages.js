@@ -141,7 +141,10 @@ export const pages = [
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/Acrimony_intro.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/Acrimony_art.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/Acrimony_closure.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+    
     //King Davon
+    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/king_devon.png?raw=trueauto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/devon_closure.png?raw=trueauto=compress&cs=tinysrgb&dpr=1&w=1500",
     //"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/Phillip_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
    //"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/Phillip_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
    //"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/Phillip_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
