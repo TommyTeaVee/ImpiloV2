@@ -44,7 +44,8 @@ export const pages = [
 "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/glenda_close.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
 
 //Ads
-"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/ads/Del_fono.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/ads/del_fono_ad.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/ads/Delfono_gall.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
    
 //Contents
 //"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/contents.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
