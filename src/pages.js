@@ -145,8 +145,4 @@ export const pages = [
     //King Davon
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/king_devon.png?raw=trueauto=compress&cs=tinysrgb&dpr=1&w=1500",
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/devon_closure.png?raw=trueauto=compress&cs=tinysrgb&dpr=1&w=1500",
-    //"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/Phillip_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
-   //"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/Phillip_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
-   //"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/Phillip_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
-   // "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA2L3M3MS1tY2tpbnNleS0xNDkxLWZvbi5qcGc.jpg?auto=compress&cs=tinysrgb&dpr=1&w=1506"
   ];
