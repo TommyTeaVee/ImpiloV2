@@ -124,7 +124,8 @@ export const pages = [
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Tshiamo_gal.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Tshiamo_cert.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
 
-
+   //Music cover
+   "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/wallpaper/music_cover.png?raw=true=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
    //Bonolo Coverage
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/article/Bonolo_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/article/bonolo_bio.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
