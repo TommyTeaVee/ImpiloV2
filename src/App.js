@@ -82,7 +82,7 @@ class DemoBook extends React.Component {
           onChangeState={this.onChangeState}
           className="demo-book"
           ref={(el) => (this.flipBook = el)}
-          style={{ backgroundImage: `url("background2.jpg")`}}>
+          style={{ backgroundImage: `url("background.jpeg")`}}>
             
             
             
@@ -104,8 +104,6 @@ class DemoBook extends React.Component {
           ))}
 <div className="page">
 </div>
-<PageCover>
-</PageCover>
   </HTMLFlipBook >
       </div>
     
