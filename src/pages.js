@@ -146,4 +146,9 @@ export const pages = [
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/disclaimer.png?raw=trueauto=compress&cs=tinysrgb&dpr=1&w=1500",
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/king_devon.png?raw=trueauto=compress&cs=tinysrgb&dpr=1&w=1500",
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/devon_closure.png?raw=trueauto=compress&cs=tinysrgb&dpr=1&w=1500",
+
+    //Wildilife
+    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/wildlife/Anting_cover.png?raw=trueauto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/wildlife/Anting_desc.png?raw=trueauto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/wildlife/Anting_close.png?raw=trueauto=compress&cs=tinysrgb&dpr=1&w=1500",
   ];
