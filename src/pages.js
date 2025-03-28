@@ -4,7 +4,7 @@ export const pages = [
     //Cover Page
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/wallpaper/mag_co.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/wallpaper/cover_in.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    
+    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/ads/studio.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     //Contents
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/contents.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     //Editor's Note
@@ -133,15 +133,19 @@ export const pages = [
 
     
    
-   //Politics
-   //Trump and Economic war
-   // "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/Phillip_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
-   "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/wallpaper/section.png?raw=true=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     //True Crime Drama
+     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/wallpaper/section.png?raw=true=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/Acrimony_intro.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/Acrimony_art.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/Acrimony_closure.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
     
+    
+   //Politics
+   //Trump and Economic war
+   "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/articles/economic_wars/Trump1.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+   "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/articles/economic_wars/Trump2.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+   "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/articles/economic_wars/Trump3.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+
     //King Davon
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/disclaimer.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/king_devon.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
