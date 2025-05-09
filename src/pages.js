@@ -2,157 +2,160 @@ export const pages = [
     //"swim.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
 
     //Cover Page
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/wallpaper/mag_co.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/wallpaper/cover_in.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/ads/studio.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785433/mag_co_yu4e0d.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+
+   //"https://res-console.cloudinary.com/dh0q0prhy/thumbnails/v1/image/upload/v1746784801/Qm9ub2xvX2NvdmVyX2tyaW1sZA==/preview",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785433/cover_in_avjz5h.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785606/studio_miw5or.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     //Contents
     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/contents.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     //Editor's Note
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/editor.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785544/editor_jycbfo.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
   
     //Colission Course - LV
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/lvgucci_intro.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/lv1.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/gucci1.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/lv2.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/gucci2.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/lv3.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/gucci3.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/lv_gucci.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785551/lvgucci_intro_htyn9q.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785546/lv1_ocmst3.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785543/gucci1_nlgvjl.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785545/lv2_ervb3v.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785549/gucci2_jbidoy.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785549/lv3_fvrxwo.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785548/gucci3_xodmtb.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785551/lv_gucci_g4jp2i.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
    
 
    
  //Intro article
 //NK Sne
-"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/Nk_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/nk_sne.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/sne_pro.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/nk_story.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/wallpaper/vision.png?raw=true=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+"https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785536/Nk_cover_hc3hiy.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+"https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785521/sne_pro_jgytpt.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+"https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785519/nk_sne_ghi7yx.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+"https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785521/sne_pro_jgytpt.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+"https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785541/nk_story_ixoa5c.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+"https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785433/vision_glfbgq.png?raw=true=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
 
 //Glenda Lee
-"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/article/feature_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
-"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/article/Glenda.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
-"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/article/glenda_pro.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
-"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/article/glenda_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
-"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/article/glenda_details.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+"https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785465/feature_cover_oqads4.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+"https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785463/Glenda_nxxpnh.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+"https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785457/glenda_pro_qw5la2.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+"https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785458/glenda_cover_guja5e.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+"https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785457/glenda_details_ixr47h.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
 //Gallery
-"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Glenda_runway.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
-"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/glenda_deco.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
-"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/glenda_fashion.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
-"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/glenda_gallery.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
-"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/glenda_close.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+"https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785504/Glenda_runway_wg7ibi.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+"https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785505/glenda_deco_bmlfeh.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+"https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785504/glenda_fashion_raxfo0.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+"https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785503/glenda_gallery_oc2ve1.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+"https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785501/glenda_close_d4enm4.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
 
 //Ads
-"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/ads/del_fono_ad.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
-"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/ads/Delfono_gall.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+"https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785602/del_fono_ad_fg6lhx.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+"https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785603/Delfono_gall_ybk1pf.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
    
 //Contents
 //"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/contents.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     //Abenathi
-"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/Abenathi_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-"https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/Abenathi.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+"https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785474/Abenathi_cover_siesjf.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+"https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785514/Abenathi_rurrei.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
 
 
      //Buhle
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/Busi_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/buhle.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-   "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Buhle_gal.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-   "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Buhle_cert.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785469/Busi_cover_r950gk.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785471/buhle_i3bgu0.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+   "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785502/Buhle_gal_hoqjdd.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+   "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785493/Buhle_cert_beiwfc.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
 
    //Bontle 
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/Bontle_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/Bontle.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Bontle_gal.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Bontle_cert.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785475/Bontle_cover_k0hvtf.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785515/Bontle_x194ik.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785506/Bontle_gal_wogro3.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785494/Bontle_cert_mj14xn.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     
     //Katlego
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/Katlego_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/Katleho.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Katlego_gal.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Katli_cert.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785475/Katlego_cover_duj6ow.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785535/Katleho_gf2dpx.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785509/Katlego_gal_i7pafk.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785498/Katli_cert_cczyv6.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     //Learnmore
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/Learnmore_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/Learnmore.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/learnmore_gall.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Learnmore_cert.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785478/Learnmore_cover_d5ovr3.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785461/Learnmore_qp7jpu.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785510/learnmore_gall_qkcg5l.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785478/Learnmore_cover_d5ovr3.png??auto=compress&cs=tinysrgb&dpr=1&w=1500",
     //Lebohang
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/Lebohang_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
-   "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/Lebohang.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-   "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Lebo_gall.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-   "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Lebo_cert.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785476/Lebohang_cover_hpisia.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+   "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785519/Lebohang_ohsusk.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+   "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785508/Lebo_gall_wltquc.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+   "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785496/Lebo_cert_ccvml3.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     //Lerato
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/Lerato_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/Lerato.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Lerato_gallery.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Lerato_cert.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785470/Lerato_cover_ol2ci7.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785538/Lerato_puv3xt.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785506/Lerato_gallery_tmsets.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785470/Lerato_cover_ol2ci7.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
    
     // Matete
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/Matete_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/Matete.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785468/Matete_cover_xodeab.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785537/Matete_qjlzjv.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
    
    //Melrose
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/Melrose_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=100",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/Kanegelo.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Melrose_Galley.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Merose_cert.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785473/Melrose_cover_grtcad.png?auto=compress&cs=tinysrgb&dpr=1&w=100",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785464/Kanegelo_n3ad71.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785501/Melrose_Galley_hwzigq.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785499/Merose_cert_nodvcl.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     
     //Nwabisa
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/Nwabisa_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=100",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/Nwabisa.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500", 
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Nwabisa_gallery.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Nwabisa_cert.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785472/Nwabisa_cover_wvpxzh.png?auto=compress&cs=tinysrgb&dpr=1&w=100",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785462/Nwabisa_nc22tp.png?auto=compress&cs=tinysrgb&dpr=1&w=1500", 
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785497/Nwabisa_gallery_advzri.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785492/Nwabisa_cert_q5xzug.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     
     //Oratile
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/Oratile_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/Oratile.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785474/Oratile_cover_mfmmzi.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785458/Oratile_grrk96.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     
    
    //Phillip
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/Phillip_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/Phillip.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785473/Phillip_cover_bwkvnl.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785520/Phillip_c312aq.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     
      //Sthembele
-     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/Sthe_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
-     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/Sthe.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Sthe_gallery.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Sthe_cert.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+     "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785479/Sthe_cover_a3yan8.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+     "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785541/Sthe_zxjon2.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+     "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785509/Sthe_gallery_oys2ns.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+     "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785479/Sthe_cover_a3yan8.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
 
       //Tshiamo
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/covers/Tshiamo_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/Tshiamo.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Tshiamo_gal.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/gallery/Tshiamo_cert.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785479/Tshiamo_cover_wl4m8v.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785523/Tshiamo_swjujm.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785503/Tshiamo_gal_q1uqsa.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785499/Tshiamo_cert_t4f0jr.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
 
    //Music cover
-   "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/wallpaper/music_cover.png?raw=true=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+   "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785432/music_cover_hszxrx.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
    //Bonolo Coverage
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/article/Bonolo_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/article/bonolo_bio.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
-   "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/article/bonolo_credits.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746784801/Bonolo_cover_krimld.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746784800/bonolo_bio_zc8grj.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+   "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746784800/bonolo_credits_kj8dyf.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
 
     
    
     //True Crime Drama
-     "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/wallpaper/section.png?raw=true=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/Acrimony_intro.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/Acrimony_art.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/fashionrunway/modellers/Acrimony_closure.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+     "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785431/section_womkvn.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785514/Acrimony_intro_fcuegj.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785513/Acrimony_art_ku4nbp.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785540/Acrimony_closure_l75nvi.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
     
     
    //Politics
    //Trump and Economic war
-   "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/articles/economic_wars/Trump1.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
-   "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/articles/economic_wars/Trump2.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
-   "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/articles/economic_wars/Trump3.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+   "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746798011/Trump1_quofbp.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+   "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746798010/Trump2_mqqlrx.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
+   "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746798010/Trump3_urmvq2.png?auto=compress&cs=tinysrgb&dpr=1&w=1506",
 
     //King Davon
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/disclaimer.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/king_devon.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/storymode/devon_closure.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785553/disclaimer_jx0n37.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785545/king_devon_rqnlgs.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785545/devon_closure_qu05jd.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
 
     //Wildilife
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/wildlife/Anting_cover.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/wildlife/Anting_desc.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
-    "https://github.com/TommyTeaVee/ImpiloV2/blob/2025-digital/src/content/wildlife/Anting_close.png?raw=true?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785556/Anting_cover_zmvjqe.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785556/Anting_desc_muvyti.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
+    "https://res.cloudinary.com/dh0q0prhy/image/upload/v1746785555/Anting_close_r3iass.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
   ];
