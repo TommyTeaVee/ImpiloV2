@@ -82,8 +82,9 @@ export function Article()
 					<p>{language["whats_it"]}</p>
 					<p className="uk-text-center">
                    
-<video src="https://drive.google.com/uc?id=18Rx3vhwwe2NsHa6Zx-amdXr-pjtJ2umu"
- width="400" loop muted playsinline uk-video="autoplay: inview">
+
+<video src="Pellesi.mp4"
+ width="400" loop  playsinline uk-video="autoplay: inview">
 	
  </video>
 					</p>

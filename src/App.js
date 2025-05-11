@@ -104,22 +104,97 @@ class DemoBook extends React.Component {
           {pages.map((page, index) => (
             <Page key={index} className="page" number={index}>
               <img src={page} alt="" className="page-image" />
-              <div class="container">
-    <div>
-        <button type="button" className="btn-prev">Previous page</button>
-        [<span class="page-current">1</span> of <span class="page-total">-</span>]
-        <button type="button" className="btn-next">Next page</button>
-    </div>
-
-    <div>
-        State: <i class="page-state">read</i>, orientation: <i class="page-orientation">landscape</i>
-    </div>
-</div>
+        
             </Page>
           ))}
           
-<PageCover className="page-cover">
-</PageCover>
+ {/*  <div className="page">
+    <Sample></Sample>
+  </div>
+  <div className="page">
+    <Formats></Formats>
+  </div>
+<div className="page" >
+<Salizwa></Salizwa>
+</div> 
+<div className="page">
+<SalizwaBG></SalizwaBG>
+</div>
+{/* <div className="page" >
+<Article></Article>
+</div> */}
+
+<div className="page">
+
+ <video
+  controls autoplay loop  playsinline uk-cover video-port
+  src="Pellesi.mp4"
+/> 
+
+<div className="page">
+  <video controls autoplay loop playsinline uk-cover video-port
+  src="Pellesi.mp4"
+  />
+</div>
+<div className="page">
+  <video controls autoplay loop playsinline uk-cover video-port
+  src="Pellesi.mp4"
+  />
+</div>
+<div className="page">
+  <video controls autoplay loop playsinline uk-cover video-port
+  src="Pellesi.mp4"
+  />
+</div>
+
+</div>
+<div className="page">
+    <Article></Article>
+  </div>
+<div className="page">
+  <video controls autoplay loop playsinline uk-cover video-port
+  src="Pellesi.mp4"
+  />
+</div>
+
+{/*
+<div className=" page">
+           
+  <Lulu></Lulu>
+</div>
+ <div className="page">
+  <Nako></Nako>
+</div>
+<div className="page">
+  <Sibongile></Sibongile>
+</div>
+<div className="page">
+  <Ano></Ano>
+</div>
+<div className="page">
+  <Nako></Nako>
+</div>
+<div className="page">
+  <Sihle></Sihle>
+</div>
+<div className="page">
+  <Siyamthanda></Siyamthanda>
+</div>
+<div className="page">
+  <Tandile></Tandile>
+</div>
+<div className="page">
+  <Yona></Yona>
+</div>  */}
+<div className="page">
+{articles.map((articles, index) => (
+            <Page key={index} className="page" number={index}>
+              <img src={articles} alt="" className="page-image" />
+        
+            </Page>
+          ))}
+</div>
+
   </HTMLFlipBook >
       </div>
     
