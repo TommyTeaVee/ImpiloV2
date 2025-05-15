@@ -83,7 +83,7 @@ export function Article()
 					<p className="uk-text-center">
                    
 
-<video src="Pellesi.mp4"
+<video src="videos/Pellesi.mp4"
  width="400" loop  playsinline uk-video="autoplay: inview">
 	
  </video>

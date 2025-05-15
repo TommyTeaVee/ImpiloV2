@@ -17,7 +17,7 @@ import { Timna } from "./content/dynamic/modelers/Timna";
 import { Yona } from "././content/dynamic/modelers/Yona"
 import { Sample } from "./content/articles/Sample";
 import { Formats } from "./content/articles/Formats"
-
+import  articles from  "./contents"
 
 import "./app.scss";
 import { pages } from "./pages";
@@ -117,33 +117,32 @@ class DemoBook extends React.Component {
 <div className="page" >
 <Salizwa></Salizwa>
 </div> 
-<div className="page">
+{/*<div className="page">
 <SalizwaBG></SalizwaBG>
 </div>
-{/* <div className="page" >
-<Article></Article>
-</div> */}
+  */}
+  
 
 <div className="page">
 
  <video
   controls autoplay loop  playsinline uk-cover video-port
-  src="Pellesi.mp4"
+  src="videos/fashion.mp4"
 /> 
 
 <div className="page">
   <video controls autoplay loop playsinline uk-cover video-port
-  src="Pellesi.mp4"
+  src="videos/Model_pose.mp4"
   />
 </div>
 <div className="page">
   <video controls autoplay loop playsinline uk-cover video-port
-  src="Pellesi.mp4"
+  src="videos/cast.mp4"
   />
 </div>
 <div className="page">
   <video controls autoplay loop playsinline uk-cover video-port
-  src="Pellesi.mp4"
+  src="videos/fashion_cast.mp4"
   />
 </div>
 
@@ -153,7 +152,7 @@ class DemoBook extends React.Component {
   </div>
 <div className="page">
   <video controls autoplay loop playsinline uk-cover video-port
-  src="Pellesi.mp4"
+  src="videos/Fashion-Runway_Set.mp4"
   />
 </div>
 
