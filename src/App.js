@@ -2,25 +2,18 @@ import React from "react";
 import HTMLFlipBook from "react-pageflip";
 import ReactPlayer from "react-player";
 import { Article } from "./Article";
-import { Salizwa } from "./content/dynamic/intros/Saliswa";
+import  articles from  "./contents";
+import {Sample} from "./content/articles/Sample";
+import {Formats} from "./content/articles/Formats"
+import { Salizwa} from "./content/dynamic/intros/Saliswa";
 import { SalizwaBG } from "./content/dynamic/intros/SalizwaBG";
+import { Ano } from "./content/dynamic/modelers/Ano";
 import { Lulu } from "./content/dynamic/modelers/Lulu";
 import { Nako } from "./content/dynamic/modelers/Nako";
-import { Ano } from "./content/dynamic/modelers/Ano";
-import { Sibongile } from "./content/dynamic/modelers/Sibongile";
-import { Sihle } from "./content/dynamic/modelers/Sihle";
-import { SihleCwa } from "./content/dynamic/modelers/Sihlecwa";
-import { Siyamthanda } from "./content/dynamic/modelers/Siyamthanda";
-import { Tandile }from "./content/dynamic/modelers//Tandile";
-import { Thandiwe } from "././content/dynamic/modelers/Thandiwe";
-import { Timna } from "./content/dynamic/modelers/Timna";
-import { Yona } from "././content/dynamic/modelers/Yona"
-import { Sample } from "./content/articles/Sample";
-import { Formats } from "./content/articles/Formats"
-import  articles from  "./contents"
-
+import {Sibongile} from "./content/dynamic/modelers/Sibongile"
 import "./app.scss";
 import { pages } from "./pages";
+
 
 const PageCover = React.forwardRef((props, ref) => {
   return (
@@ -101,26 +94,37 @@ class DemoBook extends React.Component {
             
             
             
-          {pages.map((page, index) => (
+         {/*  {pages.map((page, index) => (
             <Page key={index} className="page" number={index}>
               <img src={page} alt="" className="page-image" />
         
             </Page>
-          ))}
-          
- {/*  <div className="page">
+          ))} */}
+     <div className="page">
+    <Formats></Formats>
+  </div>  
+  <div className="page">
     <Sample></Sample>
+  </div>   
+   <div className="page">
+    <Ano></Ano>
   </div>
   <div className="page">
-    <Formats></Formats>
+    <Lulu></Lulu>
+  </div>
+  <div className="page">
+    <Nako></Nako>
+  </div>
+  <div className="page">
+    <Sibongile></Sibongile>
   </div>
 <div className="page" >
 <Salizwa></Salizwa>
 </div> 
-{/*<div className="page">
+<div className="page">
 <SalizwaBG></SalizwaBG>
 </div>
-  */}
+  
   
 
 <div className="page">
