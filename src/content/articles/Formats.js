@@ -1,10 +1,11 @@
 import { React } from 'react';
 
 export function Formats() {
+    
 
     return (
-        <>
-        <article className="uk-article">
+
+    <article className="uk-article" style={{ overflowY: 'auto', maxHeight: '200vh' }}>
       
 <div className="uk-padding" data-uk-grid="">
     <div>
@@ -120,9 +121,8 @@ export function Formats() {
     </div>
 </div>
 
-        </article>
+    </article>
         
-        </>
     );
     
 }

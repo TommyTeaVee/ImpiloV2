@@ -108,4 +108,27 @@
     top: 0;
     left: 0;
   }
+  // Global Styles for full-height layout and scrollable app
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Didot', sans-serif; // You can customize this
+}
+
+.app-container {
+  height: 100%;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch; // Smooth scrolling on iOS
+  background: #fff; // Optional background color
+  padding: 1rem;
+
+  // Optional responsive helpers (if you want to use breakpoints)
+  @media (max-width: 768px) {
+    padding: 0.5rem;
+  }
+}
+
 }

@@ -6,7 +6,7 @@ export function Salizwa (){
 return (
 
 
-<>
+ <article className="uk-article" style={{ overflowY: 'auto', maxHeight: '200vh' }}>
 <div uk-grid-small uk-grid-divide uk-align-center >
 <div class="uk-h3">Salizwa Album</div>
 
@@ -60,6 +60,6 @@ return (
 														</div>
 </div>
 </div>
-</>
+</article>
 )
 }

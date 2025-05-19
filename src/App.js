@@ -9,7 +9,7 @@ import { Salizwa} from "./content/dynamic/intros/Saliswa";
 import { SalizwaBG } from "./content/dynamic/intros/SalizwaBG";
 import { Ano } from "./content/dynamic/modelers/Ano";
 import { Lulu } from "./content/dynamic/modelers/Lulu";
-import { Nako } from "./content/dynamic/modelers/Nako";
+import { Tommy } from "./content/dynamic/modelers/Tommy";
 import {Sibongile} from "./content/dynamic/modelers/Sibongile"
 import "./app.scss";
 import { pages } from "./pages";
@@ -73,14 +73,15 @@ class DemoBook extends React.Component {
 
   render() {
     return (
-      <div>
+    
+      <div className="app-container">
         <HTMLFlipBook
           width={550}
           height={970}
           minWidth={315}
           max-width={'800vh'}
           minHeight={'100vh'}
-          maxHeight={'100vh'}
+          maxHeight={'150vh'}
           size="stretch"
           maxShadowOpacity={0.5}
           showCover={true}
@@ -113,7 +114,7 @@ class DemoBook extends React.Component {
     <Lulu></Lulu>
   </div>
   <div className="page">
-    <Nako></Nako>
+    <Tommy></Tommy>
   </div>
   <div className="page">
     <Sibongile></Sibongile>
@@ -166,7 +167,7 @@ class DemoBook extends React.Component {
   <Lulu></Lulu>
 </div>
  <div className="page">
-  <Nako></Nako>
+  <Tommy></Tommy>
 </div>
 <div className="page">
   <Sibongile></Sibongile>
@@ -175,7 +176,7 @@ class DemoBook extends React.Component {
   <Ano></Ano>
 </div>
 <div className="page">
-  <Nako></Nako>
+  <Tommy></Tommy>
 </div>
 <div className="page">
   <Sihle></Sihle>
@@ -200,7 +201,7 @@ class DemoBook extends React.Component {
 
   </HTMLFlipBook >
       </div>
-    
+
     );
   }
 }
