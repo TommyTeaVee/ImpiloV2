@@ -4,7 +4,9 @@
   display: none;
   background-size: cover;
 }
-
+ h1, h2, h3, h4{
+  font-family:'Didot';
+ }
 .page {
   margin: 1cm auto;
   height: 100vh;
@@ -115,7 +117,8 @@ html, body, #root {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  font-family: 'Didot', sans-serif; // You can customize this
+ 
+  font-family: 'Didot', 'Bodoni MT', 'Playfair Display', serif; 
 }
 
 .app-container {
@@ -129,6 +132,102 @@ html, body, #root {
   @media (max-width: 768px) {
     padding: 0.5rem;
   }
+  .article-header {
+    text-align: center;
+    margin-bottom: 2rem;
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 600;
+      line-height: 1.2;
+
+      span {
+        display: block;
+        font-size: 1.25rem;
+        margin-top: 0.5rem;
+        color: #888;
+        font-weight: normal;
+      }
+    }
+  }
+
+  .video-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+    .portrait-video {
+      width: auto;
+      height: 600px; // Adjust for portrait ratio
+      max-width: 100%;
+      border-radius: 1rem;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    }
+  }
+
+  .article-body {
+    text-align: justify;
+    font-size: 1.1rem;
+    line-height: 1.75;
+    color: #333;
+
+    p {
+      margin-bottom: 1.5rem;
+    }
+  }
+}
+}
+.welcome-article {
+  font-family: 'Didot', 'Playfair Display', serif;
+  padding: 3rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+
+  .article-header {
+    text-align: center;
+    margin-bottom: 2rem;
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 600;
+      line-height: 1.2;
+
+      span {
+        display: block;
+        font-size: 1.25rem;
+        margin-top: 0.5rem;
+        color: #888;
+        font-weight: normal;
+      }
+    }
+  }
+
+  .video-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+    .portrait-video {
+      width: auto;
+      height: 600px; // Adjust for portrait ratio
+      max-width: 100%;
+      border-radius: 1rem;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    }
+  }
+
+  .article-body {
+    text-align: justify;
+    font-size: 1.1rem;
+    line-height: 1.75;
+    color: #333;
+
+    p {
+      margin-bottom: 1.5rem;
+    }
+  }
 }
 
-}
+
+

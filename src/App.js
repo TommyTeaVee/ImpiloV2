@@ -3,16 +3,18 @@ import HTMLFlipBook from "react-pageflip";
 import ReactPlayer from "react-player";
 import { Article } from "./Article";
 import  articles from  "./contents";
-import {Sample} from "./content/articles/Sample";
+import {Editor} from "./content/dynamic/intros/Editor"
+
 import {Formats} from "./content/articles/Formats"
 import { Salizwa} from "./content/dynamic/intros/Saliswa";
 import { SalizwaBG } from "./content/dynamic/intros/SalizwaBG";
-import { Ano } from "./content/dynamic/modelers/Ano";
+import { ModelFeature } from "./content/dynamic/modelers/ModelFeature";
 import { Lulu } from "./content/dynamic/modelers/Lulu";
 import { Tommy } from "./content/dynamic/modelers/Tommy";
 import {Sibongile} from "./content/dynamic/modelers/Sibongile"
 import "./app.scss";
 import { pages } from "./pages";
+import { WelcomeArticle } from "./content/dynamic/intros/WelcomeArticle";
 
 
 const PageCover = React.forwardRef((props, ref) => {
@@ -105,13 +107,13 @@ class DemoBook extends React.Component {
     <Formats></Formats>
   </div>  
   <div className="page">
-    <Sample></Sample>
+    <WelcomeArticle/>
   </div>   
    <div className="page">
-    <Ano></Ano>
+    <ModelFeature></ModelFeature>
   </div>
   <div className="page">
-    <Lulu></Lulu>
+    <Editor></Editor>
   </div>
   <div className="page">
     <Tommy></Tommy>
@@ -132,12 +134,12 @@ class DemoBook extends React.Component {
 
  <video
   controls autoplay loop  playsinline uk-cover video-port
-  src="videos/fashion.mp4"
+  src="d16o5gtkyqkgf2.cloudfront.net/fashion.mp4"
 /> 
 
 <div className="page">
   <video controls autoplay loop playsinline uk-cover video-port
-  src="videos/Model_pose.mp4"
+  src="d16o5gtkyqkgf2.cloudfront.net/Model_pose.mp4"
   />
 </div>
 <div className="page">
@@ -173,7 +175,7 @@ class DemoBook extends React.Component {
   <Sibongile></Sibongile>
 </div>
 <div className="page">
-  <Ano></Ano>
+  <ModelFeature></ModelFeature>
 </div>
 <div className="page">
   <Tommy></Tommy>

@@ -83,7 +83,7 @@ export function Article()
 					<p className="uk-text-center">
                    
 
-<video src="videos/Pellesi.mp4"
+<video src="https://d16o5gtkyqkgf2.cloudfront.net/Pellesi.mp4"
  width="400" loop  playsinline uk-video="autoplay: inview">
 	
  </video>

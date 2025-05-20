@@ -5,7 +5,8 @@ export function Tommy() {
   const content = contents[0];
 
   return (
-    <article className="uk-article" style={{ overflowY: 'auto', maxHeight: '150vh' }}>
+  
+    <article className="uk-article" style={{ overflowY: 'auto', maxHeight: '100vh' }}>
       <div className="uk-container uk-margin-large-top">
         <div className="uk-grid-large uk-child-width-1-1@m uk-grid-match" data-uk-grid>
           {/* Left Column */}
@@ -26,7 +27,7 @@ export function Tommy() {
             {/* Video Section */}
             <div className="uk-margin-medium-top">
               <video width="100%" controls loop playsInline data-uk-video="autoplay: inview">
-                <source src="videos/Intro-bio3.mp4" type="video/mp4" />
+                <source src="https://d16o5gtkyqkgf2.cloudfront.net/Intro-bio.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
               <div className="uk-card uk-card-default uk-card-small uk-margin-top">
