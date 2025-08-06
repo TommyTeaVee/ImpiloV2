@@ -97,15 +97,11 @@ class DemoBook extends React.Component {
             
             
             
-         {/*  {pages.map((page, index) => (
-            <Page key={index} className="page" number={index}>
-              <img src={page} alt="" className="page-image" />
-        
-            </Page>
-          ))} */}
-     <div className="page">
-    <Formats></Formats>
-  </div>  
+          {pages.slice(0, 10).map((page, index) => (
+  <Page key={index} className="page" number={index}>
+    <img src={page} alt={`Page ${index + 1}`} className="page-image" />
+  </Page>
+))}
   <div className="page">
     <WelcomeArticle/>
   </div>   
@@ -127,7 +123,11 @@ class DemoBook extends React.Component {
 <div className="page">
 <SalizwaBG></SalizwaBG>
 </div>
-  
+  {pages.slice(17).map((page, index) => (
+  <Page key={index + 17} className="page" number={index + 17}>
+    <img src={page} alt={`Page ${index + 18}`} className="page-image" />
+  </Page>
+))}
   
 
 <div className="page">
