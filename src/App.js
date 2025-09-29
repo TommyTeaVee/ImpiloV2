@@ -4,7 +4,8 @@ import ReactPlayer from "react-player";
 import { Article } from "./Article";
 import  articles from  "./contents";
 import {Editor} from "./content/dynamic/intros/Editor"
-
+import { Sample } from "./content/articles/Sample";
+import {PodcastShowcase} from "./content/articles/PodcastShowcase";
 import {Formats} from "./content/articles/Formats"
 import { Salizwa} from "./content/dynamic/intros/Saliswa";
 import { SalizwaBG } from "./content/dynamic/intros/SalizwaBG";
