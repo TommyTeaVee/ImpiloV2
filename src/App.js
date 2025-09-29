@@ -97,11 +97,16 @@ class DemoBook extends React.Component {
             
             
             
-          {pages.slice(0, 10).map((page, index) => (
-  <Page key={index} className="page" number={index}>
-    <img src={page} alt={`Page ${index + 1}`} className="page-image" />
-  </Page>
-))}
+         {/*  {pages.map((page, index) => (
+            <Page key={index} className="page" number={index}>
+              <img src={page} alt="" className="page-image" />
+        
+            </Page>
+          ))} */}
+     <div className="page">
+    <Formats></Formats>
+  </div>  
+  <div className="page"><Sample></Sample></div>
   <div className="page">
     <WelcomeArticle/>
   </div>   
@@ -113,85 +118,14 @@ class DemoBook extends React.Component {
   </div>
   <div className="page">
     <Tommy></Tommy>
-  </div>
-  <div className="page">
-    <Sibongile></Sibongile>
-  </div>
-<div className="page" >
-<Salizwa></Salizwa>
-</div> 
+  </div> 
 <div className="page">
-<SalizwaBG></SalizwaBG>
-</div>
-  {pages.slice(17).map((page, index) => (
-  <Page key={index + 17} className="page" number={index + 17}>
-    <img src={page} alt={`Page ${index + 18}`} className="page-image" />
-  </Page>
-))}
-  
-
-<div className="page">
-
- <video
-  controls autoplay loop  playsinline uk-cover video-port
-  src="d16o5gtkyqkgf2.cloudfront.net/fashion.mp4"
-/> 
-
-<div className="page">
-  <video controls autoplay loop playsinline uk-cover video-port
-  src="d16o5gtkyqkgf2.cloudfront.net/Model_pose.mp4"
-  />
-</div>
-<div className="page">
-  <video controls autoplay loop playsinline uk-cover video-port
-  src="videos/cast.mp4"
-  />
-</div>
-<div className="page">
-  <video controls autoplay loop playsinline uk-cover video-port
-  src="videos/fashion_cast.mp4"
-  />
+  <PodcastShowcase/>
 </div>
 
-</div>
 <div className="page">
     <Article></Article>
-  </div>
-<div className="page">
-  <video controls autoplay loop playsinline uk-cover video-port
-  src="videos/Fashion-Runway_Set.mp4"
-  />
 </div>
-
-{/*
-<div className=" page">
-           
-  <Lulu></Lulu>
-</div>
- <div className="page">
-  <Tommy></Tommy>
-</div>
-<div className="page">
-  <Sibongile></Sibongile>
-</div>
-<div className="page">
-  <ModelFeature></ModelFeature>
-</div>
-<div className="page">
-  <Tommy></Tommy>
-</div>
-<div className="page">
-  <Sihle></Sihle>
-</div>
-<div className="page">
-  <Siyamthanda></Siyamthanda>
-</div>
-<div className="page">
-  <Tandile></Tandile>
-</div>
-<div className="page">
-  <Yona></Yona>
-</div>  */}
 <div className="page">
 {articles.map((articles, index) => (
             <Page key={index} className="page" number={index}>

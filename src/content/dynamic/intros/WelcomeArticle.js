@@ -10,7 +10,7 @@ export function WelcomeArticle() {
       <div className="video-section">
         <video
           className="portrait-video"
-          src="https://d16o5gtkyqkgf2.cloudfront.net/insta_heartbeat.mp4"
+          src="https://d16o5gtkyqkgf2.cloudfront.net/mel_gallery.mp4"
           controls
           playsInline
         >

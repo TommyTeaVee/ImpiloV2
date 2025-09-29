@@ -33,7 +33,7 @@ export function  ModelFeature() {
 
           {/* Landscape Image */}
           <img 
-            src="https://via.placeholder.com/800x400" 
+            src="leather.jpeg"  width={800} height={400}
             alt="Landscape 1" 
             className="uk-margin-medium-top uk-border-rounded"
           />
@@ -49,7 +49,7 @@ export function  ModelFeature() {
 
           {/* Portrait Image */}
           <img 
-            src="https://via.placeholder.com/400x600" 
+            src="leather.jpeg"  width={400} height={600}
             alt="Portrait 1" 
             className="uk-margin-medium-top uk-border-rounded"
           />
@@ -69,7 +69,7 @@ export function  ModelFeature() {
 
           {/* Landscape Image */}
           <img 
-            src="https://via.placeholder.com/800x400" 
+            src="leather.jpeg"  width={800} height={400}
             alt="Landscape 2" 
             className="uk-margin-medium-top uk-border-rounded"
           />
@@ -78,7 +78,7 @@ export function  ModelFeature() {
         <div>
           {/* Portrait Image */}
           <img 
-            src="https://via.placeholder.com/400x600" 
+            src="leather.jpeg"  width={400} height={600}
             alt="Portrait 2" 
             className="uk-border-rounded"
           />

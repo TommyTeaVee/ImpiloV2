@@ -16,26 +16,30 @@ export function Tommy() {
             </h1>
             <h2 className="uk-text-lead">Tommy V. Fihla</h2>
             <h3 className="uk-heading-line"><span>My Bio</span></h3>
-            <div class="uk-panel uk-panel-box uk-panel-box-primary">...</div>
             <div class="uk-panel uk-panel-box uk-panel-box-primary">
-            <p className="uk-text ">
+            <p className="uk-text-lead uk-margin-top uk-text-justify uk-dropcap">
               My name is Tommy V. Fihla, I am Founder and Chief Editor of Impilo Digital Magazine. I am an innovative creative.
               I enjoy creative photography, cinematography and optical illusion. One thing I like about what I do is the ability
               to connect with the audience and tell stories in an engaging and captivating way.
             </p>
 </div>
-            {/* Video Section */}
-            <div className="uk-margin-medium-top">
-              <video width="100%" controls loop playsInline data-uk-video="autoplay: inview">
-                <source src="https://d16o5gtkyqkgf2.cloudfront.net/Intro-bio.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-              <div className="uk-card uk-card-default uk-card-small uk-margin-top">
-                <div className="uk-text-center@s uk-card-body">
-                  Founder and Chief Editor
-                </div>
-              </div>
-            </div>
+ <div className="uk-position-relative uk-margin-medium-top uk-overflow-hidden">
+  {/* Video */}
+  <video width="100%" controls loop playsInline data-uk-video="autoplay: inview">
+    <source src="https://d16o5gtkyqkgf2.cloudfront.net/Intro-bio.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+
+  {/* Animated Teleticker */}
+  <div className="ticker-overlay uk-position-bottom uk-position-small uk-width-1-2">
+    <div className="uk-card uk-card-small uk-card-body uk-card-default ticker-track">
+      <div className="ticker-text">
+        Founder and Chief Editor — Welcome to Impilo Digital Magazine — Stay tuned for exclusive content
+      </div>
+    </div>
+  </div>
+</div>
+
 
             {/* Audio Section */}
             <div className="uk-margin-medium-top">

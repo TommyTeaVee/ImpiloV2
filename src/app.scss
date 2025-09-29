@@ -227,6 +227,59 @@ html, body, #root {
       margin-bottom: 1.5rem;
     }
   }
+  .uk-text-justify {
+  text-align: justify;
+}
+
+.uk-card-title {
+  font-family: 'Didot', serif;
+}
+
+.uk-text-justify {
+  text-align: justify;
+}
+
+.uk-card-title {
+  font-family: 'Didot', serif;
+}
+
+audio {
+  outline: none;
+}
+.ticker-overlay {
+  z-index: 3;
+  height: 48px;
+  font-family: 'Didot', serif;
+}
+
+.ticker-track {
+  background-color: rgba(30, 144, 255, 0.5); // Blue transparent
+  overflow: hidden;
+  border-radius: 6px;
+  white-space: nowrap;
+  position: relative;
+}
+
+.ticker-text {
+  display: inline-block;
+  white-space: nowrap;
+  padding-left: 100%;
+  animation: scrollTicker 15s linear infinite;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+@keyframes scrollTicker {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
 }
 
 

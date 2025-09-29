@@ -21,15 +21,15 @@ export function Formats() {
             <div class="uk-text-center@m uk-card-body">
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr. <code>.uk-text-center@m</code>
                <div>
-        <img src="1.png" width="50" height="50"/>
+        <img src="leather.jpeg" width="50" height="50"/>
         <span class="uk-text-top">Lorem ipsum.</span>
     </div>
     <div>
-        <img src="1.png" width="50" height="50"/>
+        <img src="leather.jpeg" width="50" height="50"/>
         <span class="uk-text-middle">Lorem ipsum.</span>
     </div>
     <div>
-        <img src="1.png" width="50" height="50"/>
+        <img src="leather.jpeg" width="50" height="50"/>
         <span class="uk-text-bottom">Lorem ipsum.</span>
     </div>
             </div>
@@ -105,7 +105,7 @@ export function Formats() {
     <div class="uk-card-header">
         <div class="uk-grid-small uk-flex-middle" uk-grid>
             <div class="uk-width-auto">
-                <img class="uk-border-circle" width="40" height="40" src="1.png" alt="Avatar"/>
+                <img class="uk-border-circle" width="80" height="80" src="leather.jpeg" alt="Avatar"/>
             </div>
             <div class="uk-width-expand">
                 <h3 class="uk-card-title uk-margin-remove-bottom">Title</h3>

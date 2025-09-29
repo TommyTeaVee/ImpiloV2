@@ -84,7 +84,7 @@ export function Article()
                    
 
 <video src="https://d16o5gtkyqkgf2.cloudfront.net/Pellesi.mp4"
- width="400" loop  playsinline uk-video="autoplay: inview">
+ width="400"  controls loop  playsinline uk-video="autoplay: inview">
 	
  </video>
 					</p>
