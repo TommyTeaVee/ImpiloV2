@@ -284,3 +284,248 @@ audio {
 
 
 
+
+.flipper-progress { position: fixed; top: 0; left: 0; width: 100%; height: 6px; background: rgba(0,0,0,0.1); z-index: 10000; }
+.flipper-bar { height: 100%; background: linear-gradient(90deg, #FCCE16, #C4A011); transition: width 0.3s; }
+.app-container {
+  padding: 1rem;
+  height: 100%;
+  background: #fff;
+  overflow-y: hidden;
+
+  .ticker-overlay {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    height: 24px;
+    z-index: 100;
+  }
+
+  .ticker-track {
+    background: rgba(36, 144, 255, 0.5);
+    overflow: hidden;
+    border-radius: 6px;
+    white-space: nowrap;
+    position: relative;
+  }
+
+  .ticker-text {
+    display: inline-block;
+    white-space: nowrap;
+    padding-left: 100%;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  .demo-book {
+    margin: 0 auto;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  }
+
+  button {
+    font-family: 'Didot', serif;
+    padding: 0.5rem 1rem;
+  }
+}
+
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background: rgba(192, 160, 17, 0.15); // faint gold
+  position: fixed;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  z-index: 999;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #ffdf00, #f7c600, #ffb700);
+  transition: width 0.5s ease-in-out;
+  position: relative;
+  border-radius: 4px;
+}
+
+/* Add sparkle animation overlay */
+.progress-fill::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -50%;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255, 255, 255, 0.6),
+    transparent
+  );
+  animation: shimmer 2.5s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    left: -50%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+.page-counter {
+  position: fixed;
+  top: 12px;
+  right: 20px;
+  padding: 6px 14px;
+  background: linear-gradient(90deg, #ffdf00, #f7c600, #ffb700);
+  color: #222;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  border-radius: 20px;
+  box-shadow: 0 0 12px rgba(255, 215, 0, 0.6);
+  z-index: 999;
+  animation: pulse 2s infinite;
+}
+
+/* Gentle glowing effect */
+@keyframes pulse {
+  0% { box-shadow: 0 0 6px rgba(255, 215, 0, 0.5); }
+  50% { box-shadow: 0 0 14px rgba(255, 215, 0, 1); }
+  100% { box-shadow: 0 0 6px rgba(255, 215, 0, 0.5); }
+}
+
+.button-wrapper{
+position: absolute;
+  top: 165%;
+  width: 100%;
+  display: flex;
+  
+  pointer-events: none; // Allows swipe gestures to work
+  z-index: 5;
+}
+.bubble-button {
+
+  background: transparent;
+  border: 2px solid rgb(223, 193, 22);
+  color: rgb(7, 6, 2);
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  padding: 100px 22px;
+  margin: 0 10px;
+  border-radius: 50px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Hover glow */
+.bubble-button:hover {
+  background: rgba(255, 215, 0, 0.1);
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.8);
+  transform: scale(1.05);
+}
+
+/* Active click effect */
+.bubble-button:active {
+  transform: scale(0.95);
+  box-shadow: 0 0 12px rgba(255, 215, 0, 0.6);
+}
+/* Hidden on desktop */
+.swipe-hint {
+  display: none;
+}
+
+/* Show only on mobile */
+@media (max-width: 768px) {
+  .swipe-hint {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+
+  .swipe-hand {
+    font-size: 28px;
+    color: gold;
+    animation: handSwipe 2s infinite;
+  }
+}
+
+/* Animations */
+@keyframes handSwipe {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-15px) rotate(-10deg); }
+  50% { transform: translateX(15px) rotate(10deg); }
+  75% { transform: translateX(-15px) rotate(-10deg); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+.swipe-indicator {
+  position: absolute;
+  bottom: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+
+  .swipe-track {
+    width: 120px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 10px;
+    overflow: hidden;
+  }
+
+  .swipe-thumb {
+    display: flex;
+    align-items: center;
+    animation: swipeAnim 1s infinite alternate;
+  }
+
+  .hand { font-size: 1.5rem; margin-right: 5px; }
+  .arrow { font-size: 1.2rem; }
+
+  .swipe-text {
+    text-align: center;
+    margin-top: 0.5rem;
+    color: #fff;
+    font-weight: bold;
+  }
+}
+
+@keyframes swipeAnim {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(50px); }
+}
+
+@keyframes swipeAnim {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(50px); } // moves thumb
+}
+
+
+@keyframes swipe-thumb {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(15px); }
+}
