@@ -22,7 +22,7 @@ import Page4Lessons from "./components/articles/iplaw/Page4Lessons";
 import Page5Conclusion from "./components/articles/iplaw/Page5Conclusion";
 import BrandPower from "./components/articles/brandpower/BrandPower";
 import DigitalInnovation from "./components/articles/brandpower/DigitalInnovation";
-
+import InnovativeMindset from "./content/articles/InnovativeMindset";
 
 const PageCover = React.forwardRef((props, ref) => (
   <div className="page page-cover" ref={ref} data-density="hard">
@@ -170,6 +170,7 @@ prevPage = () => {
           <Page number={10}><IPArticleMagazine /></Page>*/}
           <Page number={8}><BrandPower /></Page>
            <Page number={9}><DigitalInnovation /></Page>
+           <Page number={10}><InnovativeMindset /></Page>
           <Page number={11}><RunwayModel /></Page>
           <Page number={12}><Page1Intros /></Page>
           <Page number={13}><Page2LawContext /></Page>
