@@ -529,3 +529,161 @@ position: absolute;
   0% { transform: translateX(0); }
   100% { transform: translateX(15px); }
 }
+/* Magazine container */
+.article-container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  font-family: 'Georgia', serif;
+  line-height: 1.8;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+}
+
+/* Titles */
+.article-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+}
+
+.article-subtitle {
+  font-size: 1.3rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.lead {
+  font-size: 1.3rem;
+  font-style: italic;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+/* Divider */
+.divider {
+  border-top: 2px solid #e0e0e0;
+  margin: 2rem 0;
+}
+
+/* Blockquote */
+.blockquote {
+  border-left: 6px solid #007BFF;
+  padding-left: 1.2rem;
+  font-style: italic;
+  color: #555;
+  margin: 1.5rem 0;
+}
+
+/* Two-column text with image layouts */
+.grid-two {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.grid-two img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+/* Side-by-side stories */
+.story-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin: 2rem 0;
+}
+
+/* Floating images within text */
+.float-left {
+  float: left;
+  margin-right: 1.5rem;
+  width: 40%;
+  border-radius: 12px;
+  box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+}
+
+.float-right {
+  float: right;
+  margin-left: 1.5rem;
+  width: 40%;
+  border-radius: 12px;
+  box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+}
+
+/* Callouts */
+.callout {
+  background-color: #e8f0fe;
+  border-left: 6px solid #007BFF;
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 6px;
+  font-style: italic;
+}
+
+/* Tables */
+.article-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+}
+
+.article-table th, .article-table td {
+  border: 1px solid #ccc;
+  padding: 0.8rem 1rem;
+}
+
+.article-table th {
+  background-color: #f4f4f4;
+}
+
+/* Lists */
+.article-list {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin: 1rem 0;
+}
+
+/* Pagination buttons */
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.page-button {
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+}
+
+.page-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.page-meta {
+  text-align: center;
+  margin-top: 0.5rem;
+  color: #777;
+}
+
+/* Responsive */
+@media screen and (max-width: 900px) {
+  .grid-two, .story-grid {
+    grid-template-columns: 1fr;
+  }
+  .float-left, .float-right {
+    float: none;
+    width: 100%;
+    margin: 1rem 0;
+  }
+}

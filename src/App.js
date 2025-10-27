@@ -10,6 +10,19 @@ import { Tommy } from "./content/dynamic/modelers/Tommy";
 import { PodcastShowcase } from "./content/articles/PodcastShowcase";
 import "./app.scss";
 import { pages } from "./pages";
+import IPArticleMagazine from "./components/articles/legality/IPArticleMagazine"
+import Page1Intro from "./components/articles/legality/Page1Intro";
+import Page2Stories from "./components/articles/legality/Page2Stories";
+import Page3IPandPractice from "./components/articles/legality/Page3IPandPractice";
+import Page4Conclusion from "./components/articles/legality/Page4Conclusion";
+import Page1Intros from "./components/articles/iplaw/Page1Intros";
+import Page2LawContext from "./components/articles/iplaw/Page2LawContext";
+import Page3MakateCase from "./components/articles/iplaw/Page3MakateCase";
+import Page4Lessons from "./components/articles/iplaw/Page4Lessons";
+import Page5Conclusion from "./components/articles/iplaw/Page5Conclusion";
+import BrandPower from "./components/articles/brandpower/BrandPower";
+import DigitalInnovation from "./components/articles/brandpower/DigitalInnovation";
+
 
 const PageCover = React.forwardRef((props, ref) => (
   <div className="page page-cover" ref={ref} data-density="hard">
@@ -151,18 +164,27 @@ prevPage = () => {
             </Page>
           ))}
 
-          {/* Dynamic content pages */}
-          <Page number={10}><WelcomeArticle /></Page>
+
+          {/* <Page number={10} ><WelcomeArticle /></Page> 
+          
+          <Page number={10}><IPArticleMagazine /></Page>*/}
+          <Page number={8}><BrandPower /></Page>
+           <Page number={9}><DigitalInnovation /></Page>
           <Page number={11}><RunwayModel /></Page>
-          <Page number={12}><PartsModel /></Page>
-          <Page number={13}><FitnessModel /></Page>
-          <Page number={14}><ModelFeature /></Page>
-          <Page number={15}><EditorialModel /></Page>
-          <Page number={16}><AdModel /></Page>
-          <Page number={17}><Editor /></Page>
-          <Page number={18}><Tommy /></Page>
-          <Page number={19}><PodcastShowcase /></Page>
-          <Page number={20}><Article /></Page>
+          <Page number={12}><Page1Intros /></Page>
+          <Page number={13}><Page2LawContext /></Page>
+          <Page number={14}><Page3MakateCase/></Page>
+          <Page number={15}><Page4Lessons/></Page>
+          <Page number={16}><Page5Conclusion/></Page>
+          <Page number={17}><PartsModel /></Page>
+          <Page number={18}><FitnessModel /></Page>
+          <Page number={19}><ModelFeature /></Page>
+          <Page number={20}><EditorialModel /></Page>
+          <Page number={21}><AdModel /></Page>
+          <Page number={22}><Editor /></Page>
+          <Page number={23}><Tommy /></Page>
+          <Page number={24}><PodcastShowcase /></Page>
+          <Page number={25}><Article /></Page>
 
           {/* Remaining static pages */}
           {pages.slice(17).map((p, i) => (
