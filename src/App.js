@@ -1,9 +1,16 @@
+// App.jsx
 import React from "react";
 import HTMLFlipBook from "react-pageflip";
 import { Article } from "./Article";
 import articles from "./contents";
 import { Editor } from "./content/dynamic/intros/Editor";
-import { RunwayModel, PartsModel, EditorialModel, FitnessModel, AdModel } from "./content/fashionrunway/modellers/Models";
+import {
+  RunwayModel,
+  PartsModel,
+  EditorialModel,
+  FitnessModel,
+  AdModel,
+} from "./content/fashionrunway/modellers/Models";
 import { ModelFeature } from "./content/dynamic/modelers/ModelFeature";
 import { Tommy } from "./content/dynamic/modelers/Tommy";
 import { PodcastShowcase } from "./content/articles/PodcastShowcase";
@@ -20,9 +27,10 @@ import InnovativeMindset from "./content/articles/InnovativeMindset";
 import BalenciagaIntro from "./components/articles/brandpower/balenciaga/Balenciaga";
 import BalenciagaSpread from "./components/articles/brandpower/balenciaga/BalenciagaSpread";
 import MomentumReturn from "./components/economy/Momentum";
+import { Sample } from "./content/articles/Sample";
 
 const PageCover = React.forwardRef((props, ref) => (
-  <div className="page page-cover" ref={ref} data-density="hard">
+  <div className="page page-cover hard" ref={ref} data-density="hard">
     <div className="page-content">
       <h2>{props.children}</h2>
     </div>
@@ -45,137 +53,122 @@ class DemoBook extends React.Component {
     this.state = {
       page: 0,
       totalPage: 0,
-       canFlip: true, 
+      canFlip: true,
+      showSwipe: true,
     };
   }
-  onPage = (e) => {
-    this.setState({ page: e.data });
-     this.hideSwipeTemporarily();
-
-  };
-
 
   componentDidMount() {
+    if (!this.flipBook.current) return;
     const total = this.flipBook.current.getPageFlip().getPageCount();
     this.setState({ totalPage: total });
-    this.hideSwipeTemporarily(); 
+    this.hideSwipeTemporarily();
   }
 
- sleepSwipe = () => {
-  this.setState({ showSwipe: false });
-  setTimeout(() => {
-    this.setState({ showSwipe: true });
-  }, 300000); // 30 sec
-}
-hideSwipeTemporarily = () => {
-  this.setState({ showSwipe: false });
-  setTimeout(() => {
-    this.setState({ showSwipe: true });
-  }, 3000); // 3 seconds
-}
-nextPage = () => {
-  this.flipBook.current.getPageFlip().flipNext();
-  this.sleepSwipe(); // hide swipe indicator
-}
+  hideSwipeTemporarily = () => {
+    this.setState({ showSwipe: false });
+    setTimeout(() => {
+      this.setState({ showSwipe: true });
+    }, 3000); // 3 seconds
+  };
 
-prevPage = () => {
-  this.flipBook.current.getPageFlip().flipPrev();
-  this.sleepSwipe(); // hide swipe indicator
-}
-  onPage = (e) => this.setState({ page: e.data });
+  sleepSwipe = () => {
+    this.setState({ showSwipe: false });
+    setTimeout(() => {
+      this.setState({ showSwipe: true });
+    }, 30000); // 30 sec
+  };
+
+  nextPage = () => {
+    if (!this.flipBook.current) return;
+    this.flipBook.current.getPageFlip().flipNext();
+    this.sleepSwipe();
+  };
+
+  prevPage = () => {
+    if (!this.flipBook.current) return;
+    this.flipBook.current.getPageFlip().flipPrev();
+    this.sleepSwipe();
+  };
+
+  onPage = (e) => {
+    this.setState({ page: e.data });
+    this.hideSwipeTemporarily();
+  };
 
   render() {
-    const { page, totalPage } = this.state;
-    const progress = ((page + 1) / totalPage) * 100;
+    const { page, totalPage, showSwipe } = this.state;
 
-    <div className="progress-bar">
-  <div
-    className="progress-fill"
-    style={{ width: `${((page + 1) / totalPage) * 100}%` }}
-  />
-</div>
     return (
-  
-        <div className="app-container">
-        {/* 🔹 GOLD PROGRESS BAR */}
+      <div className="app-container">
+        {/* TOP GOLD PROGRESS BAR */}
         <div
-  className="progress-bar"
-  onClick={(e) => {
-    if (!this.flipBook.current) return;
-    const rect = e.currentTarget.getBoundingClientRect();
-    const clickX = e.clientX - rect.left;
-    const ratio = clickX / rect.width;
-    const targetPage = Math.floor(ratio * this.state.totalPage);
-    this.flipBook.current.getPageFlip().flip(targetPage); 
-  }}
->
+          className="progress-bar"
+          onClick={(e) => {
+            if (!this.flipBook.current || !totalPage) return;
+            const rect = e.currentTarget.getBoundingClientRect();
+            const clickX = e.clientX - rect.left;
+            const ratio = clickX / rect.width;
+            const targetPage = Math.floor(ratio * totalPage);
+            this.flipBook.current.getPageFlip().flip(targetPage);
+          }}
+        >
           <div
             className="progress-fill"
             style={{
-              width: this.state.totalPage
-                ? `${((this.state.page + 1) / this.state.totalPage) * 100}%`
+              width: totalPage
+                ? `${((page + 1) / totalPage) * 100}%`
                 : "0%",
             }}
           />
         </div>
-        <div className="page-counter">
-        <span>📖 Page {page + 1} of {totalPage}</span>
-      </div>
 
-{/* Swipe indicator for mobile */}
-{this.state.showSwipe && (
-  <div className="swipe-indicator">
-    <div className="swipe-track">
-      <div className="swipe-thumb">
-        <span className="hand">🤚</span>
-        <span className="arrow">➡️</span>
-      </div>
-    </div>
-    <p className="swipe-text">Swipe to flip</p>
-  </div>
-)}
+        {/* PAGE COUNTER PILL */}
+        <div className="page-counter">
+          <span>📖 Page {page + 1} of {totalPage || "…"}</span>
+        </div>
+
+        {/* FLIP BOOK */}
         <HTMLFlipBook
-          width={550}
-          height={1000}
+          width={400}
+          height={800}
           minWidth={315}
           minHeight={400}
-          maxWidth={800}
-          maxHeight={10000}
+          maxWidth={900}
+          maxHeight={1000}
           size="stretch"
           maxShadowOpacity={0.5}
           showCover={true}
-          mobileScrollSupport={false}
-          flipOnTouch={false}
+          mobileScrollSupport={true}   // ✅ allow vertical scroll on mobile
+          flipOnTouch={true}           // ✅ keep swipe-to-flip
           flipOnClick={false}
           onFlip={this.onPage}
           className="demo-book"
           ref={this.flipBook}
         >
-          {/* Cover pages 
-          <PageCover>Impilo Magazine</PageCover>*/}
+          {/* Example cover if you want */}
+          {/* <PageCover>Impilo Magazine</PageCover> */}
 
-          {/* Preloaded pages */}
+          {/* Preloaded static image pages */}
           {pages.slice(0, 10).map((p, i) => (
             <Page key={i} number={i}>
               <img src={p} alt={`Page ${i + 1}`} className="page-image" />
             </Page>
           ))}
 
-
-          {/* <Page number={10} ><WelcomeArticle /></Page> 
-          
-          <Page number={10}><IPArticleMagazine /></Page>*/}
+          {/* Dynamic pages */}
+          <Page number={8.0}><Sample /></Page>
           <Page number={8.1}><MomentumReturn /></Page>
           <Page number={8}><BrandPower /></Page>
-          <Page number={9}><BalenciagaIntro/></Page>
-           <Page number={9.1}><BalenciagaSpread /></Page>
-           <Page number={10}><InnovativeMindset /></Page>
+          <Page number={9}><BalenciagaIntro /></Page>
+          <Page number={9.1}><BalenciagaSpread /></Page>
+          <Page number={10}><InnovativeMindset /></Page>
           <Page number={11}><RunwayModel /></Page>
           <Page number={12}><Page1Intros /></Page>
           <Page number={13}><Page2LawContext /></Page>
-          <Page number={14}><Page3MakateCase/></Page>
-          <Page number={15}><Page4Lessons/></Page>
-          <Page number={16}><Page5Conclusion/></Page>
+          <Page number={14}><Page3MakateCase /></Page>
+          <Page number={15}><Page4Lessons /></Page>
+          <Page number={16}><Page5Conclusion /></Page>
           <Page number={17}><PartsModel /></Page>
           <Page number={18}><FitnessModel /></Page>
           <Page number={19}><ModelFeature /></Page>
@@ -193,12 +186,19 @@ prevPage = () => {
             </Page>
           ))}
         </HTMLFlipBook>
-          
-        {/* Navigation buttons */}
+
+        {/* NAV BUTTONS (pointer-events none on wrapper so swipe still works) */}
         <div className="flip-controls uk-flex uk-flex-center uk-margin-top button-wrapper">
-  <button className="bubble-button" onClick={this.prevPage}>⬅ Prev</button>
-  <button className="bubble-button" onClick={this.nextPage}>Next ➡</button>
-</div>
+          <button className="bubble-button" onClick={this.prevPage}>
+            ⬅ Prev
+          </button>
+          <button className="bubble-button" onClick={this.nextPage}>
+            Next ➡
+          </button>
+        </div>
+
+        {/* SWIPE HINT (mobile) */}
+       
       </div>
     );
   }

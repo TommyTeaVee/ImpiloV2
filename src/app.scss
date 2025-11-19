@@ -1,19 +1,106 @@
 .flip-book {
-  margin:  0 auto;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  box-shadow: 0 0 2px 0 rgba(102, 20, 20, 0.5);
   display: none;
   background-size: cover;
 }
- h1, h2, h3, h4{
-  font-family:'Didot';
- }
+
+h1, h2, h3, h4 {
+  font-family: 'Didot';
+}
+
+// Base glossy color variable
+$glossy-base: #FCCE16;
+
+// Mixin: glossy background
+@mixin glossy-bg($color: $glossy-base) {
+  background: linear-gradient(
+    to bottom,
+    lighten($color, 20%) 0%,   // top highlight
+    $color 50%,                // main color
+    darken($color, 10%) 100%   // bottom shadow
+  );
+  box-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.25),
+    inset 0 1px 0 rgba(55, 4, 4, 0.6);
+}
+
+/* 🔒 GLOBAL SCROLL LOCK — ONLY APP CONTAINER SCROLLS */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; // lock global scroll
+  font-family: 'Didot', 'Bodoni MT', 'Playfair Display', serif;
+}
+
+/* MAIN SCROLLABLE AREA */
+.app-container {
+  height: 100%;                // fill viewport
+  overflow-y: auto;            // scroll only here
+  -webkit-overflow-scrolling: touch;
+  background: #fff;
+  border: solid 1px #C4A011;
+  padding: 1rem;
+ /* Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: #f7c600 rgba(192, 160, 17, 0.15);
+/* WebKit (Chrome, Edge, Safari) */
+.app-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.app-container::-webkit-scrollbar-track {
+  background: rgba(192, 160, 17, 0.15); // faint gold like your progress track
+  border-radius: 4px;
+}
+
+.app-container::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background: linear-gradient(180deg, #ffdf00, #f7c600, #ffb700);
+  position: relative;
+}
+
+/* Optional shimmer on scrollbar thumb */
+.app-container::-webkit-scrollbar-thumb {
+  background-size: 200% 200%;
+  animation: scrollbarShimmer 2.5s linear infinite;
+}
+
+@keyframes scrollbarShimmer {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 0% 100%;
+  }
+}
+
+  @media (max-width: 768px) {
+    padding: 0.5rem;
+  }
+
+  .demo-book {
+    margin: 0 auto;
+    box-shadow: 0 0 2px #C4A011;
+  }
+
+  button {
+    font-family: 'Didot', serif;
+    padding: 0.5rem 1rem;
+  }
+}
+
+/* PAGE STYLING */
 .page {
   margin: 1cm auto;
-  height: 1000vh;
+  height: 100%;           // was 1000vh — too tall
   padding: 0;
-  background-color: hsl(35, 55, 98);
+  @include glossy-bg(#fff);
   color: #10100e;
-  border: solid 1px hsl(0, 0%, 100%);
+  border: solid 1px #C4A011;
   overflow: hidden;
 
   .page-content {
@@ -40,8 +127,8 @@
       flex-grow: 1;
       font-size: 80%;
       text-align: justify;
-      margin-top: 0px;
-      padding-top: 0px;
+      margin-top: 0;
+      padding-top: 0;
       box-sizing: border-box;
       border-top: solid 1px hsl(0, 0%, 95%);
     }
@@ -50,34 +137,34 @@
       height: 30px;
       border-top: solid 1px hsl(0, 0%, 96%);
       font-size: 80%;
-      color:#C4A011;
+      color: #C4A011;
     }
   }
 
-  &.--left { // for left page (property will be added automatically)
+  &.--left {
     border-right: 0;
-    box-shadow: inset -7px 0 30px -7px rgba(0, 0, 0, 0.4);
+    box-shadow: inset -7px 0 2px -7px #C4A011;
   }
 
-  &.--right { // for right page (property will be added automatically)
+  &.--right {
     border-left: 0;
-    box-shadow: inset 7px 0 30px -7px rgba(0, 0, 0, 0.4);
+    box-shadow: inset 7px 0 2px -7px #705B0A;
 
     .page-footer {
       text-align: right;
     }
   }
 
-  &.hard { // for hard page
+  &.hard {
     background-color: #FCCE16;
-    border: solid 1px#C4A011;
+    border: solid 1px #C4A011;
   }
 
   &.page-cover {
-    background-image: url('https://raw.githubusercontent.com/TommyTeaVee/ImpiloV2/staging/public/BackCover.png') ;
+    background-image: url('https://raw.githubusercontent.com/TommyTeaVee/ImpiloV2/staging/public/BackCover.png');
     background-size: 100% 100%;
-    color:  #705B0A;
-    border: solid 1px#C4A011;
+    color: #705B0A;
+    border: solid 1px #C4A011;
 
     h2 {
       text-align: center;
@@ -86,254 +173,22 @@
     }
 
     &.page-cover-top {
-      box-shadow: inset 0px 0 30px 0px rgba(36, 10, 3, 0.5), -2px 0 5px 2px rgba(0, 0, 0, 0.4);
+      box-shadow: inset 0 0 3px 0 rgba(36, 10, 3, 0.5),
+                  -2px 0 5px 2px rgba(0, 0, 0, 0.4);
     }
 
     &.page-cover-bottom {
-      box-shadow: inset 0px 0 30px 0px rgba(36, 10, 3, 0.5), 10px 0 8px 0px rgba(0, 0, 0, 0.4);
-    }
-  }
-  .player-wrapper {
-    position: relative;
-    padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
-  }
-  .video-land{
-    width: 45px;
-    height: 200px;
-  }
-  .video-port {
-    width:40px;
-    height: 00px;
-  }
-  .react-player {
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  // Global Styles for full-height layout and scrollable app
-
-html, body, #root {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
- 
-  font-family: 'Didot', 'Bodoni MT', 'Playfair Display', serif; 
-}
-
-.app-container {
-  height: 100%;
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch; // Smooth scrolling on iOS
-  background: #fff; // Optional background color
-  padding: 1rem;
-
-  // Optional responsive helpers (if you want to use breakpoints)
-  @media (max-width: 768px) {
-    padding: 0.5rem;
-  }
-  .article-header {
-    text-align: center;
-    margin-bottom: 2rem;
-
-    h1 {
-      font-size: 2.5rem;
-      font-weight: 600;
-      line-height: 1.2;
-
-      span {
-        display: block;
-        font-size: 1.25rem;
-        margin-top: 0.5rem;
-        color: #888;
-        font-weight: normal;
-      }
-    }
-  }
-
-  .video-section {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 2rem;
-
-    .portrait-video {
-      width: auto;
-      height: 600px; // Adjust for portrait ratio
-      max-width: 100%;
-      border-radius: 1rem;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-    }
-  }
-
-  .article-body {
-    text-align: justify;
-    font-size: 1.1rem;
-    line-height: 1.75;
-    color: #333;
-
-    p {
-      margin-bottom: 1.5rem;
+      box-shadow: inset 0 0 3px 0 rgba(36, 10, 3, 0.5),
+                  10px 0 8px 0 rgba(0, 0, 0, 0.4);
     }
   }
 }
-}
-.welcome-article {
-  font-family: 'Didot', 'Playfair Display', serif;
-  padding: 3rem 2rem;
-  max-width: 800px;
-  margin: 0 auto;
-  background-color: #fff;
 
-  .article-header {
-    text-align: center;
-    margin-bottom: 2rem;
-
-    h1 {
-      font-size: 2.5rem;
-      font-weight: 600;
-      line-height: 1.2;
-
-      span {
-        display: block;
-        font-size: 1.25rem;
-        margin-top: 0.5rem;
-        color: #888;
-        font-weight: normal;
-      }
-    }
-  }
-
-  .video-section {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 2rem;
-
-    .portrait-video {
-      width: auto;
-      height: 600px; // Adjust for portrait ratio
-      max-width: 100%;
-      border-radius: 1rem;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-    }
-  }
-
-  .article-body {
-    text-align: justify;
-    font-size: 1.1rem;
-    line-height: 1.75;
-    color: #333;
-
-    p {
-      margin-bottom: 1.5rem;
-    }
-  }
-  .uk-text-justify {
-  text-align: justify;
-}
-
-.uk-card-title {
-  font-family: 'Didot', serif;
-}
-
-.uk-text-justify {
-  text-align: justify;
-}
-
-.uk-card-title {
-  font-family: 'Didot', serif;
-}
-
-audio {
-  outline: none;
-}
-.ticker-overlay {
-  z-index: 3;
-  height: 48px;
-  font-family: 'Didot', serif;
-}
-
-.ticker-track {
-  background-color: rgba(30, 144, 255, 0.5); // Blue transparent
-  overflow: hidden;
-  border-radius: 6px;
-  white-space: nowrap;
-  position: relative;
-}
-
-.ticker-text {
-  display: inline-block;
-  white-space: nowrap;
-  padding-left: 100%;
-  animation: scrollTicker 15s linear infinite;
-  font-size: 1rem;
-  font-weight: 600;
-  color: #fff;
-}
-
-@keyframes scrollTicker {
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
-
-
-}
-
-
-
-
-.flipper-progress { position: fixed; top: 0; left: 0; width: 100%; height: 6px; background: rgba(0,0,0,0.1); z-index: 10000; }
-.flipper-bar { height: 100%; background: linear-gradient(90deg, #FCCE16, #C4A011); transition: width 0.3s; }
-.app-container {
-  padding: 1rem;
-  height: 100%;
-  background: #fff;
-  overflow-y: hidden;
-
-  .ticker-overlay {
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    right: 10px;
-    height: 24px;
-    z-index: 100;
-  }
-
-  .ticker-track {
-    background: rgba(36, 144, 255, 0.5);
-    overflow: hidden;
-    border-radius: 6px;
-    white-space: nowrap;
-    position: relative;
-  }
-
-  .ticker-text {
-    display: inline-block;
-    white-space: nowrap;
-    padding-left: 100%;
-    font-size: 1rem;
-    font-weight: 600;
-    color: #fff;
-  }
-
-  .demo-book {
-    margin: 0 auto;
-    box-shadow: 0 0 20px rgba(0,0,0,0.5);
-  }
-
-  button {
-    font-family: 'Didot', serif;
-    padding: 0.5rem 1rem;
-  }
-}
-
+/* PROGRESS + COUNTER (unchanged, just kept) */
 .progress-bar {
   width: 100%;
   height: 8px;
-  background: rgba(192, 160, 17, 0.15); // faint gold
+  background: rgba(192, 160, 17, 0.15);
   position: fixed;
   top: 0;
   left: 0;
@@ -349,32 +204,27 @@ audio {
   transition: width 0.5s ease-in-out;
   position: relative;
   border-radius: 4px;
-}
 
-/* Add sparkle animation overlay */
-.progress-fill::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: -50%;
-  width: 200%;
-  height: 100%;
-  background: linear-gradient(
-    120deg,
-    transparent,
-    rgba(255, 255, 255, 0.6),
-    transparent
-  );
-  animation: shimmer 2.5s infinite;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(
+      120deg,
+      transparent,
+      rgba(36, 27, 27, 0.6),
+      transparent
+    );
+    animation: shimmer 2.5s infinite;
+  }
 }
 
 @keyframes shimmer {
-  0% {
-    left: -50%;
-  }
-  100% {
-    left: 100%;
-  }
+  0% { left: -50%; }
+  100% { left: 100%; }
 }
 
 .page-counter {
@@ -393,297 +243,24 @@ audio {
   animation: pulse 2s infinite;
 }
 
-/* Gentle glowing effect */
 @keyframes pulse {
-  0% { box-shadow: 0 0 6px rgba(255, 215, 0, 0.5); }
-  50% { box-shadow: 0 0 14px rgba(255, 215, 0, 1); }
+  0%   { box-shadow: 0 0 6px rgba(255, 215, 0, 0.5); }
+  50%  { box-shadow: 0 0 14px rgba(255, 215, 0, 1); }
   100% { box-shadow: 0 0 6px rgba(255, 215, 0, 0.5); }
 }
 
-.button-wrapper{
-position: absolute;
+/* Navigation buttons over book (no scroll interference) */
+.button-wrapper {
+  position: absolute;
   top: 165%;
   width: 100%;
   display: flex;
-  
-  pointer-events: none; // Allows swipe gestures to work
+  pointer-events: none;
   z-index: 5;
-}
-.bubble-button {
 
-  background: transparent;
-  border: 2px solid rgb(223, 193, 22);
-  color: rgb(7, 6, 2);
-  font-weight: bold;
-  font-family: "Poppins", sans-serif;
-  padding: 100px 22px;
-  margin: 0 10px;
-  border-radius: 50px;
-  font-size: 14px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  box-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
-  z-index: 999;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Hover glow */
-.bubble-button:hover {
-  background: rgba(255, 215, 0, 0.1);
-  box-shadow: 0 0 20px rgba(255, 215, 0, 0.8);
-  transform: scale(1.05);
-}
-
-/* Active click effect */
-.bubble-button:active {
-  transform: scale(0.95);
-  box-shadow: 0 0 12px rgba(255, 215, 0, 0.6);
-}
-/* Hidden on desktop */
-.swipe-hint {
-  display: none;
-}
-
-/* Show only on mobile */
-@media (max-width: 768px) {
-  .swipe-hint {
-    display: flex;
-    justify-content: center;
-    margin: 15px 0;
-    animation: fadeIn 1.5s ease-in-out;
-  }
-
-  .swipe-hand {
-    font-size: 28px;
-    color: gold;
-    animation: handSwipe 2s infinite;
+  .bubble-button {
+    pointer-events: auto;
   }
 }
 
-/* Animations */
-@keyframes handSwipe {
-  0%, 100% { transform: translateX(0); }
-  25% { transform: translateX(-15px) rotate(-10deg); }
-  50% { transform: translateX(15px) rotate(10deg); }
-  75% { transform: translateX(-15px) rotate(-10deg); }
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-
-.swipe-indicator {
-  position: absolute;
-  bottom: 3rem;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1000;
-  opacity: 1;
-  transition: opacity 0.5s ease-in-out;
-
-  .swipe-track {
-    width: 120px;
-    height: 40px;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 0 10px;
-    overflow: hidden;
-  }
-
-  .swipe-thumb {
-    display: flex;
-    align-items: center;
-    animation: swipeAnim 1s infinite alternate;
-  }
-
-  .hand { font-size: 1.5rem; margin-right: 5px; }
-  .arrow { font-size: 1.2rem; }
-
-  .swipe-text {
-    text-align: center;
-    margin-top: 0.5rem;
-    color: #fff;
-    font-weight: bold;
-  }
-}
-
-@keyframes swipeAnim {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(50px); }
-}
-
-@keyframes swipeAnim {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(50px); } // moves thumb
-}
-
-
-@keyframes swipe-thumb {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(15px); }
-}
-/* Magazine container */
-.article-container {
-  max-width: 1000px;
-  margin: 2rem auto;
-  padding: 2rem;
-  background-color: #fff;
-  font-family: 'Georgia', serif;
-  line-height: 1.8;
-  border-radius: 12px;
-  box-shadow: 0 8px 30px rgba(0,0,0,0.1);
-}
-
-/* Titles */
-.article-title {
-  font-size: 3rem;
-  font-weight: bold;
-  color: #1a1a1a;
-  margin-bottom: 1rem;
-}
-
-.article-subtitle {
-  font-size: 1.3rem;
-  color: #555;
-  margin-bottom: 2rem;
-}
-
-.lead {
-  font-size: 1.3rem;
-  font-style: italic;
-  color: #333;
-  margin-bottom: 1.5rem;
-}
-
-/* Divider */
-.divider {
-  border-top: 2px solid #e0e0e0;
-  margin: 2rem 0;
-}
-
-/* Blockquote */
-.blockquote {
-  border-left: 6px solid #007BFF;
-  padding-left: 1.2rem;
-  font-style: italic;
-  color: #555;
-  margin: 1.5rem 0;
-}
-
-/* Two-column text with image layouts */
-.grid-two {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 2rem;
-  margin: 2rem 0;
-}
-
-.grid-two img {
-  width: 100%;
-  border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-}
-
-/* Side-by-side stories */
-.story-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 3rem;
-  margin: 2rem 0;
-}
-
-/* Floating images within text */
-.float-left {
-  float: left;
-  margin-right: 1.5rem;
-  width: 40%;
-  border-radius: 12px;
-  box-shadow: 0 3px 15px rgba(0,0,0,0.1);
-}
-
-.float-right {
-  float: right;
-  margin-left: 1.5rem;
-  width: 40%;
-  border-radius: 12px;
-  box-shadow: 0 3px 15px rgba(0,0,0,0.1);
-}
-
-/* Callouts */
-.callout {
-  background-color: #e8f0fe;
-  border-left: 6px solid #007BFF;
-  padding: 1rem 1.5rem;
-  margin: 1.5rem 0;
-  border-radius: 6px;
-  font-style: italic;
-}
-
-/* Tables */
-.article-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 2rem 0;
-}
-
-.article-table th, .article-table td {
-  border: 1px solid #ccc;
-  padding: 0.8rem 1rem;
-}
-
-.article-table th {
-  background-color: #f4f4f4;
-}
-
-/* Lists */
-.article-list {
-  list-style-type: disc;
-  padding-left: 1.5rem;
-  margin: 1rem 0;
-}
-
-/* Pagination buttons */
-.pagination {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 2rem;
-}
-
-.page-button {
-  padding: 0.6rem 1.2rem;
-  border-radius: 5px;
-  border: none;
-  background-color: #007BFF;
-  color: white;
-  cursor: pointer;
-}
-
-.page-button:disabled {
-  background-color: #ccc;
-  cursor: not-allowed;
-}
-
-.page-meta {
-  text-align: center;
-  margin-top: 0.5rem;
-  color: #777;
-}
-
-/* Responsive */
-@media screen and (max-width: 900px) {
-  .grid-two, .story-grid {
-    grid-template-columns: 1fr;
-  }
-  .float-left, .float-right {
-    float: none;
-    width: 100%;
-    margin: 1rem 0;
-  }
-}
+/* … keep your button, swipe-indicator, article styles as you had them … */

@@ -2,9 +2,13 @@ import {React} from 'react';
 
 export function Sample() {
     return(
-        <>
-        <div style={{overflowY: 'auto', maxHeight: '180vh'}} className='uk-child-width-1-1@s uk-grid-small '>
-        <article className="uk-article">
+
+
+        <article
+         className="uk-article" 
+         style={{overflowY: 'auto', maxHeight: '180vh',  
+            WebkitOverflowScrolling: 'touch', 
+  overscrollBehavior: 'contain' }}>
 
 <h1 class="uk-article-title"><a class="uk-link-reset" href="">Heading</a></h1>
 
@@ -54,8 +58,7 @@ export function Sample() {
 </div>
 
 </article>
-        </div>
-        </>
+      
     )
     
 }
