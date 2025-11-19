@@ -5,7 +5,7 @@ import "uikit/dist/js/uikit-icons.min.js";
 
 export function ModelArticle({ name, type, description, images, video, insta, tiktok }) {
   return (
-    <article className="uk-article" style={{ overflowY: "auto", maxHeight: "100vh" }}>
+    <article className="uk-article" style={{ overflowY: "auto", maxHeight: "180vh" }}>
       <div className="uk-container uk-padding-large">
         {/* Header */}
         <h1 className="uk-article-title uk-text-center">{name}</h1>

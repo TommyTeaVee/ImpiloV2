@@ -1,6 +1,6 @@
 export default function Page4Conclusion() {
   return (
-    <div className="article-container">
+    <div className="article-container" style={{overflowY: 'auto', maxHeight: '180vh'}}>
       <h2 className="article-title">Bridging Stories & Key Lessons</h2>
       <div className="divider"></div>
 

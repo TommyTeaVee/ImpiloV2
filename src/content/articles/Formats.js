@@ -5,7 +5,7 @@ export function Formats() {
 
     return (
 
-    <article className="uk-article" style={{ overflowY: 'auto', maxHeight: '200vh' }}>
+    <article className="uk-article" style={{ overflowY: 'auto', maxHeight: '180vh' }}>
       
 <div className="uk-padding" data-uk-grid="">
     <div>

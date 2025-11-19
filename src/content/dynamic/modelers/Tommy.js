@@ -6,7 +6,7 @@ export function Tommy() {
 
   return (
   
-    <article className="uk-article" style={{ overflowY: 'auto', maxHeight: '100vh' }}>
+    <article className="uk-article" style={{ overflowY: 'auto', maxHeight: '180vh' }}>
       <div className="uk-container uk-margin-large-top">
         <div className="uk-grid-large uk-child-width-1-1@m uk-grid-match" data-uk-grid>
           {/* Left Column */}

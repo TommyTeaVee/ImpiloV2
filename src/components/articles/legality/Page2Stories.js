@@ -1,6 +1,6 @@
 export default function Page2Stories() {
   return (
-    <div className="article-container">
+    <div className="article-container" style={{overflowY: 'auto', maxHeight: '180vh'}}>
       <h2 className="article-title">City One & City Two: Divergent Paths to Innovation</h2>
       <div className="divider"></div>
 

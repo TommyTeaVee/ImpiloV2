@@ -65,7 +65,7 @@ const fitnessImgs = [
 
 export function FitnessModel() {
   return (
-    <ModelArticle
+    <ModelArticle 
       name="Lerato Maseko"
       type="Fitness"
       images={fitnessImgs}
@@ -84,7 +84,7 @@ const adImgs = [
 
 export function AdModel() {
   return (
-    <ModelArticle
+    <ModelArticle 
       name="Sipho Nkosi"
       type="Advertising"
       images={adImgs}
@@ -102,8 +102,8 @@ const commercialImgs = [
 ];
 
 export function CommercialModel() {
-  return (
-    <ModelArticle
+  return ( 
+    <ModelArticle 
       name="Zanele Motsepe"
       type="Commercial"
       images={commercialImgs}
@@ -122,7 +122,7 @@ const productImgs = [
 
 export function ProductModel() {
   return (
-    <ModelArticle
+    <ModelArticle 
       name="Kgothatso Molefe"
       type="Product"
       images={productImgs}

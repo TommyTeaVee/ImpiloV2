@@ -8,7 +8,7 @@ export default function IPArticleMagazine() {
  
 
   return (
-    <div className="magazine-root" style={{ background: "#f7f7f7", padding: 24 }}>
+    <div className="magazine-root" style={{  overflowY: "auto", maxHeight: "180vh", background: "#f7f7f7", padding: 24 }}>
       <div className="uk-container uk-container-large">
         {/* Page 1 */}
         <article className="page uk-card uk-card-default uk-card-body">

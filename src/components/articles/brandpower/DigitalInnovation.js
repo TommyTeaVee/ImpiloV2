@@ -4,7 +4,7 @@ export default function DigitalInnovation() {
   return (
     <article
       className="uk-article"
-      style={{ overflowY: "auto", maxHeight: "100vh" }}
+      style={{ overflowY: "auto", maxHeight: "180vh" }}
     >
       <div className="uk-container uk-margin-large-top">
 

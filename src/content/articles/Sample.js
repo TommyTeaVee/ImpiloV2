@@ -3,7 +3,7 @@ import {React} from 'react';
 export function Sample() {
     return(
         <>
-        <div className='uk-child-width-1-1@s uk-grid-small '>
+        <div style={{overflowY: 'auto', maxHeight: '180vh'}} className='uk-child-width-1-1@s uk-grid-small '>
         <article className="uk-article">
 
 <h1 class="uk-article-title"><a class="uk-link-reset" href="">Heading</a></h1>

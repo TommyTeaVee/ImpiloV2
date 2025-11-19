@@ -1,6 +1,6 @@
 export default function Page1Intro() {
   return (
-     <article className="uk-article" style={{ overflowY: 'auto', maxHeight: '100vh' }}>
+     <article className="uk-article" style={{ overflowY: 'auto', maxHeight: '180vh' }}>
     <div className="uk-container uk-margin-large-top">
       <h1 className="article-title">A Tale of Two Cities: Justice for Creators in Two Worlds</h1>
       <p className="article-subtitle">Lessons on Intellectual Property, Safe Practice, and the Power of a Well-Protected Idea</p>

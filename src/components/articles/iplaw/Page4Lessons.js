@@ -1,51 +1,42 @@
 import React from "react";
-import AiInfographic from "../legality/AiInforgraphic";
 
 export default function Page4Lessons() {
-  return (
-     <article className="uk-article" style={{ overflowY: 'auto', maxHeight: '100vh' }}>
-    <div className="page">
-      <div className="page-content">
-        <header className="page-header">
-          <h2>Lessons for Entrepreneurs and Creators</h2>
-        </header>
+return (
+    <article className="uk-article" style={{ overflowY: "auto", maxHeight: "180vh" }}>
+      <div className="uk-container uk-margin-large-top">
 
-        <figure className="page-image">
-          <img
-            src="/images/legal-books.jpg"
-            alt="Legal Books"
-            style={{ width: "100%", height: "100%", objectFit: "cover" }}
-          />
-        </figure>
+        <h1 className="uk-article-title uk-heading-line">
+          <span>Lessons for Future Creators and Entrepreneurs</span>
+        </h1>
+        <p className="uk-text-lead">Expectation is the seed; structure is the root.</p>
 
-        <section className="page-text">
-          <p>
-            Your document stressed safe practice: creators must know the kinds of
-            intellectual property available — copyright, patent, trademark, and
-            trade secret — and how each is enforced through the Companies and
-            Intellectual Property Commission (CIPC).
-          </p>
+        {/* Placeholder Infographic */}
+        <div className="uk-card uk-card-default uk-margin-medium-top uk-text-center">
+          <div className="uk-cover-container uk-height-medium">
+            <img src="/images/placeholder-infographic.jpg" alt="Infographic placeholder" data-uk-cover />
+          </div>
+          <p className="uk-text-meta uk-padding-small">Infographic Placeholder — Innovation Checklist</p>
+        </div>
 
-          <p>
-            When pitching ideas, use NDAs, register creative work early, and send
-            follow-up emails to confirm discussions.  Attach time-stamped drafts or
-            prototypes.  This not only protects you but also builds professionalism.
-          </p>
+        <h3 className="uk-heading-bullet">1 — Document Before You Disclose</h3>
+        <p>Time-stamp every draft, store emails, and sign NDAs before you share ideas.</p>
 
-          <AiInfographic />
+        <h3 className="uk-heading-bullet">2 — Know Your IP Toolkit</h3>
+        <p>
+          Copyright = expression; Patent = invention; Trademark = brand; Design = appearance.
+          Register with CIPC or WIPO for protection.
+        </p>
 
-          <p>
-            “Innovation without legal protection,” as you wrote, “is a gift to
-            opportunists.”  That single sentence captures the spirit of preventive
-            law: justice is easiest when prepared in advance.
-          </p>
-        </section>
+        <h3 className="uk-heading-bullet">3 — Navigate AI with Intention</h3>
+        <p>
+          Monitor digital reuse of your work and join guilds that lobby for fair AI policy.
+        </p>
 
-        <footer className="page-footer">
-          Page 4 — Practical Lessons & IP Education
-        </footer>
+        <h3 className="uk-heading-bullet">4 — Pitch with Ethics and Precision</h3>
+        <p>
+          Prepare value propositions and ownership splits early. Professionalism equals protection.
+        </p>
       </div>
-    </div>
     </article>
   );
-}
+};

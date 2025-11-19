@@ -3,7 +3,7 @@ import React from 'react';
 
 export function Editor() {
  return (
-     <article className="uk-article" style={{ overflowY: 'auto', maxHeight: '100vh' }}>
+     <article className="uk-article" style={{ overflowY: 'auto', maxHeight: '180vh' }}>
     <div className="uk-container uk-margin-large-top uk-margin-large-bottom uk-padding">
       <div className="uk-child-width-1-1@m uk-grid-large" data-uk-grid>
         {/* Left Column */}

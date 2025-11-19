@@ -18,7 +18,7 @@ export function PodcastShowcase() {
   ];
 
   return (
-    <article className="uk-article uk-section">
+    <article  style={{overflowY: 'auto', maxHeight: '180vh'}} className="uk-article uk-section">
       <div className="uk-container">
         <h1 className="uk-heading-medium uk-text-center">🎙️ Latest Podcasts</h1>
 

@@ -1,50 +1,39 @@
 import React from "react";
 
 export default function Page2LawContext() {
-  return (
-     <article className="uk-article" style={{ overflowY: 'auto', maxHeight: '100vh' }}>
-    <div className="page">
-      <div className="page-content">
-        <header className="page-header">
-          <h2>Law & Justice — What the Law Is and Is Not</h2>
-        </header>
+    return (
+    <article className="uk-article" style={{ overflowY: "auto", maxHeight: "180vh" }}>
+      <div className="uk-container uk-margin-large-top">
 
-        <figure className="page-image">
-          <img
-            src="/images/law-context.jpg"
-            alt="Law context"
-            style={{ width: "100%", height: "100%", objectFit: "cover" }}
-          />
-        </figure>
+        <h1 className="uk-article-title uk-heading-line">
+          <span>The Law and the Promise of Fairness</span>
+        </h1>
+        <p className="uk-text-lead">Law translates imagination into structure — when creators learn its grammar.</p>
 
-        <section className="page-text">
-          <p>
-            From your <em>Legal Matters</em> document: The law is not morality, nor is it
-            mere common sense. It is a system of rules created by legitimate authority,
-            interpreted by courts, and enforced through evidence.  Judges do not decide
-            based on emotion but on verifiable fact.
-          </p>
+        {/* Portrait Placeholder */}
+        <div className="uk-card uk-card-default uk-margin-medium-top">
+          <div className="uk-cover-container uk-height-medium">
+            <img src="/images/placeholder-justice.jpg" alt="Scales of Justice" data-uk-cover />
+          </div>
+          <p className="uk-text-meta uk-padding-small">Illustration Placeholder — “The Scales of Justice”</p>
+        </div>
 
-          <p>
-            The South African Constitution remains the supreme law, setting principles
-            for equality, fairness, and due process.  Commercial law governs trade and
-            contracts — the domain where most creators operate.  Understanding how
-            these rules interact with intellectual property gives artists and
-            entrepreneurs a shield before disputes arise.
-          </p>
+        <p>
+          Courts decide on proof, not passion. Documentation — contracts, drafts, and correspondence —
+          is the artist’s strongest exhibit. Both Mda and Makate succeeded because their evidence told
+          a story law could hear.
+        </p>
 
-          <p>
-            Remember: in business law, documentation beats declaration.  A written
-            clause outweighs a handshake, and an email trail can prove ownership
-            long after memory fades.
-          </p>
-        </section>
+        <p>
+          South Africa’s Constitution and commercial statutes offer creators a foundation:
+          copyright for expression, patents for invention, trademarks for identity, and design rights for form.
+          The CIPC anchors these protections.
+        </p>
 
-        <footer className="page-footer">
-          Page 2 — Understanding the Rule of Law for Creators
-        </footer>
+        <p>
+          For innovators: treat every note, file, and email as legal architecture. Evidence is your ally.
+        </p>
       </div>
-    </div>
     </article>
   );
-}
+};

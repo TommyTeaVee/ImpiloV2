@@ -1,50 +1,61 @@
 import React from "react";
 
-export default function Page1Intros() {
-  return (
-    <article className="uk-article" style={{ overflowY: 'auto', maxHeight: '100vh' }}>
+export default function Page1Intro() {
+ return (
+    <article
+      className="uk-article"
+      style={{ overflowY: "auto", maxHeight: "180vh" }}
+    >
       <div className="uk-container uk-margin-large-top">
-      
-        <header className="uk-text-lead">
-          <h2>A Tale of Two Cities: Justice for Creators in Two Worlds</h2>
-        </header>
 
-        <figure className="page-image">
-          <img
-            src="https://lennonliterary.com/wp-content/uploads/2024/03/zakes-mda-2-by-jim-shirey.jpg"
-            alt="Zakes Mda"
-            style={{ width: "100%", height: "100%", objectFit: "cover" }}
-          />
-        </figure>
+        <h1 className="uk-article-title uk-heading-line">
+          <span>Great Expectations: From Idea to Recognition in the Age of AI and Innovation</span>
+        </h1>
+        <p className="uk-text-lead uk-margin-remove-top">
+          “Justice delayed can still be justice delivered.”
+        </p>
 
-        <section className="uk-text-lead uk-margin-top uk-text-justify uk-dropcap">
+        {/* Portrait Section */}
+        <div className="uk-grid-small uk-child-width-1-2@m uk-margin-medium-top" data-uk-grid>
+          <div>
+            <div className="uk-card uk-card-default uk-card-body uk-text-center">
+              <div className="uk-cover-container uk-height-medium">
+                <img src="/images/placeholder-mda.jpg" alt="Zakes Mda portrait" data-uk-cover />
+              </div>
+              <p className="uk-text-meta uk-margin-small-top">Portrait: Zakes Mda</p>
+            </div>
+          </div>
+          <div>
+            <div className="uk-card uk-card-default uk-card-body uk-text-center">
+              <div className="uk-cover-container uk-height-medium">
+                <img src="/images/placeholder-makate.jpg" alt="Nkosana Makate portrait" data-uk-cover />
+              </div>
+              <p className="uk-text-meta uk-margin-small-top">Portrait: Nkosana Makate</p>
+            </div>
+          </div>
+        </div>
+
+        <p>
+          <em>Great Expectations</em> tells of ambition tested by reality — and finally fulfilled.
+          In South Africa two creators walked that arc: writer <strong>Zakes Mda</strong> and
+          innovator <strong>Nkosana Makate</strong>. Both fought long battles for recognition and, in 2025,
+          both received it.
+        </p>
+
+        <p>
+          Mda’s trans-national dispute over AI training data unfolded in U.S. courts.
+          Makate’s was local and institutional, stretching through decades of litigation until
+          Vodacom reached a confidential settlement. Each victory shows that persistence and documentation
+          turn ideas into enforceable rights.
+        </p>
+
+        <blockquote cite="#">
           <p>
-            “It was the best of times, it was the worst of times…” — Charles Dickens.
-            In the modern age, those words echo across the courtrooms of Johannesburg
-            and the servers of Silicon Valley. Two creators — writer Zakes Mda and
-            innovator Nkosana Makate — found themselves facing powerful institutions
-            that profited from their work.
+            “Hope without evidence is wishful thinking; evidence with hope is strategy.”
+            — <em>Legal Matters</em>
           </p>
-
-          <p>
-            Zakes Mda’s writings were scraped by a global AI company to train language
-            models without permission. In another “city,” Makate’s *Please Call Me*
-            idea became a billion-rand telecom feature while he fought for recognition.
-            Both stories ask the same question: who owns an idea once it is shared?
-          </p>
-
-          <p>
-            Their battles, decades apart, form a new *Tale of Two Cities* — one digital,
-            one corporate — joined by a single theme: creators seeking fairness in
-            systems built for profit.
-          </p>
-        </section>
-
-        <footer className="page-footer">
-          Page 1 — Impilo Digital Magazine | Legal Matters Series
-        </footer>
+        </blockquote>
       </div>
-    
     </article>
   );
-}
+};

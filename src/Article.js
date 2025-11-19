@@ -20,7 +20,7 @@ export function Article() {
   }, []);
 
   return (
-    <div className="uk-container uk-margin-large-top">
+    <div className="uk-container uk-margin-large-top" style={{overflowY: 'auto', maxHeight: '180vh'}}>
       {/* Header */}
       <div className="uk-flex uk-flex-between uk-flex-middle uk-margin-medium-bottom">
         <h2

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function InternetEvolution() {
   return (
-    <article className="p-6 max-w-4xl mx-auto text-gray-200 leading-relaxed">
+    <article className="p-6 max-w-4xl mx-auto text-gray-200 leading-relaxed" style={{overflowY: 'auto', maxHeight: '180vh'}}>
       {/* Header Section */}
       <header className="text-center mb-8">
         <h1 className="text-3xl font-bold mb-2">

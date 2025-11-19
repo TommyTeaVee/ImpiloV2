@@ -3,18 +3,12 @@ import HTMLFlipBook from "react-pageflip";
 import { Article } from "./Article";
 import articles from "./contents";
 import { Editor } from "./content/dynamic/intros/Editor";
-import { WelcomeArticle } from "./content/dynamic/intros/WelcomeArticle";
 import { RunwayModel, PartsModel, EditorialModel, FitnessModel, AdModel } from "./content/fashionrunway/modellers/Models";
 import { ModelFeature } from "./content/dynamic/modelers/ModelFeature";
 import { Tommy } from "./content/dynamic/modelers/Tommy";
 import { PodcastShowcase } from "./content/articles/PodcastShowcase";
 import "./app.scss";
 import { pages } from "./pages";
-import IPArticleMagazine from "./components/articles/legality/IPArticleMagazine"
-import Page1Intro from "./components/articles/legality/Page1Intro";
-import Page2Stories from "./components/articles/legality/Page2Stories";
-import Page3IPandPractice from "./components/articles/legality/Page3IPandPractice";
-import Page4Conclusion from "./components/articles/legality/Page4Conclusion";
 import Page1Intros from "./components/articles/iplaw/Page1Intros";
 import Page2LawContext from "./components/articles/iplaw/Page2LawContext";
 import Page3MakateCase from "./components/articles/iplaw/Page3MakateCase";
@@ -23,6 +17,9 @@ import Page5Conclusion from "./components/articles/iplaw/Page5Conclusion";
 import BrandPower from "./components/articles/brandpower/BrandPower";
 import DigitalInnovation from "./components/articles/brandpower/DigitalInnovation";
 import InnovativeMindset from "./content/articles/InnovativeMindset";
+import BalenciagaIntro from "./components/articles/brandpower/balenciaga/Balenciaga";
+import BalenciagaSpread from "./components/articles/brandpower/balenciaga/BalenciagaSpread";
+import MomentumReturn from "./components/economy/Momentum";
 
 const PageCover = React.forwardRef((props, ref) => (
   <div className="page page-cover" ref={ref} data-density="hard">
@@ -139,11 +136,11 @@ prevPage = () => {
 )}
         <HTMLFlipBook
           width={550}
-          height={970}
+          height={1000}
           minWidth={315}
           minHeight={400}
           maxWidth={800}
-          maxHeight={1200}
+          maxHeight={10000}
           size="stretch"
           maxShadowOpacity={0.5}
           showCover={true}
@@ -168,8 +165,10 @@ prevPage = () => {
           {/* <Page number={10} ><WelcomeArticle /></Page> 
           
           <Page number={10}><IPArticleMagazine /></Page>*/}
+          <Page number={8.1}><MomentumReturn /></Page>
           <Page number={8}><BrandPower /></Page>
-           <Page number={9}><DigitalInnovation /></Page>
+          <Page number={9}><BalenciagaIntro/></Page>
+           <Page number={9.1}><BalenciagaSpread /></Page>
            <Page number={10}><InnovativeMindset /></Page>
           <Page number={11}><RunwayModel /></Page>
           <Page number={12}><Page1Intros /></Page>
