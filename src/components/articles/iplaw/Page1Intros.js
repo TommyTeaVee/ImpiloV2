@@ -4,7 +4,8 @@ export default function Page1Intro() {
  return (
     <article
       className="uk-article"
-      style={{ overflowY: "auto", maxHeight: "180vh" }}
+    style={{ overflowY: "auto", maxHeight: "180vh",  WebkitOverflowScrolling: 'touch', 
+  overscrollBehavior: 'contain'  }}
     >
       <div className="uk-container uk-margin-large-top">
 

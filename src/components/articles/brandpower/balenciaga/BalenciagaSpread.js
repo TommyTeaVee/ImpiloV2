@@ -4,7 +4,8 @@ function BalenciagaSpread() {
   return (
       <article
         className="uk-article"
-        style={{ overflowY: "auto", maxHeight: "180vh" }}
+       style={{ overflowY: "auto", maxHeight: "180vh",  WebkitOverflowScrolling: 'touch', 
+  overscrollBehavior: 'contain'  }}
       >
         <div className="uk-container uk-margin-large-top">
           <h2 className="uk-heading-line">

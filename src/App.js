@@ -26,8 +26,14 @@ import DigitalInnovation from "./components/articles/brandpower/DigitalInnovatio
 import InnovativeMindset from "./content/articles/InnovativeMindset";
 import BalenciagaIntro from "./components/articles/brandpower/balenciaga/Balenciaga";
 import BalenciagaSpread from "./components/articles/brandpower/balenciaga/BalenciagaSpread";
-import MomentumReturn from "./components/economy/Momentum";
+import MomentumReturn from "./components/articles/economy/Momentum";
 import { Sample } from "./content/articles/Sample";
+import InfluencersAreNotModels from "./content/fashionrunway/InfluencersAreNotModels";
+import AdHoc from "./components/articles/justice_guards/AdHoc";
+import MadlangaCommission from "./components/articles/justice_guards/MadlangaCommision";
+import CatMatlala from "./components/articles/justice_guards/CatMatlala";
+import ProceedingsSoFar from "./components/articles/justice_guards/ProceedingsSoFar";
+import Mkhwanazi from "./components/articles/justice_guards/Mkhwanazi";
 
 const PageCover = React.forwardRef((props, ref) => (
   <div className="page page-cover hard" ref={ref} data-density="hard">
@@ -38,7 +44,7 @@ const PageCover = React.forwardRef((props, ref) => (
 ));
 
 const Page = React.forwardRef(({ children, number }, ref) => (
-  <div className="page" ref={ref}>
+  <div className="page" ref={ref} >
     <div className="page-content">
       <div className="page-text">{children}</div>
       <div className="page-footer">{number + 1}</div>
@@ -140,11 +146,12 @@ class DemoBook extends React.Component {
           maxShadowOpacity={0.5}
           showCover={true}
           mobileScrollSupport={true}   // ✅ allow vertical scroll on mobile
-          flipOnTouch={true}           // ✅ keep swipe-to-flip
-          flipOnClick={false}
+          flipOnTouch={false}           // ✅ keep swipe-to-flip
+          flipOnClick={true}
           onFlip={this.onPage}
           className="demo-book"
           ref={this.flipBook}
+           
         >
           {/* Example cover if you want */}
           {/* <PageCover>Impilo Magazine</PageCover> */}
@@ -157,7 +164,14 @@ class DemoBook extends React.Component {
           ))}
 
           {/* Dynamic pages */}
+        
           <Page number={8.0}><Sample /></Page>
+          <Page number={8.2}><Mkhwanazi/></Page>
+          <Page number={8.3}><CatMatlala/></Page>
+          <Page number={8.4}><AdHoc/></Page>
+          <Page number={8.5}><MadlangaCommission/></Page>
+       
+           <Page number={11}><InfluencersAreNotModels /></Page>
           <Page number={8.1}><MomentumReturn /></Page>
           <Page number={8}><BrandPower /></Page>
           <Page number={9}><BalenciagaIntro /></Page>

@@ -2,7 +2,8 @@ import React from "react";
 
 const BrandPower = () => {
   return (
-     <article className="uk-article" style={{ overflowY: "auto", maxHeight: "180vh" }}>
+     <article className="uk-article" style={{ overflowY: "auto", maxHeight: "180vh",  WebkitOverflowScrolling: 'touch', 
+  overscrollBehavior: 'contain'  }}>
         <div className="uk-container uk-margin-large-top">
 
         <h1 className="uk-article-title uk-heading-line">

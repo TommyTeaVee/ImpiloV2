@@ -3,7 +3,7 @@ import React from "react";
 const MomentumReturn = () => {
   return (
     <article
-      className="uk-article"
+      className="uk-article scroll-hint-emoji" 
       style={{ overflowY: "auto", maxHeight: "180vh",  WebkitOverflowScrolling: 'touch', 
   overscrollBehavior: 'contain'  }}
     >
