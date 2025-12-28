@@ -2167,7 +2167,7 @@
   resolved "https://registry.npmjs.org/@types/range-parser/-/range-parser-1.2.4.tgz"
   integrity sha512-EEhsLsD6UsDM1yFhAvy0Cjr6VwmpMWqFBCb9w07wVugF7w9nfajxLuVmngTIpgS6svCnm6Vaw+MZhoDCKnOfsw==
 
-"@types/react@^16.8.20":
+"@types/react@^16.8.20", "@types/react@^16.9.11":
   version "16.14.62"
   dependencies:
     "@types/prop-types" "*"
@@ -8747,6 +8747,15 @@ react-use-dimensions@^1.1.3:
   resolved "https://registry.npmjs.org/react-use-dimensions/-/react-use-dimensions-1.2.1.tgz"
   integrity sha512-XL+Rup9Hosxx3Ap9xpyQMbVwuUa4BSqiOjfBb2zDuGs4uv2FesFV+m8Z/huRx2BNptMd9ARPqFuSNA62zhCozg==
 
+react@^16.11.0:
+  version "16.14.0"
+  resolved "https://registry.npmjs.org/react/-/react-16.14.0.tgz"
+  integrity sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+
 react@^16.13.1:
   version "16.14.0"
   resolved "https://registry.npmjs.org/react/-/react-16.14.0.tgz"
@@ -10088,6 +10097,14 @@ typedarray-to-buffer@^3.1.5:
   version "4.1.3"
   resolved "https://registry.npmjs.org/typescript/-/typescript-4.1.3.tgz"
   integrity sha512-B3ZIOf1IKeH2ixgHhj6la6xdwR9QrLC5d1VKeCSY4tvkqhF2eqd9O7txNlS0PO3GrBAFIdr3L1ndNwteUbZLYg==
+
+uikit-icons@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.npmjs.org/uikit-icons/-/uikit-icons-0.5.0.tgz"
+  integrity sha512-KOXrEp6pKp6i9GvVdsi0P0dVOxd0QddCsvWcMTezyiHe44X6V2Uwj1mU5WX5bs6balVbxSKULkXlRRngYh0DrA==
+  dependencies:
+    "@types/react" "^16.9.11"
+    react "^16.11.0"
 
 uikit@^3.16.15:
   version "3.16.15"

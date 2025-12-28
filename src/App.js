@@ -23,7 +23,7 @@ import Page4Lessons from "./components/articles/iplaw/Page4Lessons";
 import Page5Conclusion from "./components/articles/iplaw/Page5Conclusion";
 import BrandPower from "./components/articles/brandpower/BrandPower";
 import DigitalInnovation from "./components/articles/brandpower/DigitalInnovation";
-import InnovativeMindset from "./content/articles/InnovativeMindset";
+import InnovativeMindset from "./components/articles/brandpower/InnovativeMindset";
 import BalenciagaIntro from "./components/articles/brandpower/balenciaga/Balenciaga";
 import BalenciagaSpread from "./components/articles/brandpower/balenciaga/BalenciagaSpread";
 import MomentumReturn from "./components/articles/economy/Momentum";
@@ -34,6 +34,43 @@ import MadlangaCommission from "./components/articles/justice_guards/MadlangaCom
 import CatMatlala from "./components/articles/justice_guards/CatMatlala";
 import ProceedingsSoFar from "./components/articles/justice_guards/ProceedingsSoFar";
 import Mkhwanazi from "./components/articles/justice_guards/Mkhwanazi";
+import Penicillin from "./components/articles/brandpower/Penicilin";
+import ImpiloCover from "./content/fashionrunway/modellers/ImpiloCover";
+import AboutZintle from "./content/fashionrunway/modellers/ZintleCover";
+import TimnaNzunzo from "./content/fashionrunway/modellers/Timna";
+import SiyamthandaProfile from "./content/fashionrunway/modellers/SiyamthandaProfile";
+import ZintleProfile from "./content/fashionrunway/modellers/ZintleProfile";
+import ModelProfileRich, { ModelProfile } from "./components/articles/ModelProfile";
+import BreakingNewsRich, { BreakingNews } from "./components/articles/BreakingNews";
+import FeatureArticleRich, { FeatureArticle } from "./components/articles/FeatureArticle";
+import MainArticle from "./components/articles/MainArticle";
+import { CreativityArticle } from "./content/articles/CreativeArticle";
+import { DigitalMediaArticle } from "./content/articles/DigitalMediaArticle";
+
+import { ModellingArticle } from "./content/articles/ModelingArticle";
+import { PerformanceArticle } from "./content/articles/PerformanceArticle";
+import { FashionArticle } from "./content/articles/FashionArticle";
+import { BreakingFeatureArticle } from "./content/articles/BreakingFeatureArticle";
+import ModelAgency from "./content/articles/ModelAgency";
+import VFXAdArticle from "./content/VFXArticle";
+import LeratoEditorial, { LeratoEditorial2 } from "./content/fashionrunway/modellers/LeratoEditorial";
+import { RapoleEditorial } from "./content/fashionrunway/modellers/RapoleEditorial";
+import { GallerySix } from "./content/fashionrunway/gallery/GallerySix";
+import { GalleryEight } from "./content/fashionrunway/gallery/GalleryEight";
+import { GalleryTen } from "./content/fashionrunway/gallery/GalleryTen";
+import { GalleryTwelve } from "./content/fashionrunway/gallery/Gallery12";
+import { Gallery8 } from "./content/fashionrunway/gallery/Galleries";
+import AlexGallery from "./content/fashionrunway/gallery/AlexGallery";
+import AlexArticle2 from "./content/fashionrunway/gallery/AlexGallery2";
+import LaNiyaProfile, { LaNiyaArticle2 } from "./content/fashionrunway/modellers/NiyaArticle";
+import SageryProfile from "./content/fashionrunway/modellers/SageryEditorial";
+import NiyaGallery from "./content/fashionrunway/gallery/NiyaGallery";
+import MaloryGallery from "./content/fashionrunway/gallery/MalloryGaller";
+import MalloryEditorial from "./content/fashionrunway/modellers/MalloryEditorial";
+import MomoEditorial from "./content/fashionrunway/modellers/MomoEditorial";
+import AlexEditorial from "./content/fashionrunway/modellers/AlexEditorial";
+import KlarissaEditorial from "./content/fashionrunway/modellers/Klarisa";
+import KgothatsoEditorial from "./content/fashionrunway/modellers/KgothatsoEditorial";
 
 const PageCover = React.forwardRef((props, ref) => (
   <div className="page page-cover hard" ref={ref} data-density="hard">
@@ -44,7 +81,7 @@ const PageCover = React.forwardRef((props, ref) => (
 ));
 
 const Page = React.forwardRef(({ children, number }, ref) => (
-  <div className="page" ref={ref} >
+  <div className="page" ref={ref}>
     <div className="page-content">
       <div className="page-text">{children}</div>
       <div className="page-footer">{number + 1}</div>
@@ -133,7 +170,15 @@ class DemoBook extends React.Component {
         <div className="page-counter">
           <span>📖 Page {page + 1} of {totalPage || "…"}</span>
         </div>
-
+  {/* NAV BUTTONS (pointer-events none on wrapper so swipe still works) */}
+        <div className="flip-controls uk-flex uk-flex-center uk-margin-top button-wrapper">
+          <button className="bubble-button" onClick={this.prevPage}>
+            ⬅ Prev
+          </button>
+          <button className="bubble-button" onClick={this.nextPage}>
+            Next ➡
+          </button>
+        </div>
         {/* FLIP BOOK */}
         <HTMLFlipBook
           width={400}
@@ -154,23 +199,57 @@ class DemoBook extends React.Component {
            
         >
           {/* Example cover if you want */}
-          {/* <PageCover>Impilo Magazine</PageCover> */}
+          <PageCover>Impilo Magazine</PageCover> 
 
-          {/* Preloaded static image pages */}
+          {/* Preloaded static image pages 
           {pages.slice(0, 10).map((p, i) => (
             <Page key={i} number={i}>
               <img src={p} alt={`Page ${i + 1}`} className="page-image" />
             </Page>
-          ))}
+          ))}*/}
 
           {/* Dynamic pages */}
-        
-          <Page number={8.0}><Sample /></Page>
+           <Page number={22}><Editor /></Page>
+          <Page number={23}><Tommy /></Page>
+          <Page number={24}><LaNiyaProfile/></Page>
+          <Page number={24}><KgothatsoEditorial/></Page>
+            <Page number={24}><NiyaGallery/></Page>
+          <Page number={24}><SageryProfile/></Page>
+           <Page number={24}><KlarissaEditorial/></Page>
+           <Page number={24}><MalloryEditorial /></Page>
+           <Page number={24}><MomoEditorial /></Page>
+            <Page number={24}><AlexEditorial /></Page>
+          <Page number={24}><CreativityArticle /></Page>
+           <Page number={8.0}><VFXAdArticle/></Page>
+          <Page number={8.0}><ModelAgency /></Page>
+          <Page number={8.0}><ImpiloCover /></Page>
+          <Page number={8.0}><AboutZintle /></Page>
+           <Page number={8.0}><AlexGallery /></Page>
+            <Page number={8.0}><AlexArticle2 /></Page>
+            <Page number={8.0}><TimnaNzunzo /></Page>
+             <Page number={8.0}><Gallery8/></Page>
+             <Page number={8.0}><LeratoEditorial /></Page>
+              <Page number={8.0}><LeratoEditorial2 /></Page>
+             <Page number={8.0}><RapoleEditorial /></Page>
+              <Page number={8.0}><GalleryTen /></Page>
+              <Page number={8.0}><ZintleProfile /></Page>
+               <Page number={8.0}><GalleryTwelve/></Page>
+              <Page number={8.0}><ModelProfileRich /></Page>
+                <Page number={8.0}><FeatureArticleRich /></Page>
+              <Page number={8.0}><BreakingFeatureArticle/></Page>
+              <Page number={8.0}><MainArticle /></Page>
+              <Page number={8.0}><CreativityArticle /></Page>
+              <Page number={8.0}><DigitalMediaArticle/></Page>
+              <Page number={8.0}><FashionArticle /></Page>
+       <Page number={8.0}><MainArticle /></Page>
+              <Page number={8.0}><ModellingArticle/></Page>
+              <Page number={8.0}><PerformanceArticle /></Page>
           <Page number={8.2}><Mkhwanazi/></Page>
           <Page number={8.3}><CatMatlala/></Page>
           <Page number={8.4}><AdHoc/></Page>
           <Page number={8.5}><MadlangaCommission/></Page>
-       
+          <Page number={8.6}><InnovativeMindset /></Page>
+          <Page number={8.7}><Penicillin/></Page>
            <Page number={11}><InfluencersAreNotModels /></Page>
           <Page number={8.1}><MomentumReturn /></Page>
           <Page number={8}><BrandPower /></Page>
@@ -188,29 +267,18 @@ class DemoBook extends React.Component {
           <Page number={19}><ModelFeature /></Page>
           <Page number={20}><EditorialModel /></Page>
           <Page number={21}><AdModel /></Page>
-          <Page number={22}><Editor /></Page>
-          <Page number={23}><Tommy /></Page>
-          <Page number={24}><PodcastShowcase /></Page>
           <Page number={25}><Article /></Page>
 
-          {/* Remaining static pages */}
+          {/* Remaining static pages 
           {pages.slice(17).map((p, i) => (
             <Page key={i + 21} number={i + 21}>
               <img src={p} alt={`Page ${i + 18}`} className="page-image" />
             </Page>
-          ))}
-        </HTMLFlipBook>
+          ))}*/}
+       
 
-        {/* NAV BUTTONS (pointer-events none on wrapper so swipe still works) */}
-        <div className="flip-controls uk-flex uk-flex-center uk-margin-top button-wrapper">
-          <button className="bubble-button" onClick={this.prevPage}>
-            ⬅ Prev
-          </button>
-          <button className="bubble-button" onClick={this.nextPage}>
-            Next ➡
-          </button>
-        </div>
-
+      
+ </HTMLFlipBook>
         {/* SWIPE HINT (mobile) */}
        
       </div>
