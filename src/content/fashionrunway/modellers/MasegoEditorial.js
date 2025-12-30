@@ -2,11 +2,11 @@ import React from "react";
 
 // CloudFront image URLs (Masego folder)
 const heroImage =
-  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Masego/hero.jpg";
+  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Masego/IMG-20250607-WA0031.jpg";
 
 const galleryImages = [
-  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Masego/1.jpg",
-  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Masego/2.jpg",
+  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Masego/IMG-20250607-WA0032.jpg",
+  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Masego/IMG-20250607-WA0033.jpg",
   "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Masego/3.jpg",
   "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Masego/4.jpg",
   "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Masego/5.jpg",
@@ -18,11 +18,11 @@ const galleryImages = [
 export default function MasegoEditorial() {
   return (
     <article
-      className="editorial-page uk-article theme-lime glass-card gradient-gloss"
+      className="editorial-page uk-article  glass-card gradient-gloss"
       style={{ overflowY: "auto", maxHeight: "180vh" }}
     >
       {/* Header */}
-      <header className="article-header editorial-header">
+      <header className="article-header editorial-header uk-light theme-purple">
         <h1>Masego Diseko</h1>
         <p className="article-subtitle">
           Fashion Model · Pageantry Winner · Youth Advocate
@@ -31,14 +31,18 @@ export default function MasegoEditorial() {
           Passion, Posing, Purpose
         </p>
       </header>
-
+  {/* Hero */}
+      <section className="article-hero glass-card">
+        <img  src={heroImage} alt="Masego Potrait" />
+      </section>
       {/* Hero + Intro Paragraph */}
       <section className="article-content uk-grid-large" uk-grid="true">
         <div className="uk-width-1-3@m">
           <img
-            src={heroImage}
+          
+            src={galleryImages[0]}
             alt="Masego Diseko portrait"
-            className="portrait-img"
+            className="uk-border-circle"
           />
         </div>
         <div className="uk-width-2-3@m article-text">

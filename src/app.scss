@@ -1,3 +1,27 @@
+/* ===============================
+   IMPILO COLOR TOKENS
+================================ */
+
+$impilo-purple-silk-1: #5b2b82;
+$impilo-purple-silk-2: #8f5fcf;
+$impilo-purple-silk-3: #c9a7ff;
+
+$impilo-gold-light-1: #f6e6b4;
+$impilo-gold-light-2: #e8cf8a;
+$impilo-gold-light-3: #fff4cc;
+
+$impilo-orange-1: #ff7a18;
+$impilo-orange-2: #ff9f45;
+$impilo-orange-3: #ffd194;
+
+$impilo-pink-1: #ff5fa2;
+$impilo-pink-2: #ff89c2;
+$impilo-pink-3: #ffd1e8;
+  
+  
+  
+  
+  
   .flip-book {
     margin: 0 auto;
     box-shadow: 0 0 2px 0 rgba(102, 20, 20, 0.5);
@@ -16,7 +40,7 @@
   @mixin glossy-bg($color: $glossy-base) {
     background: linear-gradient(
       to bottom,
-      lighten($color, 20%) 0%,   // top highlight
+      lighten($color, 20%) 0%,   // top highlights
       $color 50%,                // main color
       darken($color, 10%) 100%   // bottom shadow
     );
@@ -484,7 +508,7 @@ html, body, #root {
   /* Header */
   .timna-header {
     background: linear-gradient(90deg, #1a1205, #b68a28);
-    padding: 40px 30px;
+    padding: 40px 30px;color: #fff;
   }
 
   .timna-header h1 {
@@ -515,7 +539,7 @@ html, body, #root {
 
   /* Achievements */
   .timna-achievements {
-    background: linear-gradient(90deg, #1a1205, #b68a28);
+    background: linear-gradient(45deg,#b68a28 #1a1205, );
     padding: 30px;
     color: #fff;
   }
@@ -728,6 +752,8 @@ html, body, #root {
     --purple: #9d00ff;
     --lime: #b8d232;
     --blue: #4077b8;
+    --indigo: #4B0082;
+    --purplesilk: #800080;
   }
 
   .editorial-page.theme-gold .editorial-header,
@@ -777,6 +803,18 @@ html, body, #root {
   .editorial-page.theme-feature .editorial-footer {
     background: linear-gradient(90deg, #b8d232, #008c5b) !important;
     color: #000 !important;
+  }
+   .editorial-page.theme-indigo .editorial-header,
+  .editorial-page.theme-indigo .editorial-highlights,
+  .editorial-page.theme-indigo .editorial-footer {
+    background: var(--indigo) !important;
+    color: #fff !important;
+  }
+   .editorial-page.theme-silkpurple .editorial-header,
+  .editorial-page.theme-silkpurple .editorial-highlights,
+  .editorial-page.theme-silkpurple .editorial-footer {
+    background: var(--purplesilk) !important;
+    color: #fff !important;
   }
   /* Glassmorphism container for articles or cards */
   .glass-card {
@@ -1257,3 +1295,611 @@ html, body, #root {
   margin-right: 8px;
 }
 
+.theme-noir {
+  background: linear-gradient(
+    180deg,
+    #0b0b0b,
+    #121212,
+    #0b0b0b
+  );
+  color: #e5e5e5;
+}
+
+.gradient-noir {
+  box-shadow:
+    inset 0 0 120px rgba(255,255,255,0.03),
+    0 30px 80px rgba(0,0,0,0.6);
+}
+
+.theme-noir h1,
+.theme-noir h2 {
+  color: #f5f5f5;
+}
+
+.theme-noir .article-subtitle {
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.85;
+}
+
+.theme-noir a {
+  color: #cfcfcf;
+}
+
+.theme-noir a:hover {
+  color: #ffffff;
+}
+
+.portrait-frame img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  filter: contrast(1.05);
+}
+.theme-gold-lead {
+  background: radial-gradient(
+      circle at top,
+      rgba(255, 215, 130, 0.12),
+      transparent 40%
+    ),
+    linear-gradient(
+      180deg,
+      #070707,
+      #0f0f0f,
+      #050505
+    );
+  color: #f3f3f3;
+}
+
+.gradient-gold-dark {
+  box-shadow:
+    inset 0 0 180px rgba(255, 200, 120, 0.08),
+    0 40px 120px rgba(0, 0, 0, 0.8);
+}
+
+.lead-header h1 {
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #f5d48b;
+}
+
+.lead-subtitle {
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(245, 212, 139, 0.85);
+}
+
+.lead-hero img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  filter: contrast(1.08) saturate(1.05);
+}
+
+.lead-text h2 {
+  color: #f5d48b;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.lead-text p {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  opacity: 0.95;
+}
+
+.lead-footer {
+  margin-top: 4rem;
+  letter-spacing: 0.15em;
+  color: rgba(245, 212, 139, 0.7);
+}
+
+/* =========================================
+   IMPILO GRADIENT THEMES (ADD-ON ONLY)
+   ========================================= */
+
+/* ---------- SILVER ---------- */
+.theme-silver {
+  background: linear-gradient(
+    135deg,
+    #e5e7eb,
+    #bfc3c9,
+    #1a1a1d
+  );
+
+  .article-header,
+  .editorial-header {
+    background: linear-gradient(
+      90deg,
+      #f5f6f7,
+      #9fa4aa
+    );
+    color: #f1f1f1;
+  }
+
+  .article-highlight,
+  .editorial-highlights,
+  .article-footer {
+    background: linear-gradient(
+      90deg,
+      #9fa4aa,
+      #1a1a1d
+    );
+    color: #fff;
+  }
+}
+
+/* ---------- GOLD (LEAD / FEATURE) ---------- */
+.theme-gold-dark {
+  
+  background: linear-gradient(
+    135deg,
+    #1a1205,
+    #b68a28,
+    #000,
+    
+  );
+   color: #ffffff;
+
+  .article-header,
+  .editorial-header {
+    background: linear-gradient(
+      90deg,
+      #1a1205,
+      #b68a28
+    );
+    color: #f1f1f1;
+  }
+
+  .article-highlight,
+  .editorial-highlights,
+  .article-footer {
+    background: linear-gradient(
+      90deg,
+      #b68a28,
+      #1a1205
+    );
+    color: #f5d98c;
+  }
+  
+}
+
+/* ---------- BLACK / NOIR ---------- */
+.theme-black {
+  background: linear-gradient(
+    135deg,
+    #000,
+    #111,
+    #1a1a1a
+  );
+
+  .article-header,
+  .editorial-header {
+    background: linear-gradient(
+      90deg,
+      #000,
+      #222
+    );
+    color: #fff;
+  }
+
+  .article-highlight,
+  .editorial-highlights,
+  .article-footer {
+    background: #0f0f0f;
+    color: #fff;
+  }
+}
+
+/* ---------- PURPLE ---------- */
+.theme-purple {
+  background: linear-gradient(
+    135deg,
+    #2a083d,
+    #9d00ff,
+    #000
+  );
+
+  .article-header,
+  .editorial-header {
+    background: linear-gradient(
+      90deg,
+      #2a083d,
+      #9d00ff
+    );
+    color: #efefef;
+  }
+
+  .article-highlight,
+  .editorial-highlights,
+  .article-footer {
+    background: linear-gradient(
+      90deg,
+      #9d00ff,
+      #2a083d
+    );
+    color: #fff;
+  }
+}
+
+/* ---------- LIME GREEN ---------- */
+.theme-lime {
+  background: linear-gradient(
+    135deg,
+    #2a3a0d,
+    #b8d232,
+    #0f1408
+  );
+
+  .article-header,
+  .editorial-header {
+    background: linear-gradient(
+      90deg,
+      #2a3a0d,
+      #b8d232
+    );
+    color: #ffff;
+  }
+
+  .article-highlight,
+  .editorial-highlights,
+  .article-footer {
+    background: linear-gradient(
+      90deg,
+      #b8d232,
+      #2a3a0d
+    );
+    color: #0f1408;
+  }
+}
+/* =========================================
+   IMPILO EXTENDED THEMES
+   ========================================= */
+
+/* ---------- RED WINE / DARK RED ---------- */
+.theme-red-wine {
+  background: linear-gradient(
+    135deg,
+    #2b0505,
+    #7a0c0c,
+    #120000
+  );
+
+  .article-header,
+  .editorial-header {
+    background: linear-gradient(
+      90deg,
+      #2b0505,
+      #7a0c0c
+    );
+    color: #f5d6d6;
+  }
+
+  .article-highlight,
+  .editorial-highlights,
+  .article-footer {
+    background: linear-gradient(
+      90deg,
+      #7a0c0c,
+      #2b0505
+    );
+    color: #fff;
+  }
+}
+
+/* ---------- DARK BLUE (DEPTH / CINEMA) ---------- */
+.theme-dark-blue {
+  background: linear-gradient(
+    135deg,
+    #020b1a,
+    #0b2a55,
+    #000814
+  );
+
+  .article-header,
+  .editorial-header {
+    background: linear-gradient(
+      90deg,
+      #020b1a,
+      #0b2a55
+    );
+    color: #dbeafe;
+  }
+
+  .article-highlight,
+  .editorial-highlights,
+  .article-footer {
+    background: linear-gradient(
+      90deg,
+      #0b2a55,
+      #020b1a
+    );
+    color: #fff;
+  }
+}
+
+/* ---------- SKY BLUE (EDITORIAL / FRESH) ---------- */
+.theme-sky-blue {
+  background: linear-gradient(
+    135deg,
+    #e0f2fe,
+    #7dd3fc,
+    #0369a1
+  );
+
+  .article-header,
+  .editorial-header {
+    background: linear-gradient(
+      90deg,
+      #e0f2fe,
+      #7dd3fc
+    );
+    color: #022c3a;
+  }
+
+  .article-highlight,
+  .editorial-highlights,
+  .article-footer {
+    background: linear-gradient(
+      90deg,
+      #7dd3fc,
+      #0369a1
+    );
+    color: #fff;
+  }
+}
+
+/* ---------- IMPILO EMERALD (LUXURY + GROWTH) ---------- */
+.theme-emerald {
+  background: linear-gradient(
+    135deg,
+    #062e2a,
+    #008c5b,
+    #021d18
+  );
+
+  .article-header,
+  .editorial-header {
+    background: linear-gradient(
+      90deg,
+      #062e2a,
+      #008c5b
+    );
+    color: #dcfce7;
+  }
+
+  .article-highlight,
+  .editorial-highlights,
+  .article-footer {
+    background: linear-gradient(
+      90deg,
+      #008c5b,
+      #062e2a
+    );
+    color: #fff;
+  }
+}
+
+/* ---------- IMPILO ROSE (FASHION / BEAUTY) ---------- */
+.theme-rose {
+  background: linear-gradient(
+    135deg,
+    #3a041c,
+    #ea3490,
+    #12000a
+  );
+
+  .article-header,
+  .editorial-header {
+    background: linear-gradient(
+      90deg,
+      #3a041c,
+      #ea3490
+    );
+    color: #ffe4f1;
+  }
+
+  .article-highlight,
+  .editorial-highlights,
+  .article-footer {
+    background: linear-gradient(
+      90deg,
+      #ea3490,
+      #3a041c
+    );
+    color: #fff;
+  }
+}
+
+/* ---------- IMPILO MIDNIGHT (ELITE / LEAD CINEMA) ---------- */
+.theme-midnight {
+  background: linear-gradient(
+    135deg,
+    #05070d,
+    #0f172a,
+    #000
+  );
+
+  .article-header,
+  .editorial-header {
+    background: linear-gradient(
+      90deg,
+      #05070d,
+      #0f172a
+    );
+    color: #e5e7eb;
+  }
+
+  .article-highlight,
+  .editorial-highlights,
+  .article-footer {
+    background: linear-gradient(
+      90deg,
+      #0f172a,
+      #05070d
+    );
+    color: #fff;
+  }
+}
+.theme-silk-purple {
+  background: linear-gradient(
+    135deg,
+    $impilo-purple-silk-1,
+    $impilo-purple-silk-2,
+    $impilo-purple-silk-3
+  );
+  color: #ffffff;
+
+  .article-header h1 {
+    color: #f3e8ff;
+  }
+
+  .article-subtitle {
+    color: rgba(255, 255, 255, 0.85);
+  }
+
+  .glass-card {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16x);
+  }
+}
+.theme-light-gold {
+  background: linear-gradient(
+    135deg,
+    $impilo-gold-light-1,
+    $impilo-gold-light-2,
+    $impilo-gold-light-3
+  );
+  color: #2a2a2a;
+
+  .article-header h1 {
+    color: #7a5a12;
+  }
+
+  .article-subtitle {
+    color: #5c4a1a;
+  }
+
+  .glass-card {
+    background: rgba(255, 255, 255, 0.65);
+    backdrop-filter: blur(12px);
+     -webkit-backdrop-filter: blur(12x);
+  }
+}
+.theme-orange-blend {
+  background: linear-gradient(
+    135deg,
+    $impilo-orange-1,
+    $impilo-orange-2,
+    $impilo-orange-3
+  );
+  color: #1e1e1e;
+
+  .article-header h1 {
+    color: #fffefe;
+  }
+
+  .article-subtitle {
+    color: rgba(30, 30, 30, 0.85);
+  }
+
+  .glass-card {
+    background: rgba(255, 255, 255, 0.55);
+    backdrop-filter: blur(14px);
+     -webkit-backdrop-filter: blur(14x);
+    
+  }
+}
+.theme-soft-pink {
+  background: linear-gradient(
+    135deg,
+    $impilo-pink-1,
+    $impilo-pink-2,
+    $impilo-pink-3
+  );
+  color: #2b0f1d;
+
+  .article-header h1 {
+    color: #6b1f43;
+  }
+
+  .article-subtitle {
+    color: rgba(43, 15, 29, 0.85);
+  }
+
+  .glass-card {
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(12px);
+         -webkit-backdrop-filter: blur(12x);
+  }
+}
+
+.theme-dark-pink-purple {
+  background: linear-gradient(
+    135deg,
+    #9d00ff 0%,
+    #ea3490 50%,
+    #5b007a 100%
+  );
+  color: #ffffff;
+
+  .article-header h1 {
+    color: #ffdaf7;
+    text-shadow: 0 0 6px rgba(255, 218, 247, 0.6);
+  }
+
+  .article-subtitle {
+    color: rgba(249, 249, 251, 0.85);
+  }
+
+  .glass-card {
+    background: rgba(25, 0, 40, 0.45);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    border: 1px solid rgba(157, 0, 255, 0.25);
+    box-shadow: 0 12px 40px rgba(157, 0, 255, 0.25);
+  }
+}
+.theme-noir-accent {
+  background: linear-gradient(
+    135deg,
+    #0c0c0c 0%,
+    #2a2a2a 50%,
+    #4077b8 100%
+  );
+  color: #f9fafb;
+
+  .article-header h1 {
+    color: #ffffff;
+    text-shadow: 0 0 8px rgba(64, 119, 184, 0.7);
+  }
+
+  .article-subtitle {
+    color: rgba(249, 250, 251, 0.85);
+  }
+
+  .glass-card {
+    background: rgba(15, 15, 15, 0.5);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    border: 1px solid rgba(64, 119, 184, 0.25);
+    box-shadow: 0 12px 40px rgba(64, 119, 184, 0.25);
+  }
+}
+
+.hero-landscape {
+  width: 100%;
+  height: 420px; // landscape height
+  overflow: hidden;
+  border-radius: 18px;
+  position: relative;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   // 🔥 key
+    object-position: center top; // adjust focus
+  }
+}

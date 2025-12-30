@@ -2,51 +2,53 @@ import React from "react";
 
 // Hero and gallery images (replace with CloudFront links)
 const heroImage =
-  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Kgothatso/IMG-20251209-WA0052.jpg";
+  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Kgothatso/IMG-20251209-WA0063.jpg?fit=crop&w=650&h=433&q=80";
 
 const galleryImages = [
-  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Kgothatso/1.jpg",
-  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Kgothatso/2.jpg",
-  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Kgothatso/3.jpg",
-  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Kgothatso/4.jpg",
+  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Kgothatso/IMG-20251209-WA0052.jpg",
+  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Kgothatso/IMG-20251228-WA0045.jpg",
+  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Kgothatso/IMG-20251209-WA0056.jpg",
+   "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Kgothatso/IMG-20251228-WA0043.jpg",
   "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Kgothatso/5.jpg",
   "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Kgothatso/6.jpg"
 ];
 
 export default function KgothatsoEditorial() {
   return (
-    <article
-      className="editorial-page uk-article theme-gold glass-card gradient-gloss"
+    <article className="editorial-page uk-article  glass-card gradient-gloss"
       style={{ overflowY: "auto", maxHeight: "180vh" }}
     >
       {/* Header */}
       <header
-        className="article-header editorial-header"
-        style={{
-          background: "linear-gradient(90deg, #c0c0c0, #e0e0e0)",
-          color: "#1c1c1c"
-        }}
+        className="article-header editorial-header theme-dark-pink-purple "
+        
       >
+        
         <h1>Kgothatso Mantsho</h1>
         <p className="article-subtitle">
           Model & Singer · Mental Health Advocate
         </p>
-        <p className="article-subtitle" style={{ fontStyle: "italic" }}>
-          Inspiring Mind & Body Wellness
-        </p>
+      
       </header>
-
+  {/* Hero */}
+      <section className="article-hero glass-card hero-landscape">
+        <img src={heroImage} alt="Kgothatso Hero" />
+      
+      </section>
+  <blockquote className="editorial-quote" >
+          Inspiring Mind & Body Wellness
+        </blockquote>
       {/* Hero + Intro Paragraph */}
-      <section className="article-content uk-grid-large" uk-grid="true">
-        <div className="uk-width-1-3@m uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover">
+      <section className="article-content  uk-grid-item-match uk-grid-collapse uk-child-width-expand@s uk-text-center uk-margin-large-top" uk-grid="true">
+        <div className="uk-width-1-2 uk-height-medium uk-flex uk-flex-center uk-flex-middle  uk-background-cover uk-grid-item-match">
           <img
-            src={heroImage}
+            src={galleryImages[3]}
             alt="Kgothatso Mantsho"
-            className="portrait-img glass-card"
+            className="portrait-img uk-border-circle"
           />
         </div>
-        <div className="uk-width-2-3@m article-text glass-card">
-          <h2>About Me</h2>
+        <div className="uk-child-width-1-1 uk-text-justify article-text glass-card">
+          <h2>Editorial Bio</h2>
           <p>
             I am Kgothatso Mantsho, a 21-year-old model and singer from
             Polokwane, South Africa. From a young age, I have been passionate
@@ -98,11 +100,11 @@ export default function KgothatsoEditorial() {
         <p>Based in Polokwane, South Africa</p>
         <p>
           <a
-            href="mailto:kgothatso.m@example.com"
+            href="mailto:kgothatso.m@impilomag.co.za"
             className="uk-icon-link"
             uk-icon="mail"
           >
-            kgothatso.m@example.com
+            kgothatso.m@impilomag.co.za
           </a>
         </p>
         <p>

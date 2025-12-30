@@ -16,11 +16,11 @@ const galleryImages = [
 export default function KlarissaEditorial() {
   return (
     <article
-      className="editorial-page uk-article theme-pink glass-card gradient-gloss"
+      className="editorial-page uk-article   glass-card gradient-gloss"
       style={{ overflowY: "auto", maxHeight: "180vh" }}
     >
       {/* Header */}
-      <header className="article-header editorial-header">
+      <header className="article-header theme-rose uk-light  editorial-header">
         <h1>Klarissa Repole</h1>
         <p className="article-subtitle">
           Fashion Model · Performer · Creative Professional
@@ -31,7 +31,7 @@ export default function KlarissaEditorial() {
       </header>
   {/* Hero */}
       <section className="article-hero glass-card">
-        <img src={heroImage} alt="La’Niya Hero" />
+        <img src={heroImage} alt="Klarrisa Hero" />
       </section>
 
       {/* Intro: Hero + First Paragraph */}

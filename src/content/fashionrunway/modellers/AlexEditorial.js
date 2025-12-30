@@ -8,29 +8,29 @@ const galleryImages = [
     "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Alex/597235561_25468893126083089_8798243625842166663_n.jpg",
   "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Alex/597613140_1174187981033040_6470994187745984638_n.jpg",
   "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Alex/597723630_2243718366128208_8143169235445074438_n.jpg",
-   "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Alex/597723630_2243718366128208_8143169235445074438_n.jpg"
+   "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Alex/597723630_2243718366128208_8143169235445074438_n.jpg",
+   "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Alex/589912712_1680723502905537_8456216366489532862_n.jpg",
+  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Alex/591705776_866181062533320_3094779934071122464_n.jpg"
 ];
 
 export default function AlexEditorial() {
   return (
     <article
-      className="editorial-page uk-article theme-gold glass-card gradient-gloss"
+      className="editorial-page uk-article  glass-card gradient-gloss"
       style={{ overflowY: "auto", maxHeight: "180vh" }}
     >
       {/* Header */}
-      <header className="article-header editorial-header">
+      <header className="article-header editorial-header uk-light theme-dark-blue">
         <h1>Alex Major</h1>
         <p className="article-subtitle">
           Fashion Model · Transformation · Self-Expression
         </p>
-        <p className="article-subtitle" style={{ fontStyle: "italic" }}>
-          Resilience over perfection.
-        </p>
+      
       </header>
 
       {/* Intro: Portrait + Story */}
-      <section className="article-content uk-grid-large" uk-grid="true">
-        <div className="uk-width-1-3@m">
+       <section className="article-content  uk-grid-item-match uk-grid-collapse uk-child-width-expand@s uk-text-center uk-margin-large-top" uk-grid="true">
+        <div className="uk-width-1-2 uk-height-medium uk-flex uk-flex-center uk-flex-middle  uk-grid-item-match " style={{height: "500px"}}>
           <img
             src={heroImage}
             alt="Alex Major portrait"
@@ -38,7 +38,7 @@ export default function AlexEditorial() {
           />
         </div>
 
-        <div className="uk-width-2-3@m article-text">
+        <div className="uk-child-width-1-1 uk-text-justify article-text glass-card">
           <h2>Editorial Bio</h2>
           <p className="uk-dropcap">
             For years, I lived inside a body that felt like it was working
@@ -50,9 +50,34 @@ export default function AlexEditorial() {
             fixed on my feet, hoping to go unnoticed, hoping to disappear into
             the background.
           </p>
+            
         </div>
       </section>
+<section
+  className="article-content editorial-avatar-row uk-grid-small uk-grid-match glass-card"
+  uk-grid="true"
+>
+  {/* Avatar column */}
+  <div className="uk-width-1-4@m uk-width-1-3@s uk-flex uk-flex-center uk-flex-middle">
+    <div className="avatar-wrapper">
+      <img
+        src={galleryImages[5]}
+        alt="Alex Maj portrait"
+        className="portrait-img  uk-border-circle"
+      />
+    </div>
+  </div>
 
+  {/* Text column */}
+  <div className="uk-width-expand uk-flex uk-flex-middle uk-width-1-3@s">
+    <div className="editorial-text-block">
+
+      <blockquote className="editorial-quote">
+       "Resilience over perfection".
+      </blockquote>
+    </div>
+  </div>
+</section>
       {/* Struggle & Reality */}
       <section className="article-content glass-card">
         <h2>Living Inside the Struggle</h2>

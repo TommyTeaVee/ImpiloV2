@@ -16,23 +16,21 @@ const galleryImages = [
 export default function MomoEditorial() {
   return (
     <article
-      className="editorial-page uk-article theme-purple glass-card gradient-gloss"
+      className="editorial-page uk-article  glass-card gradient-gloss"
       style={{ overflowY: "auto", maxHeight: "180vh" }}
     >
       {/* Header */}
-      <header className="article-header editorial-header">
+      <header className="article-header editorial-header uk-light theme-dark-blue">
         <h1>Muhammed Anver Allie</h1>
         <p className="article-subtitle">
           Fashion Model · Commercial Performer · Visual Storyteller
         </p>
-        <p className="article-subtitle" style={{ fontStyle: "italic" }}>
-          Where authenticity becomes art.
-        </p>
+       
       </header>
 
       {/* Intro: Portrait + Text */}
-      <section className="article-content uk-grid-large" uk-grid="true">
-        <div className="uk-width-1-3@m">
+      <section className="article-content  uk-grid-item-match uk-grid-collapse uk-child-width-expand@s uk-text-center uk-margin-large-top" uk-grid="true">
+        <div className="uk-width-1-2 uk-height-medium uk-flex uk-flex-center uk-flex-middle  uk-grid-item-match">
           <img
             src={heroImage}
             alt="Muhammed portrait"
@@ -40,7 +38,7 @@ export default function MomoEditorial() {
           />
         </div>
 
-        <div className="uk-width-2-3@m article-text">
+        <div className="uk-child-width-1-1 uk-text-justify article-text glass-card">
           <h2>Editorial Bio</h2>
           <p className="uk-dropcap">
             My name is Muhammed Anver Allie. Modelling has always been more than
@@ -56,9 +54,15 @@ export default function MomoEditorial() {
           </p>
         </div>
       </section>
-
+{/* Philosophy Quote */}
+      <section className="article-content  uk-grid-item-match uk-grid-collapse uk-child-width-expand@s uk-text-center uk-margin-large-top ">
+        <blockquote className="uk-h3 uk-text-italic editorial-quote uk-width-1-2@m ">
+          “Modelling is like painting. It isn’t only about how the final piece
+          looks — it’s about how it makes people feel.”
+        </blockquote>
+    
       {/* Artistic Philosophy */}
-      <section className="article-content glass-card">
+      <div className="article-content glass-card">
         <h2>Art, Authenticity & Presence</h2>
         <p>
           To me, modelling matters because it is art. It is a space where I get
@@ -70,8 +74,8 @@ export default function MomoEditorial() {
           Every frame becomes a moment of honesty. Every project becomes a
           reflection of growth, intention, and emotional truth.
         </p>
-      </section>
-
+      </div>
+</section>
       {/* Journey & Experience */}
       <section className="article-content article-text">
         <h2>Journey & Professional Growth</h2>
@@ -129,13 +133,7 @@ export default function MomoEditorial() {
         </p>
       </section>
 
-      {/* Philosophy Quote */}
-      <section className="article-content glass-card uk-text-center">
-        <blockquote className="uk-h3 uk-text-italic">
-          “Modelling is like painting. It isn’t only about how the final piece
-          looks — it’s about how it makes people feel.”
-        </blockquote>
-      </section>
+      
 
       {/* Gallery */}
       <section className="article-content">

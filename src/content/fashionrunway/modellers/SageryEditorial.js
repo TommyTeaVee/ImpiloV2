@@ -3,11 +3,10 @@ import React from "react";
 // Example cloudfront image URLs
 const heroImage = "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Sagery/📸/204A5143.JPG?";
 const storyImages = [
-  "https://d123.cloudfront.net/Sagery/story1.jpg",
-  "https://d123.cloudfront.net/Sagery/story2.jpg"
+  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Sagery/📸/204A5143.JPG?"
 ];
 const galleryImages = [
-  "https://d123.cloudfront.net/Sagery/1.jpg",
+  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Sagery/📸/204A5143.JPG?",
   "https://d123.cloudfront.net/Sagery/2.jpg",
   "https://d123.cloudfront.net/Sagery/3.jpg",
   "https://d123.cloudfront.net/Sagery/4.jpg",
@@ -17,34 +16,44 @@ const galleryImages = [
 
 export default function SageryEditorial() {
   return (
-    <article style={{overflowY: 'auto', maxHeight: '180vh'}}  className="editorial-page  uk-article theme-purple glass-card gradient-gloss">
+    <article style={{overflowY: 'auto', maxHeight: '180vh'}}  className="editorial-page  uk-article  glass-card gradient-gloss">
       {/* Header */}
-      <header className="article-header editorial-header">
+      <header className="article-header editorial-header theme-silk-purple uk-light">
         <h1>Sagery Brunetti</h1>
         <p className="article-subtitle">Fashion Model · Beauty Artist · Creative Professional</p>
-        <p className="article-subtitle" style={{ fontStyle: "italic" }}>
-          Driven by creation. Defined by growth.
-        </p>
+        
       </header>
 
       {/* Hero Image */}
-      <section className="article-hero glass-card">
-        <img src={heroImage} alt="Sagery Hero" />
-      </section>
+      <section className="article-hero glass-card  uk-border-rounded">
+        <img className="uk-border-rounded" src={heroImage} alt="Sagery Hero" />
+      
 
       {/* Story Images
-      <section className="story-images-grid uk-grid-small uk-child-width-1-2@s" uk-grid="true">
+      <section className="story-images-grid uk-grid-small uk-border-circle uk-child-width-1-2@s" uk-grid="true">
         {storyImages.map((img, i) => (
-          <div key={i} className="glass-card">
-            <img src={img} alt={`Story ${i + 1}`} />
+          <div key={i} className="glass-card uk-border-circle">
+            <img src={img[0]} alt={`Story ${i + 1}`} />
           </div>
         ))}
+        <blockquote className="editorial-quote">
+          "Driven by creation. Defined by growth".
+        </blockquote>
       </section> */}
+       <div className="uk-width-1-3@m">
+          <img
+          
+            src={galleryImages[0]}
+            alt="Sagery  portrait"
+            className="uk-border-circle"
+          />
 
+
+        </div>
       {/* Editorial Content */}
-      <section className="article-content ">
+      <div className="article-content ">
         <div className="article-text">
-          <h2>My Bio</h2>
+          <h2>Editorial Bio</h2>
           <p className="uk-dropcap">
             I am Sagery Brunetti, a Chilean-born fashion model, makeup artist, and hair stylist based in Los Angeles, California. My professional focus is within the fashion industry, working primarily in editorial photoshoots and music video productions.
           </p>
@@ -65,9 +74,9 @@ export default function SageryEditorial() {
             I am an editorial-focused fashion model with experience in music video productions and beauty-driven fashion content. My work is defined by professionalism, adaptability, and strong visual awareness.
           </p>
         </div>
-      </section>
+      </div>
 
-      
+      </section>
       {/* Contact & Socials */}
       <section className="article-content glass-card">
         <h2>Contact & Socials</h2>

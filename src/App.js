@@ -69,8 +69,13 @@ import MaloryGallery from "./content/fashionrunway/gallery/MalloryGaller";
 import MalloryEditorial from "./content/fashionrunway/modellers/MalloryEditorial";
 import MomoEditorial from "./content/fashionrunway/modellers/MomoEditorial";
 import AlexEditorial from "./content/fashionrunway/modellers/AlexEditorial";
-import KlarissaEditorial from "./content/fashionrunway/modellers/Klarisa";
+import KlarissaEditorial from "./content/fashionrunway/modellers/KlarisaEditorial";
 import KgothatsoEditorial from "./content/fashionrunway/modellers/KgothatsoEditorial";
+import TshiamoNkadimengLead from "./content/fashionrunway/modellers/Tshiamo";
+import MasegoEditorial from "./content/fashionrunway/modellers/MasegoEditorial";
+import KaylleEditorial from "./content/fashionrunway/modellers/KayleEditorial";
+import AbenathiEditorial, { AbenathiLeadFeature } from "./content/fashionrunway/modellers/NathiEditorial";
+import BrandonMazulaEditorial from "./content/fashionrunway/modellers/BrandonEditorial";
 
 const PageCover = React.forwardRef((props, ref) => (
   <div className="page page-cover hard" ref={ref} data-density="hard">
@@ -211,11 +216,17 @@ class DemoBook extends React.Component {
           {/* Dynamic pages */}
            <Page number={22}><Editor /></Page>
           <Page number={23}><Tommy /></Page>
+           <Page number={24}><AbenathiEditorial /></Page>
+           
+             <Page number={24}><BrandonMazulaEditorial/></Page>
           <Page number={24}><LaNiyaProfile/></Page>
           <Page number={24}><KgothatsoEditorial/></Page>
             <Page number={24}><NiyaGallery/></Page>
           <Page number={24}><SageryProfile/></Page>
            <Page number={24}><KlarissaEditorial/></Page>
+           <Page number={24}><TshiamoNkadimengLead/></Page>
+           <Page number={24}><MasegoEditorial/></Page>
+           <Page number={24}><KaylleEditorial/></Page>
            <Page number={24}><MalloryEditorial /></Page>
            <Page number={24}><MomoEditorial /></Page>
             <Page number={24}><AlexEditorial /></Page>

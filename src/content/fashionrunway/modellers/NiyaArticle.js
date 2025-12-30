@@ -17,9 +17,9 @@ const galleryImages = [
 
 export default function LaNiyaProfile() {
   return (
-    <article style={{overflowY: 'auto', maxHeight: '180vh'}}  className="editorial-page  uk-article theme-pink glass-card gradient-gloss">
+    <article style={{overflowY: 'auto', maxHeight: '180vh'}}  className="editorial-page  uk-article  glass-card gradient-gloss">
       {/* Header */}
-      <header className="article-header  editorial-header">
+      <header className="article-header  editorial-header theme-rose uk-light">
         <h1>La’Niya</h1>
         <p className="article-subtitle">Model & Hairstylist – New York City</p>
       </header>
@@ -29,28 +29,21 @@ export default function LaNiyaProfile() {
         <img src={heroImage} alt="La’Niya Hero" />
       </section>
 
-       {/* SIDE-BY-SIDE SECTION */}
-      <section
-        className="uk-grid-large uk-flex-middle uk-margin-large-top"
-        uk-grid="true"
-      ></section>
-      <section className="story-images-grid uk-width-1-2@m">
+    
+      <section className="story-images-grid uk-width-1-1@m">
         {storyImages.map((img, i) => (
-          <div key={i} className="story-image-wrapper glass-card">
-            <img src={img} alt={`Story ${i + 1}`} />
+          <div key={i} >
+            <img className="uk-border-circle" src={img} alt={`Story ${i + 1}`} />
           </div>
         ))}
-      </section>
-
+    
       {/* Article Content */}
-      <section className="article-contentuk-width-1-2@m ">
-        <div className="article-text uk-dropcap ">
+      
+        <div className="article-text uk-dropcap  uk-width-1-1@m ">
           <p>My name is <strong>La’Niya</strong>, and I’m an aspiring <strong>model</strong> and professional <strong>hairstylist</strong> based in the vibrant heart of New York City.</p>
           <p>I specialize in <strong>commercial and print modeling</strong>, bringing energy, creativity, and professionalism to every shoot I participate in. Combining my modeling experience with hairstyling, I offer a unique perspective to every creative project.</p>
           <p>Having completed cosmetology school, I am passionate about hair, beauty, and personal styling. I am eager to continue <strong>building my portfolio</strong>, collaborating with photographers, stylists, and brands, and exploring new opportunities in the NYC fashion scene.</p>
-          <blockquote className="editorial-quote">
-            "I strive to grow creatively and professionally while making meaningful connections in the fashion and beauty industry."
-          </blockquote>
+         
         </div>
       </section>
 
