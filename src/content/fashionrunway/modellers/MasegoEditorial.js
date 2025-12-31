@@ -24,20 +24,19 @@ export default function MasegoEditorial() {
       {/* Header */}
       <header className="article-header editorial-header uk-light theme-purple">
         <h1>Masego Diseko</h1>
-        <p className="article-subtitle">
+        <h4 className="article-subtitle">
           Fashion Model · Pageantry Winner · Youth Advocate
-        </p>
-        <p className="article-subtitle" style={{ fontStyle: "italic" }}>
-          Passion, Posing, Purpose
-        </p>
+        </h4>
+      
       </header>
   {/* Hero */}
       <section className="article-hero glass-card">
         <img  src={heroImage} alt="Masego Potrait" />
+        
       </section>
       {/* Hero + Intro Paragraph */}
       <section className="article-content uk-grid-large" uk-grid="true">
-        <div className="uk-width-1-3@m">
+        <div className="uk-width-1-3@s">
           <img
           
             src={galleryImages[0]}
@@ -45,10 +44,13 @@ export default function MasegoEditorial() {
             className="uk-border-circle"
           />
         </div>
+        <blockquote className="editorial-quote">
+          Passion, Posing, Purpose
+        </blockquote>
         <div className="uk-width-2-3@m article-text">
           <h2>Editorial Bio</h2>
-          <p>
-            I am Masego Diseko, a passionate model from South Africa. I fell in love
+          <p className="uk-dropcap">
+          Masego Diseko, a passionate model from South Africa. I fell in love
             with posing in front of the camera from a young age, inspired by Tyra Banks.
             Height didn’t define me; perseverance did. My modeling journey began in 2020
             with Ace Models and introduced me to runway, posing, and public speaking.

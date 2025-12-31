@@ -1093,6 +1093,18 @@
   resolved "https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
+"@cdk0507/page-flip@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.npmjs.org/@cdk0507/page-flip/-/page-flip-1.6.0.tgz"
+  integrity sha512-f+BKwKaJk3NL3N5nVlQxhhvzYdGVFVJrSJCifIrZtm4DdAHpye3E2oLIstf5GaBFe7mSa9L0Z5zMmyKBIZRpUw==
+
+"@cdk0507/react-pageflip@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.npmjs.org/@cdk0507/react-pageflip/-/react-pageflip-1.6.0.tgz"
+  integrity sha512-9c3smwf3MiRKyZWOo6uLhraq0uhdA/Uv2ISG0mcmc1+aGg5PEP9SOmUlViXIuLgprvtv+DmvJ7bN0GmLofATMA==
+  dependencies:
+    "@cdk0507/page-flip" "^1.6.0"
+
 "@colors/colors@1.5.0":
   version "1.5.0"
   resolved "https://registry.npmjs.org/@colors/colors/-/colors-1.5.0.tgz"
@@ -2188,6 +2200,8 @@
 
 "@types/scheduler@^0.16":
   version "0.16.8"
+  resolved "https://registry.npmjs.org/@types/scheduler/-/scheduler-0.16.8.tgz"
+  integrity sha512-WZLiwShhwLRmeV6zH+GkbOFT6Z6VklCItrDioxUnv+u4Ll+8vKeFySoFyK/0ctcRpOmwAicELfmys1sDc/Rw+A==
 
 "@types/semver@^7.3.12":
   version "7.3.13"
@@ -5108,10 +5122,12 @@ glob@^8.0.1:
     once "^1.3.0"
 
 glob@^9.3.0, glob@^9.3.1, glob@^9.3.2:
-  version "9.3.2"
+  version "9.3.5"
+  resolved "https://registry.npmjs.org/glob/-/glob-9.3.5.tgz"
+  integrity sha512-e1LleDykUz2Iu+MTYdkSsuWX8lvAjAcs0Xef0lNIu0S2wOAzuTxCJtcd9S3cijlwYF18EsU3rzb8jPVobxDh9Q==
   dependencies:
     fs.realpath "^1.0.0"
-    minimatch "^7.4.1"
+    minimatch "^8.0.2"
     minipass "^4.2.4"
     path-scurry "^1.6.1"
 
@@ -7015,15 +7031,17 @@ minimatch@^5.0.1:
   dependencies:
     brace-expansion "^2.0.1"
 
-minimatch@^7.4.1:
-  version "8.0.4"
-  dependencies:
-    brace-expansion "^2.0.1"
-
 minimatch@^7.4.2, minimatch@^7.4.6:
   version "7.4.6"
   resolved "https://registry.npmjs.org/minimatch/-/minimatch-7.4.6.tgz"
   integrity sha512-sBz8G/YjVniEz6lKPNpKxXwazJe4c19fEfV2GDMX6AjFz+MX9uDWIZW8XreVhkFW3fkIdTv/gxWr/Kks5FFAVw==
+  dependencies:
+    brace-expansion "^2.0.1"
+
+minimatch@^8.0.2:
+  version "8.0.4"
+  resolved "https://registry.npmjs.org/minimatch/-/minimatch-8.0.4.tgz"
+  integrity sha512-W0Wvr9HyFXZRGIDgCicunpQ299OKXs9RgZfaukz4qAW/pJhcpUfupc9c+OObPOFueNy8VSrZgEmDtk6Kh4WzDA==
   dependencies:
     brace-expansion "^2.0.1"
 
@@ -8662,14 +8680,12 @@ react-is@^18.0.0:
   resolved "https://registry.npmjs.org/react-is/-/react-is-18.2.0.tgz"
   integrity sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==
 
-react-pageflip@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/react-pageflip/-/react-pageflip-1.0.0.tgz"
-  integrity sha512-u7F7QlE7qi401vQHGn01SsV1ToC39j2B5BsmCekDubM9uUGINdHL+vH1z9ZcsQ5tB1yP08sNPraGj9J4S+z+Jw==
+react-pageflip@2.0.3:
+  version "2.0.3"
+  resolved "https://registry.npmjs.org/react-pageflip/-/react-pageflip-2.0.3.tgz"
+  integrity sha512-k81mHhRvUM52y8jyzTCh5t4O0lepkLhp+XGSUzq2C3uD+iW99Cv0jfRlqFCjZbD5N3jKkIFr7/3giucoXKDP3Q==
   dependencies:
     page-flip latest
-    react "^16.13.1"
-    rollup "^2.26.0"
 
 react-player@^2.12.0:
   version "2.12.0"
@@ -8748,15 +8764,6 @@ react-use-dimensions@^1.1.3:
   integrity sha512-XL+Rup9Hosxx3Ap9xpyQMbVwuUa4BSqiOjfBb2zDuGs4uv2FesFV+m8Z/huRx2BNptMd9ARPqFuSNA62zhCozg==
 
 react@^16.11.0:
-  version "16.14.0"
-  resolved "https://registry.npmjs.org/react/-/react-16.14.0.tgz"
-  integrity sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==
-  dependencies:
-    loose-envify "^1.1.0"
-    object-assign "^4.1.1"
-    prop-types "^15.6.2"
-
-react@^16.13.1:
   version "16.14.0"
   resolved "https://registry.npmjs.org/react/-/react-16.14.0.tgz"
   integrity sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==
@@ -9036,7 +9043,7 @@ rollup-plugin-terser@^7.0.0:
     serialize-javascript "^4.0.0"
     terser "^5.0.0"
 
-"rollup@^1.20.0 || ^2.0.0", rollup@^1.20.0||^2.0.0, rollup@^2.0.0, rollup@^2.26.0, rollup@^2.43.1:
+"rollup@^1.20.0 || ^2.0.0", rollup@^1.20.0||^2.0.0, rollup@^2.0.0, rollup@^2.43.1:
   version "2.79.1"
   resolved "https://registry.npmjs.org/rollup/-/rollup-2.79.1.tgz"
   integrity sha512-uKxbd0IhMZOhjAiD5oAFp7BqvkA4Dv47qpOCtaNvng4HBwdbWtdOh8f5nZNuk2rp51PMGk3bzfWu5oayNEuYnw==

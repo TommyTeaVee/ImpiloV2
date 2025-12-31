@@ -20,9 +20,9 @@ export default function BrandonEditorial() {
       {/* Header */}
       <header className="theme-dark-blue uk-light">
         <h1>BRANDON MAZULA</h1>
-        <p className="article-subtitle">
+        <h4 className="article-subtitle">
           Fashion · Runway · Commercial · Editorial
-        </p>
+        </h4>
       </header>
 
       {/* Intro: Portrait + Story */}
@@ -98,7 +98,7 @@ export default function BrandonEditorial() {
       <img
         src={heroImage}
         alt="Abenathi Cawe portrait"
-        className="editorial-avatar uk-border-circle"
+        className="editorial-avatar uk-border-pill"
       />
     </div>
   </div>

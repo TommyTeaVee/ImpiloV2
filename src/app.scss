@@ -18,7 +18,87 @@ $impilo-pink-1: #ff5fa2;
 $impilo-pink-2: #ff89c2;
 $impilo-pink-3: #ffd1e8;
   
-  
+ $impilo-gold: #d4af37;
+$glass-bg: rgba(255, 255, 255, 0.08);
+$glass-border: rgba(212, 175, 55, 0.5);
+$glass-glow: rgba(212, 175, 55, 0.35);
+
+/* Base state (visible) */
+.flip-controls {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%) translateY(0);
+
+  display: flex;
+  gap: 16px;
+  z-index: 999;
+
+  opacity: 1;
+  transition:
+    opacity 0.6s ease,
+    transform 0.6s ease;
+
+  pointer-events: auto;
+
+  .impilo-nav-btn {
+    background: $glass-bg;
+    backdrop-filter: blur(14px) saturate(160%);
+    -webkit-backdrop-filter: blur(14px) saturate(160%);
+    color: #8e7315;
+
+    border: 1px solid $glass-border;
+    padding: 10px 22px;
+
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+
+    border-radius: 999px;
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+
+    &:hover {
+      background: rgba($impilo-gold, 0.12);
+      border-color: $impilo-gold;
+      box-shadow:
+        0 0 18px $glass-glow,
+        inset 0 0 12px rgba(255, 255, 255, 0.08);
+      transform: translateY(-2px);
+    }
+
+    &:active {
+      transform: translateY(0);
+    }
+
+    &[disabled] {
+      opacity: 0.35;
+      cursor: not-allowed;
+    }
+  }
+}
+
+
+
+/* Hidden while scrolling down */
+.flip-controls.is-hidden {
+  opacity: 0;
+  transform: translateX(-50%) translateY(30px);
+  pointer-events: none;
+}
+
+@keyframes impiloFadeUp {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 12px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+ 
   
   
   
@@ -304,14 +384,31 @@ html, body, #root {
 
   /* Navigation buttons over book (no scroll interference) */
   .button-wrapper {
-    position: absolute;
-    top: 165%;
     width: 100%;
-    display: flex;
-    pointer-events: none;
-    z-index: 5;
-
+    height: 8px;
+    background: rgba(192, 160, 17, 0.15);
+    position: fixed;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    z-index: 999;
+    overflow: hidden;
+    border-radius: 4px;
     .bubble-button {
+      position: fixed;
+    top: 500px;
+    right: 200px;
+    padding: 6px 14px;
+    background: linear-gradient(90deg, #ffdf00, #f7c600, #ffb700);
+    opacity: 0.90;
+    color: #222;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    border-radius: 20px;
+    box-shadow: 0 0 12px rgba(255, 215, 0, 0.6);
+    z-index: 999;
+    animation: pulse 2s infinite;
       pointer-events: auto;
     }
   }
@@ -387,6 +484,20 @@ html, body, #root {
     letter-spacing: 0.2em;
     cursor: pointer;
   }
+
+
+.impilo-nav-btn {
+  position: relative; 
+  background: rgba(63, 59, 2, 0.7);
+  opacity: 0.5;
+  color: #fff;
+  border: 1px solid gold;
+  padding: 10px 20px;
+  letter-spacing: 0.2em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 
   /* Certificates */
   .impilo-cert {
@@ -1901,5 +2012,169 @@ html, body, #root {
     height: 100%;
     object-fit: cover;   // 🔥 key
     object-position: center top; // adjust focus
+  }
+}
+/* Flip Navigation Wrapper */
+
+
+/* Shared Glass Button Style (Audio + Nav) */
+.impilo-glass-btn {
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(12px) saturate(160%);
+  -webkit-backdrop-filter: blur(12px) saturate(160%);
+
+  color: #f5f5f5;
+  border: 1px solid rgba(212, 175, 55, 0.6); // gold
+  padding: 10px 22px;
+
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-size: 0.65rem;
+
+  border-radius: 999px;
+  cursor: pointer;
+
+  box-shadow:
+    0 8px 30px rgba(0, 0, 0, 0.45),
+    inset 0 0 12px rgba(255, 255, 255, 0.04);
+
+  transition: all 0.35s ease;
+
+  &:hover {
+    background: rgba(212, 175, 55, 0.12);
+    border-color: gold;
+    box-shadow:
+      0 0 20px rgba(212, 175, 55, 0.35),
+      inset 0 0 14px rgba(255, 255, 255, 0.08);
+    transform: translateY(-2px);
+  }
+
+  &:active {
+    transform: translateY(0);
+    box-shadow:
+      0 4px 18px rgba(0, 0, 0, 0.6),
+      inset 0 0 10px rgba(255, 255, 255, 0.05);
+  }
+}
+.impilo-glass-btn.is-active {
+  background: rgba(212, 175, 55, 0.2);
+  box-shadow:
+    0 0 28px rgba(212, 175, 55, 0.45),
+    inset 0 0 16px rgba(255, 255, 255, 0.12);
+}
+
+.flipbook-wrapper {
+  touch-action: pan-y; /* allows vertical scroll only */
+}
+
+.demo-book {
+  pointer-events: auto; /* allow interaction with buttons, but not swipe */
+}
+/* -------------------------------
+   Universal Responsive Images
+-------------------------------- */
+img {
+  width: 100%;
+  height: auto;
+  max-height: 85vh;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+
+  // Rounded corners for normal images
+  &:not(.uk-border-circle):not(.uk-border-pill) {
+    border-radius: 16px;
+  }
+
+  // Circular images
+  &.uk-border-circle {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    aspect-ratio: 1 / 1;   // ensures perfect circle
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  // Pill-shaped images
+  &.uk-border-pill {
+    border-radius: 9999px;  // full pill effect
+  }
+
+  // UIkit drop shadow
+  &.uk-border-dropped {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+  }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  img {
+    max-height: 60vh;
+
+    &:not(.uk-border-circle):not(.uk-border-pill) {
+      border-radius: 12px;
+    }
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  img {
+    max-height: 40vh;
+
+    &:not(.uk-border-circle):not(.uk-border-pill) {
+      border-radius: 8px;
+    }
+  }
+}
+.impilo-editorial-album {
+  padding: 3rem 1rem;
+}
+
+/* HERO */
+.editorial-hero img,
+.editorial-closing img {
+  width: 100%;
+  border-radius: 18px;
+  object-fit: cover;
+}
+
+/* PORTRAITS */
+.editorial-portrait-grid {
+  margin-top: 2.5rem;
+}
+
+.portrait-frame {
+  border-radius: 16px;
+  overflow: hidden;
+  background: rgba(255,255,255,0.03);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.portrait-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* STORY */
+.editorial-story {
+  margin: 3rem 0;
+}
+
+.story-frame img,
+.story-frame iframe {
+  width: 100%;
+  min-height: 420px;
+  border-radius: 20px;
+  border: none;
+}
+
+/* MOBILE REFINEMENT */
+@media (max-width: 640px) {
+  .story-frame iframe {
+    min-height: 300px;
   }
 }

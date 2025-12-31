@@ -25,9 +25,9 @@ export default function KgothatsoEditorial() {
       >
         
         <h1>Kgothatso Mantsho</h1>
-        <p className="article-subtitle">
+        <h4 className="article-subtitle">
           Model & Singer · Mental Health Advocate
-        </p>
+        </h4>
       
       </header>
   {/* Hero */}
@@ -50,7 +50,7 @@ export default function KgothatsoEditorial() {
         <div className="uk-child-width-1-1 uk-text-justify article-text glass-card">
           <h2>Editorial Bio</h2>
           <p>
-            I am Kgothatso Mantsho, a 21-year-old model and singer from
+            Kgothatso Mantsho, a 21-year-old model and singer from
             Polokwane, South Africa. From a young age, I have been passionate
             about fashion, music, and self-expression. My work is driven by a
             desire to inspire others and make a meaningful impact in the creative

@@ -1,5 +1,5 @@
 // LeratoEditorial.jsx
-export default function LeratoEditorial() {
+export default function LeratoEditorialArch() {
   return (
     <article className="fashion-editorial">
       
@@ -13,7 +13,7 @@ export default function LeratoEditorial() {
       {/* Hero Image */}
       <section className="fashion-hero">
         <img
-          src="https://d1zrm2iszdbieq.cloudfront.net/articles/models/Mallory/597365457_25633973229561269_6284949099148431428_n.jpg"
+          src="https://d1zrm2iszdbieq.cloudfront.net/articles/models/Lerato/thando.jpg"
           alt="Lerato Diseko runway"
         />
       </section>
@@ -84,7 +84,7 @@ export default function LeratoEditorial() {
 
 // CloudFront image URLs (Lerato folder)
 const heroImage =
-  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Mallory/597365457_25633973229561269_6284949099148431428_n.jpg";
+  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Lerato/thando.jpg";
 
 const galleryImages = [
   "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Lerato/1.jpg",
@@ -97,7 +97,7 @@ const galleryImages = [
   "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Lerato/8.jpg"
 ];
 
-export const  LeratoEditorial2=()=> {
+export const  LeratoEditorial=()=> {
   return (
     <article
       className="editorial-page uk-article theme-gold glass-card gradient-gloss"
@@ -106,18 +106,15 @@ export const  LeratoEditorial2=()=> {
       {/* Header */}
       <header className="article-header editorial-header">
         <h1>Dr. Lerato Diseko</h1>
-        <p className="article-subtitle">
+        <h4 className="article-subtitle">
           Medical Scientist · Runway Model · Creative Professional
-        </p>
-        <p className="article-subtitle" style={{ fontStyle: "italic" }}>
-          Where Scientific Precision Meets Runway Elegance
-        </p>
+        </h4>
       </header>
 
       {/* Hero Image */}
       <section className="fashion-hero">
         <img
-          src="https://d1zrm2iszdbieq.cloudfront.net/articles/models/Mallory/597365457_25633973229561269_6284949099148431428_n.jpg"
+          src="https://d1zrm2iszdbieq.cloudfront.net/articles/models/Lerato/thando.jpg"
           alt="Lerato Diseko runway"
         />
       </section>

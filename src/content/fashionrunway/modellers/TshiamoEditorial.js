@@ -3,7 +3,14 @@ import React from "react";
 // Hero image (replace with final CloudFront image)
 const heroImage =
   "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Tshiamo/IMG-20251227-WA0110.jpg";
-
+const galleryImages = [
+  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Tshiamo/IMG-20251227-WA0110.jpg",
+  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Tshiamo/597294462_1579807106702969_2406400255434832480_n.jpg",
+  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Tshiamo/IMG-20251227-WA0123.jpg",
+  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Tshiamo/4.jpg",
+  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Tshiamo/5.jpg",
+  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Tshiamo/.jpg"
+];
 
 
 export default function TshiamoEditorial() {
@@ -33,14 +40,22 @@ export default function TshiamoEditorial() {
       </section>
 
       {/* Editorial Content */}
-      <section className="article-content uk-width-1-2m">
-        <div className="article-text glass-card">
-          <h2>Editorial Bio</h2>
-          <blockquote className="article-subtitle editorial-quote uk-width-1-2@m">
+      <section className="article-content  uk-grid-item-match uk-grid-collapse uk-child-width-expand@s uk-text-center uk-margin-large-top" uk-grid="true">
+        <div className="uk-width-1-3 uk-height-medium uk-flex uk-flex-center uk-flex-middle  uk-grid-item-match">
+          
+
+          <img
+            src={galleryImages[2]}
+            alt="Tshiamo portrait"
+            className="portrait-img uk-border-circle"
+          /> <blockquote className="article-subtitle editorial-quote ">
           Building worlds with purpose, precision, and heart.
         </blockquote>
-          <p className="uk-dropped">
-            I am Tshiamo Nkadimeng, a storyteller driven by memory, meaning, and
+        </div>
+        <div className="uk-child-width-1-1 uk-text-justify article-text glass-card">
+        <h2>Editorial Bio</h2>
+          <p className="uk-dropcap">
+           Tshiamo Nkadimeng, a storyteller driven by memory, meaning, and
             the quiet power that lives beneath the surface. My work exists at the
             intersection of emotion, identity, and visual depth — where
             storytelling becomes an immersive experience rather than a moment.

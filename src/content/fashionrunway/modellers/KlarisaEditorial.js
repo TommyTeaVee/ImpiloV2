@@ -5,7 +5,7 @@ const heroImage =
   "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Repole/600260324_1218208216883878_8807527564035410958_n.jpg";
 
 const galleryImages = [
-  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Repole/1.jpg",
+  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Repole/594817701_1360466918536253_5429566773718177775_n.jpg",
   "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Repole/2.jpg",
   "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Repole/3.jpg",
   "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Repole/4.jpg",
@@ -20,14 +20,12 @@ export default function KlarissaEditorial() {
       style={{ overflowY: "auto", maxHeight: "180vh" }}
     >
       {/* Header */}
-      <header className="article-header theme-rose uk-light  editorial-header">
+      <header className="article-header theme-soft-pink theme-rose uk-light  editorial-header">
         <h1>Klarissa Repole</h1>
-        <p className="article-subtitle">
+        <h4 className="article-subtitle">
           Fashion Model · Performer · Creative Professional
-        </p>
-        <p className="article-subtitle" style={{ fontStyle: "italic" }}>
-          Passion, perseverance, and vibrant creativity.
-        </p>
+        </h4>
+        
       </header>
   {/* Hero */}
       <section className="article-hero glass-card">
@@ -36,17 +34,21 @@ export default function KlarissaEditorial() {
 
       {/* Intro: Hero + First Paragraph */}
       <section className="article-content uk-grid-large" uk-grid="true">
-        <div className="uk-width-1-3@m">
+        
+        <div className="uk-width-1-4@s">
           <img
-            src={heroImage}
+            src={galleryImages[0]}
             alt="Klarissa Repole portrait"
-            className="portrait-img"
+            className="portrait-img uk-border-circle"
           />
         </div>
-        <div className="uk-width-2-3@m article-text uk-text-lead uk-margin-top uk-text-justify ">
-          <h2>My Bio</h2>
+        <blockquote className="editorial-quote uk-width-1-2">
+          Passion, perseverance, and vibrant creativity.
+        </blockquote>
+        <div className="uk-width-2-3@m article-text u uk-margin-top uk-text-justify ">
+          <h2>Editorial Bio</h2>
           <p className="uk-dropcap">
-            My name is Klarissa Repole, and I am a model from Ponte Vedra Beach, Florida. I
+            Klarissa Repole, a model from Ponte Vedra Beach, Florida. I
             started out as a dancer doing ballet, tap, and jazz at a young age. Singing lessons
             and musical theatre further fueled my passion for art and fashion. Though I was
             initially told I was too “soft and pretty” for college musical theatre, that

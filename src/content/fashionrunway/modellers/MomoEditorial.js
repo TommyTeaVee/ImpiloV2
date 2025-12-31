@@ -5,7 +5,7 @@ const heroImage =
   "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Muhammed/1000073096.jpg";
 
 const galleryImages = [
-  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Muhammed/1.jpg",
+  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Muhammed/1000082939.jpg",
   "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Muhammed/2.jpg",
   "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Muhammed/3.jpg",
   "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Muhammed/4.jpg",
@@ -60,7 +60,15 @@ export default function MomoEditorial() {
           “Modelling is like painting. It isn’t only about how the final piece
           looks — it’s about how it makes people feel.”
         </blockquote>
-    
+   <div className="uk-width-1-2@m uk-width-1-3@s uk-flex uk-flex-center uk-flex-middle">
+    <div className="avatar-wrapper">
+      <img
+        src={galleryImages[0]}
+        alt="Momo portrait"
+        className=" uk-border-pill"
+      />
+    </div>
+  </div>
       {/* Artistic Philosophy */}
       <div className="article-content glass-card">
         <h2>Art, Authenticity & Presence</h2>
@@ -135,7 +143,7 @@ export default function MomoEditorial() {
 
       
 
-      {/* Gallery */}
+      {/* Gallery https://www.youtube.com/shorts/kkdN-zGYygE?feature=share*/ }
       <section className="article-content">
         <h2>Visual Portfolio</h2>
         <div

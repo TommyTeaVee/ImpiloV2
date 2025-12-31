@@ -2,17 +2,17 @@ import React from "react";
 
 // CloudFront image URLs
 const heroImage =
-  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Mallory/597365457_25633973229561269_6284949099148431428_n.jpg";
+  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Mallory/597691611_33189645833982700_8225491170054498505_n.jpg";
 
 const storyImages = [
-  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Mallory/story/mallory-story-1.jpg",
-  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Mallory/mallory-story-2.jpg"
+  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Mallory/594508902_3532804803526203_322427045526266923_n.jpg",
+  //"https://d1zrm2iszdbieq.cloudfront.net/articles/models/Mallory/mallory-story-2.jpg"
 ];
 
 const galleryImages = [
-  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Mallory/gallery/1.jpg",
-  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Mallory/gallery/2.jpg",
-  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Mallory/gallery/3.jpg",
+  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Mallory/gallery/597666477_836852952667707_4298157008924795889_n.jpg",
+  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Mallory/gallery/597691611_33189645833982700_8225491170054498505_n.jpg",
+ "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Mallory/597365457_25633973229561269_6284949099148431428_n.jpg",
   "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Mallory/gallery/4.jpg",
   "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Mallory/gallery/5.jpg",
   "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Mallory/gallery/6.jpg"
@@ -22,32 +22,33 @@ export default function MalloryEditorial() {
   return (
     <article
       style={{ overflowY: "auto", maxHeight: "180vh" }}
-      className="editorial-page uk-article theme-gold glass-card gradient-gloss"
+      className="editorial-page uk-article glass-card gradient-gloss"
     >
       {/* Header */}
-      <header className="article-header editorial-header">
-        <h1>Mallory</h1>
+      <header className="article-header editorial-header theme-red-wine uk-light ">
+        <h1>Mallory Gilmartin</h1>
         <h4 className="article-subtitle">
           Fashion Model · Brand Representative · Creative Founder, Florida, US
         </h4>
-        <p className="article-subtitle" style={{ fontStyle: "italic" }}>
-          Confidence in motion. Storytelling through fashion.
-        </p>
+        
       </header>
 
       {/* Hero Image */}
-      <section className="article-hero editorial-header">
-        <img src={heroImage} alt="Mallory Editorial Hero" />
-      </section>
+      <section className="article-hero editorial-header glass-card uk-border-rounded">
+        <img className="uk-border-rounded" src={heroImage} alt="Mallory Editorial Hero" />
+    
 
-      {/* Story Images */}
+      {/* Story Images */}  </section>
       <section
-        className="story-images-grid uk-grid-small uk-child-width-1-2@s"
+        className="story-images-grid uk-grid-small uk-child-width-1-2@m"
         uk-grid="true"
       >
+        <blockquote className="editorial-quote" >
+          Confidence in motion. Storytelling through fashion.
+        </blockquote>
         {storyImages.map((img, i) => (
-          <div key={i} className="glass-card">
-            <img src={img} alt={`Mallory Story ${i + 1}`} />
+          <div key={i} className="">
+            <img className="uk-border-circle" src={img} alt={`Mallory Story ${i + 1}`} />
           </div>
         ))}
       </section>

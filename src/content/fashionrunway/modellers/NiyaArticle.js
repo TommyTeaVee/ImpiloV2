@@ -40,7 +40,7 @@ export default function LaNiyaProfile() {
       {/* Article Content */}
       
         <div className="article-text uk-dropcap  uk-width-1-1@m ">
-          <p>My name is <strong>La’Niya</strong>, and I’m an aspiring <strong>model</strong> and professional <strong>hairstylist</strong> based in the vibrant heart of New York City.</p>
+          <p> <strong>La’Niya</strong>, is an aspiring <strong>model</strong> and professional <strong>hairstylist</strong> based in the vibrant heart of New York City.</p>
           <p>I specialize in <strong>commercial and print modeling</strong>, bringing energy, creativity, and professionalism to every shoot I participate in. Combining my modeling experience with hairstyling, I offer a unique perspective to every creative project.</p>
           <p>Having completed cosmetology school, I am passionate about hair, beauty, and personal styling. I am eager to continue <strong>building my portfolio</strong>, collaborating with photographers, stylists, and brands, and exploring new opportunities in the NYC fashion scene.</p>
          

@@ -2,7 +2,7 @@ import React from "react";
 
 // CloudFront image URLs (Alex folder)
 const heroImage =
-  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Alex/597235561_25468893126083089_8798243625842166663_n.jpg";
+  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Alex/589912712_1680723502905537_8456216366489532862_n.jpg";
 
 const galleryImages = [
     "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Alex/597235561_25468893126083089_8798243625842166663_n.jpg",
@@ -22,9 +22,9 @@ export default function AlexEditorial() {
       {/* Header */}
       <header className="article-header editorial-header uk-light theme-dark-blue">
         <h1>Alex Major</h1>
-        <p className="article-subtitle">
+        <h4 className="article-subtitle">
           Fashion Model · Transformation · Self-Expression
-        </p>
+        </h4>
       
       </header>
 
@@ -73,7 +73,7 @@ export default function AlexEditorial() {
     <div className="editorial-text-block">
 
       <blockquote className="editorial-quote">
-       "Resilience over perfection".
+      “Transformation begins the moment you believe you deserve more.”
       </blockquote>
     </div>
   </div>
@@ -140,12 +140,12 @@ export default function AlexEditorial() {
         </p>
       </section>
 
-      {/* Quote */}
+      {/* Quote
       <section className="article-content glass-card uk-text-center">
         <blockquote className="uk-h3 uk-text-italic">
           “Transformation begins the moment you believe you deserve more.”
         </blockquote>
-      </section>
+      </section> */}
 
       {/* Gallery */}
       <section className="article-content">

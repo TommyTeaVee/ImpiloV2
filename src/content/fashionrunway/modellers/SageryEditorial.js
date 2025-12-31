@@ -6,22 +6,22 @@ const storyImages = [
   "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Sagery/📸/204A5143.JPG?"
 ];
 const galleryImages = [
-  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Sagery/📸/204A5143.JPG?",
-  "https://d123.cloudfront.net/Sagery/2.jpg",
-  "https://d123.cloudfront.net/Sagery/3.jpg",
-  "https://d123.cloudfront.net/Sagery/4.jpg",
-  "https://d123.cloudfront.net/Sagery/5.jpg",
-  "https://d123.cloudfront.net/Sagery/6.jpg"
+  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Sagery/📸/204A5143.JPG",
+  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Sagery/📸/IMG_2786.JPG",
+  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Sagery/📸/IMG_2787.JPG",
+  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Sagery/📸/IMG_6317.JPG",
+  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Sagery/📸5.JPG",
+  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Sagery/📸/6.JPG"
 ];
 
 export default function SageryEditorial() {
   return (
     <article style={{overflowY: 'auto', maxHeight: '180vh'}}  className="editorial-page  uk-article  glass-card gradient-gloss">
       {/* Header */}
-      <header className="article-header editorial-header theme-silk-purple uk-light">
+      <header className="article-header editorial-header theme-rose uk-light">
         <h1>Sagery Brunetti</h1>
-        <p className="article-subtitle">Fashion Model · Beauty Artist · Creative Professional</p>
-        
+        <h4 className="article-subtitle">Fashion Model · Beauty Artist ·Creative Professional, </h4> <h4> Los Angeles, CA
+       </h4>
       </header>
 
       {/* Hero Image */}
@@ -29,33 +29,25 @@ export default function SageryEditorial() {
         <img className="uk-border-rounded" src={heroImage} alt="Sagery Hero" />
       
 
-      {/* Story Images
-      <section className="story-images-grid uk-grid-small uk-border-circle uk-child-width-1-2@s" uk-grid="true">
-        {storyImages.map((img, i) => (
-          <div key={i} className="glass-card uk-border-circle">
-            <img src={img[0]} alt={`Story ${i + 1}`} />
-          </div>
-        ))}
-        <blockquote className="editorial-quote">
+      {/* Story Images*/}
+      <section className="story-images-grid uk-grid-small uk-border-circle uk-child-width-1-2@m" uk-grid="true">
+
+       <div className="uk-width-1-1@m">
+          <img
+            src={galleryImages[1]}
+            alt="Sagery  portrait"
+            className="uk-border-circle"/>   </div> 
+          <blockquote className="editorial-quote">
           "Driven by creation. Defined by growth".
         </blockquote>
-      </section> */}
-       <div className="uk-width-1-3@m">
-          <img
-          
-            src={galleryImages[0]}
-            alt="Sagery  portrait"
-            className="uk-border-circle"
-          />
-
-
-        </div>
+     
+        </section>
       {/* Editorial Content */}
       <div className="article-content ">
         <div className="article-text">
           <h2>Editorial Bio</h2>
           <p className="uk-dropcap">
-            I am Sagery Brunetti, a Chilean-born fashion model, makeup artist, and hair stylist based in Los Angeles, California. My professional focus is within the fashion industry, working primarily in editorial photoshoots and music video productions.
+            Sagery Brunetti, a Chilean-born fashion model, makeup artist, and hair stylist based in Los Angeles, California. My professional focus is within the fashion industry, working primarily in editorial photoshoots and music video productions.
           </p>
           <p>
             I approach modeling as a creative and evolving discipline. Each project is an opportunity to learn, refine skills, and contribute meaningfully to the visual narrative of fashion and music.

@@ -19,9 +19,9 @@ export default function KaylleEditorial() {
       {/* Header */}
       <header className="article-header uk-text-center uk-light theme-red-wine">
         <h1>Kaylle Precious Monry</h1>
-        <p className="article-subtitle">
+        <h4 className="article-subtitle">
           "Commercial Model · Fashion Model"
-        </p>
+        </h4>
        
       </header>
 
@@ -37,9 +37,8 @@ export default function KaylleEditorial() {
         <div className="article-text glass-card">
           <h2>Editorial Bio</h2>
           <p>
-            I am Kaylle Precious Monry, a 19-year-old commercial and fashion model
-            born and raised in Johannesburg, South Africa, currently based in
-            Vosloorus. From an early stage in my journey, I discovered a strong
+           Kaylle Precious Monry, a 19-year-old commercial and fashion model
+            born and raised in Johannesburg, South Africa. From an early stage in my journey, I discovered a strong
             connection to the runway — a space where confidence, presence, and
             self-expression come together.
           </p>
