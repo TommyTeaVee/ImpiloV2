@@ -20,7 +20,7 @@ export default function KlarissaEditorial() {
       style={{ overflowY: "auto", maxHeight: "180vh" }}
     >
       {/* Header */}
-      <header className="article-header theme-soft-pink theme-rose uk-light  editorial-header">
+      <header className="article-header theme-soft-pink">
         <h1>Klarissa Repole</h1>
         <h4 className="article-subtitle">
           Fashion Model · Performer · Creative Professional

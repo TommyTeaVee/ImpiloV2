@@ -1,4 +1,6 @@
 export const pages = [
+
+    //"1.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     //"1.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
     "mag_cover/learn.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
      "mag_cover/aes.png?auto=compress&cs=tinysrgb&dpr=1&w=1500",
@@ -135,3 +137,14 @@ export const pages = [
     "catalogue.png?auto=compress&cs=tinysrgb&dpr=1&w=1506", */
    // "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA2L3M3MS1tY2tpbnNleS0xNDkxLWZvbi5qcGc.jpg?auto=compress&cs=tinysrgb&dpr=1&w=1506"
   ];
+
+  export const cover_pages =[
+    "https://d1zrm2iszdbieq.cloudfront.net/assets/mag_cover/aes.png",
+    "https://d1zrm2iszdbieq.cloudfront.net/assets/mag_cover/kgothatso.png",
+    "https://d1zrm2iszdbieq.cloudfront.net/assets/mag_cover/face.png",
+    "https://d1zrm2iszdbieq.cloudfront.net/assets/mag_cover/flow.png",
+    "https://d1zrm2iszdbieq.cloudfront.net/assets/mag_cover/gaze.png",
+    "https://d1zrm2iszdbieq.cloudfront.net/assets/mag_cover/learn.png",
+    "https://d1zrm2iszdbieq.cloudfront.net/assets/mag_cover/master_cover.png",
+    "https://d1zrm2iszdbieq.cloudfront.net/assets/mag_cover/runwaway.png",
+  ]

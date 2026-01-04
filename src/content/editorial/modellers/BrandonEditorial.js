@@ -2,7 +2,7 @@ import React from "react";
 
 // CloudFront image URLs (Brandon folder)
 const heroImage =
-  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Brandon/hero.jpg";
+  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Brandon/IMG_0326.jpg";
 
 const galleryImages = [
   "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Brandon/1.jpg",

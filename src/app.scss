@@ -2073,7 +2073,7 @@ html, body, #root {
 /* -------------------------------
    Universal Responsive Images
 -------------------------------- */
-img {
+.portfolio-img {
   width: 100%;
   height: auto;
   max-height: 85vh;
@@ -2109,7 +2109,7 @@ img {
 
 /* Tablet */
 @media (max-width: 768px) {
-  img {
+  .portfolio-img {
     max-height: 60vh;
 
     &:not(.uk-border-circle):not(.uk-border-pill) {
@@ -2120,7 +2120,7 @@ img {
 
 /* Mobile */
 @media (max-width: 480px) {
-  img {
+  .portfolio-img {
     max-height: 40vh;
 
     &:not(.uk-border-circle):not(.uk-border-pill) {

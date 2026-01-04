@@ -9,8 +9,30 @@ const galleryImages = [
   "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Kgothatso/IMG-20251228-WA0045.jpg",
   "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Kgothatso/IMG-20251209-WA0056.jpg",
    "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Kgothatso/IMG-20251228-WA0043.jpg",
-  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Kgothatso/5.jpg",
-  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Kgothatso/6.jpg"
+  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Kgothatso/IMG-20251209-WA0053.jpg.jpg",
+  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Kgothatso/IMG-20251209-WA0054.jpg",
+  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Kgothatso/IMG-20251209-WA0055.jpg",
+  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Kgothatso/IMG-20251209-WA0062.jpg",
+  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Kgothatso/IMG-20251209-WA0054.jpg",
+  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Kgothatso/IMG-20251209-WA0063.jpg",
+  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Kgothatso/IMG-20251209-WA0065.jpg",
+  "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Kgothatso/IMG-20251209-WA0065.jpg",
+   "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Kgothatso/IMG-20251228-WA0041.jpg",
+    "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Kgothatso/IMG-20251228-WA0042.jpg",
+     "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Kgothatso/IMG-20251228-WA0046.jpg",
+      "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Kgothatso/IMG-20251228-WA0047.jpg",
+        "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Kgothatso/IMG-20251228-WA0048.jpg",
+         "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Kgothatso/IMG-20251228-WA0049.jpg",
+         "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Kgothatso/IMG-20251209-WA0050.jpg",
+         "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Kgothatso/IMG-20251209-WA0051.jpg",
+         "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Kgothatso/IMG-20251209-WA0056.jpg",
+         "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Kgothatso/IMG-20251209-WA0057.jpg",
+         "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Kgothatso/IMG-20251209-WA0058.jpg",
+         "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Kgothatso/IMG-20251209-WA0059.jpg",
+          "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Kgothatso/IMG-20251209-WA0060.jpg",
+          "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Kgothatso/IMG-20251209-WA0061.jpg",
+          "https://d1zrm2iszdbieq.cloudfront.net/articles/models/Kgothatso/IMG-20251209-WA0062.jpg",
+   
 ];
 
 export default function KgothatsoEditorial() {

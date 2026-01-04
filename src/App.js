@@ -10,12 +10,12 @@
     EditorialModel,
     FitnessModel,
     AdModel,
-  } from "./content/fashionrunway/modellers/Models";
+  } from "./content/editorial/modellers/Models";
   import { ModelFeature } from "./content/dynamic/modelers/ModelFeature";
   import { Tommy } from "./content/dynamic/modelers/Tommy";
   import { PodcastShowcase } from "./content/articles/PodcastShowcase";
   import "./app.scss";
-  import { pages } from "./pages";
+  import { pages, cover_pages } from "./pages";
   import Page1Intros from "./components/articles/iplaw/Page1Intros";
   import Page2LawContext from "./components/articles/iplaw/Page2LawContext";
   import Page3MakateCase from "./components/articles/iplaw/Page3MakateCase";
@@ -28,18 +28,18 @@
   import BalenciagaSpread from "./components/articles/brandpower/balenciaga/BalenciagaSpread";
   import MomentumReturn from "./components/articles/economy/Momentum";
   import { Sample } from "./content/articles/Sample";
-  import InfluencersAreNotModels from "./content/fashionrunway/InfluencersAreNotModels";
+  import InfluencersAreNotModels from "./content/editorial/InfluencersAreNotModels";
   import AdHoc from "./components/articles/justice_guards/AdHoc";
   import MadlangaCommission from "./components/articles/justice_guards/MadlangaCommision";
   import CatMatlala from "./components/articles/justice_guards/CatMatlala";
   import ProceedingsSoFar from "./components/articles/justice_guards/ProceedingsSoFar";
   import Mkhwanazi from "./components/articles/justice_guards/Mkhwanazi";
   import Penicillin from "./components/articles/brandpower/Penicilin";
-  import ImpiloCover from "./content/fashionrunway/modellers/ImpiloCover";
-  import AboutZintle from "./content/fashionrunway/modellers/ZintleCover";
-  import TimnaNzunzo from "./content/fashionrunway/modellers/Timna";
-  import SiyamthandaProfile from "./content/fashionrunway/modellers/SiyamthandaProfile";
-  import ZintleProfile from "./content/fashionrunway/modellers/ZintleProfile";
+  import ImpiloCover from "./content/editorial/modellers/ImpiloCover";
+  import AboutZintle from "./content/editorial/modellers/ZintleCover";
+  import TimnaNzunzo from "./content/editorial/modellers/Timna";
+  import SiyamthandaProfile from "./content/editorial/modellers/SiyamthandaProfile";
+  import ZintleProfile from "./content/editorial/modellers/ZintleProfile";
   import ModelProfileRich, { ModelProfile } from "./components/articles/ModelProfile";
   import BreakingNewsRich, { BreakingNews } from "./components/articles/BreakingNews";
   import FeatureArticleRich, { FeatureArticle } from "./components/articles/FeatureArticle";
@@ -53,30 +53,34 @@
   import { BreakingFeatureArticle } from "./content/articles/BreakingFeatureArticle";
   import ModelAgency from "./content/articles/ModelAgency";
   import VFXAdArticle from "./content/VFXArticle";
-  import LeratoEditorial, { LeratoEditorial2 } from "./content/fashionrunway/modellers/LeratoEditorial";
-  import { RapoleEditorial } from "./content/fashionrunway/modellers/RapoleEditorial";
-  import { GallerySix } from "./content/fashionrunway/gallery/GallerySix";
-  import { GalleryEight } from "./content/fashionrunway/gallery/GalleryEight";
-  import { GalleryTen } from "./content/fashionrunway/gallery/GalleryTen";
-  import { GalleryTwelve } from "./content/fashionrunway/gallery/Gallery12";
-  import { Gallery8 } from "./content/fashionrunway/gallery/Galleries";
-  import AlexGallery from "./content/fashionrunway/gallery/AlexGallery";
-  import AlexArticle2 from "./content/fashionrunway/gallery/AlexGallery2";
-  import LaNiyaProfile, { LaNiyaArticle2 } from "./content/fashionrunway/modellers/NiyaArticle";
-  import SageryProfile from "./content/fashionrunway/modellers/SageryEditorial";
-  import NiyaGallery from "./content/fashionrunway/gallery/NiyaGallery";
-  import MaloryGallery from "./content/fashionrunway/gallery/MalloryGaller";
-  import MalloryEditorial from "./content/fashionrunway/modellers/MalloryEditorial";
-  import MomoEditorial from "./content/fashionrunway/modellers/MomoEditorial";
-  import AlexEditorial from "./content/fashionrunway/modellers/AlexEditorial";
-  import KlarissaEditorial from "./content/fashionrunway/modellers/KlarisaEditorial";
-  import KgothatsoEditorial from "./content/fashionrunway/modellers/KgothatsoEditorial";
-  import TshiamoNkadimengLead from "./content/fashionrunway/modellers/TshiamoEditorial";
-  import MasegoEditorial from "./content/fashionrunway/modellers/MasegoEditorial";
-  import KaylleEditorial from "./content/fashionrunway/modellers/KayleEditorial";
-  import AbenathiEditorial, { AbenathiLeadFeature } from "./content/fashionrunway/modellers/NathiEditorial";
-  import BrandonMazulaEditorial from "./content/fashionrunway/modellers/BrandonEditorial";
-import DemoGallery from "./content/fashionrunway/gallery/DemoGallery";
+  import {LeratoEditorial} from "./content/editorial/modellers/LeratoEditorial";
+  import { RapoleEditorial } from "./content/editorial/modellers/RapoleEditorial";
+  import { GallerySix } from "./content/editorial/gallery/GallerySix";
+  import { GalleryEight } from "./content/editorial/gallery/GalleryEight";
+  import { GalleryTen } from "./content/editorial/gallery/GalleryTen";
+  import { GalleryTwelve } from "./content/editorial/gallery/Gallery12";
+  import { Gallery8 } from "./content/editorial/gallery/Galleries";
+  import AlexGallery from "./content/editorial/gallery/AlexGallery";
+  import AlexArticle2 from "./content/editorial/gallery/AlexGallery2";
+  import LaNiyaProfile, { LaNiyaArticle2 } from "./content/editorial/modellers/NiyaArticle";
+  import SageryProfile from "./content/editorial/modellers/SageryEditorial";
+  import NiyaGallery from "./content/editorial/gallery/NiyaGallery";
+  import MaloryGallery from "./content/editorial/gallery/MalloryGaller";
+  import MalloryEditorial from "./content/editorial/modellers/MalloryEditorial";
+  import MomoEditorial from "./content/editorial/modellers/MomoEditorial";
+  import AlexEditorial from "./content/editorial/modellers/AlexEditorial";
+  import KlarissaEditorial from "./content/editorial/modellers/KlarisaEditorial";
+  import KgothatsoEditorial from "./content/editorial/modellers/KgothatsoEditorial";
+  import TshiamoNkadimengLead from "./content/editorial/modellers/TshiamoEditorial";
+  import MasegoEditorial from "./content/editorial/modellers/MasegoEditorial";
+  import KaylleEditorial from "./content/editorial/modellers/KayleEditorial";
+  import AbenathiEditorial, { AbenathiLeadFeature } from "./content/editorial/modellers/NathiEditorial";
+  import BrandonMazulaEditorial from "./content/editorial/modellers/BrandonEditorial";
+import DemoGallery from "./content/editorial/gallery/DemoGallery";
+import LeratoGallery from "./content/editorial/gallery/LeratoGallery";
+import { MixedPortfolio, PortraitPortfolio } from "./content/editorial/visuals/PortfoliosVariants";
+import { ModelAlbums } from "./content/editorial/visuals/ModelsPages";
+import { AlexCover, KgothatsoCover, MalloryCover, MomoCover, NiyaCover, RapoleCover, SageryCover, TshiamoCover } from "./content/editorial/covers/ModelsCovers";
 
   /* -------------------------------
    Page Components
@@ -109,21 +113,13 @@ class DemoBook extends React.Component {
       totalPage: 0,
     };
   }
-
-  /* -------------------------------
-     PAGEFLIP INIT
-  -------------------------------- */
-  onInit = (flip) => {
-    this.setState({
-      page: flip.getCurrentPageIndex(),
-      totalPage: flip.getPageCount(),
-    });
-  };
-
   /* -------------------------------
      SAFE FLIP ACCESS
   -------------------------------- */
   getFlip = () => this.flipBook.current?.pageFlip?.();
+  
+
+
 
   /* -------------------------------
      NAVIGATION BUTTONS
@@ -192,12 +188,13 @@ class DemoBook extends React.Component {
 
         {/* PAGE COUNTER */}
         <div className="page-counter">
-          📖 Page {page + 1} of {totalPage || "…"}
+          📖 Page {typeof page === "number" ? page + 1 : "…"} of {totalPage || "…"}
         </div>
 
         {/* NAVIGATION BUTTONS */}
         <div className="flip-controls">
-          <button className="impilo-glass-btn" onClick={this.prevPage}>
+          <button className="impilo-glass-btn" onClick={this.prevPage}
+          >
             ← Prev
           </button>
           <button className="impilo-glass-btn" onClick={this.nextPage}>
@@ -209,17 +206,17 @@ class DemoBook extends React.Component {
         <HTMLFlipBook
           ref={this.flipBook}
           width={400}
-          height={800}
+          height={743}
           minWidth={315}
           minHeight={400}
           maxWidth={900}
-          maxHeight={1000}
+          maxHeight={1350}
           size="stretch"
           showCover={true}           // cover page
           usePortrait={true}         // single-page mode
           maxShadowOpacity={0.5}
 
-          disableFlipByClick={true}  // disables click-flip
+          disableFlipByClick={false}  // disables click-flip
           useMouseEvents={true}      // optional, enables drag
           clickEventForward={true}  // prevents touch hijack
           mobileScrollSupport={false} // must be false for Prev/Next to work
@@ -229,22 +226,40 @@ class DemoBook extends React.Component {
           onFlip={this.onPage}
           className="demo-book"
         >
-          {/* COVER PAGE */}
+          {/* COVER PAGE 
           <PageCover>Impilo Magazine</PageCover>
 
 
-            {/* Preloaded static image pages 
+          
             {pages.slice(0, 10).map((p, i) => (
+              <Page key={i} number={i}>
+                <img src={page} alt={`Page ${i + 1}`} className="page-image" />
+              </Page>
+            ))}*/}
+            {cover_pages.slice(0, 11).map((p, i) => (
               <Page key={i} number={i}>
                 <img src={p} alt={`Page ${i + 1}`} className="page-image" />
               </Page>
-            ))}*/}
+            ))}
+            <Page number={0}>
+  <img src={cover_pages[0]} alt="Page cover" className="page-image" />
+  </Page>
 
             {/* Dynamic pages */}
             <Page number={22}><Editor /></Page>
             <Page number={23}><Tommy /></Page>
+            <Page number={24}><PortraitPortfolio /></Page>
+            <Page number={24}><ModelAlbums /></Page>
+            <Page number={24}><MixedPortfolio /></Page>
             <Page number={24}><AbenathiEditorial /></Page>
-            
+             <Page number={24}><AlexCover/></Page>
+             <Page number={24}><MalloryCover/></Page>
+             <Page number={24}><SageryCover/></Page>
+             <Page number={24}><NiyaCover/></Page>
+             <Page number={24}><TshiamoCover/></Page>
+             <Page number={24}><MomoCover/></Page>
+             <Page number={24}><KgothatsoCover/></Page>
+             <Page number={24}><RapoleCover/></Page>
               <Page number={24}><BrandonMazulaEditorial/></Page>
             <Page number={24}><LaNiyaProfile/></Page>
             <Page number={24}><KgothatsoEditorial/></Page>
@@ -268,6 +283,7 @@ class DemoBook extends React.Component {
               <Page number={8.0}><TimnaNzunzo /></Page>
               <Page number={8.0}><Gallery8/></Page>
                 <Page number={8.0}><LeratoEditorial /></Page>
+                 <Page number={8.0}><LeratoGallery /></Page>
               <Page number={8.0}><RapoleEditorial /></Page>
                 <Page number={8.0}><GalleryTen /></Page>
                 <Page number={8.0}><ZintleProfile /></Page>
